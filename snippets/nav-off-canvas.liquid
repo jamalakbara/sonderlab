@@ -1,0 +1,27 @@
+<ul class="nav {{ class }}">
+  {% for link in linklists[nav-off-canvas].links %}
+    <li {% if link.active %}class="site-nav--active"{% endif %}>
+      <a class="nav-canvas {% if link.links != blank %}nav-canvas-item{% endif %}" {% if link.links != blank %}data-nav="{{ link.handle }}" aria-opened="false"{% endif %} href="{% if link.links != blank %}javascript:void(0);{% else %}{{ link.url }}{% endif %}">{{ link.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+<div id="nav-canvas-sidebar">
+  {% for link in linklists[nav-off-canvas].links %}
+    {% if link.links != blank %}
+    <ul class="nav-subnav nav-for-{{ link.handle }}" style="display: none;">
+      {% for sub_link in link.links %}
+        <li class="{% if sub_link.active %}site-nav--active{% endif %} {% if sub_link.links == blank %}site-sub-nav-item{% endif %}" >
+          <a {% if sub_link.links != blank %}id="nav-sub-canvas" aria-opened="false"{% endif %} class="{% if sub_link.links != blank %}site-nav-accordion{% endif %} site-sub-nav" href="{{ sub_link.url }}">{{ sub_link.title }}</a>
+          {% if sub_link.links != blank %}
+            <ul class="nav-child-panel">
+            {% for child_link in sub_link.links %}
+              <li><a href="{{ child_link.url }}" class="">{{ child_link.title }}</a></li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  {% endfor %}
+</div>

@@ -1,0 +1,579 @@
+/*
+
+Please add any custom CSS code in here, it will be easier to transfer if updating themes.
+
+We highly recommend labelling changes, or App installs, so these can also be updated or removed as needed.
+
+*/
+.main-navigation-wrapper>ul.nav>li>a[href="/collections/sonderlab"]{
+  color: #ff8200;
+}
+.description-content{
+  font-family: 'Suisse Intl Regular', sans-serif !important
+}
+.page-link{
+  font-family: 'Suisse Intl Regular', sans-serif !important
+}
+.owl-nav{
+  margin-bottom: -25px;
+}
+#launch-btn-widget [class*="Launch__Layout1Flag"]{
+  display: none;
+}
+#launch-btn-widget [class*="Launch__Text"], div[class*="DropWrapper__Text"]{
+  font-family: Suisse Intl Regular,sans-serif!important;
+  transition: 0.3s;
+  color: black !important;
+}
+#launch-btn-widget:hover [class*="Launch__Text"] {
+    opacity: 1;
+    color: #d2cbcb;
+}
+.jqGfks {
+    background: unset !important;
+    box-shadow: unset !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+}
+.fYjnRT{
+  transform: translateY(2px);
+}
+.mobile-menu .ultimate-currency{
+  margin-top: 0 !important;
+}
+.mobile-menu #launch-btn-widget [class*="Launch__Text"], .mobile-menu div[class*="DropWrapper__Text"]{
+  font-size: 12.5px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.nav-child-panel li a{
+  font-family: 'Suisse Intl Regular', sans-serif !important;
+}
+
+.collection-gallery-p-0{
+  padding: 0px;
+}
+
+.mb-30{
+  margin-bottom: 30px;
+}
+
+.padding-x-0{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.content-right{
+  justify-content: right;
+}
+
+.sticky-header-menu ul.nav.nav-pills {
+    border-top: 0;
+}
+
+ul.nav.nav-pills {
+    border-top: 0px solid black;
+    margin: 0;
+}
+
+.main-navigation-wrapper > ul.nav > li > a, .main-navigation-wrapper .mega-menu--dropdown-wrapper > a {
+    padding: 0 0 10px 0;
+}
+
+@media screen and (min-width: 1200px) {
+.header-wrapper .header-content>div {
+    /* margin: 25px 30px; */
+    margin: 25px 0;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.mobile-menu--wrapper ul li:not([class^=sm-]) a[href="/collections/sale"]{
+  color: red!important
+}
+.mobile-menu--wrapper ul li:not([class^=sm-]) a[href="/collections/sonderlab"]{
+  color: #ff8200!important
+}
+.tag_custom_below {
+  top: 150px !important;
+  left: 0;
+}
+.envy-badge.only-on-sonderlab{
+  font-size: 9px !important;
+  padding: 8px 5px !important;
+}
+.sold-out-badge, .sale-badge{
+  font-size: 9px !important;
+}
+#shopify-section-8ca0d835-172e-4092-876f-a61a6c3dce99{
+  margin-top: 20px;
+}
+.header-social-links {
+    display: none;
+}
+.indiv-product-title-text {
+    font-size: 10px;
+}
+.money-styling {
+    font-size: 10px;
+}  
+}
+  
+.breadcrumb {
+  display: none;
+}
+
+.indiv-product-title-text, h1.product-description-header, .cart-item-product-title {
+    text-transform: capitalize;
+}
+
+.product-card__name,     /* collection page titles */
+.product-single__title,  /* product page */
+.product-single__description {
+    text-transform: uppercase;
+}
+
+.template-page #main .container {
+    max-width: 900px;
+}
+
+.swatch input:checked+label {
+    border-color: black;
+    border: 2px solid black
+}  
+
+#collections-main .description-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.product-description-wrapper .ui-accordion-header {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.mobile-menu--wrapper ul li:not([class^="sm-"]) {
+    border-bottom: 0;
+}
+
+.blog-main {
+    max-width: 600px;
+    margin: auto;
+}
+
+.header-wrapper {
+    border-bottom: 0;
+}
+
+a.dropdown-submenu__link {
+    font-size: 12px;
+}
+
+.mega-menu-block .h4 {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.template-collection .customize .homepage-sections-wrapper.homepage-sections-wrapper--white {
+    padding-top: 0;
+    margin-top: -30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+footer h3, .collection-sidebar--section h2, .filters-toolbar label {
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}
+
+/*  CUSTOM COLLECTION */
+.customize .image-bar__item {
+    margin: 15px 0px;
+}
+
+div[data-section-id="collection--men"], 
+div[data-section-id="collection--women"], 
+div[data-section-id="collection--homeliving"] {
+    margin-top: 25px;
+}
+
+@media only screen and (min-width: 769px) {
+  .customize .row.image-bar .grid__item {
+      /* margin-top: 16px; */
+      margin-top: 0px;
+  }
+}
+  
+@media only screen and (min-width: 768px) {
+  .customize .row.image-bar .grid__item:nth-child(even) {
+      /* padding-left: 8px; */
+      padding-left: 0px;
+  }
+
+  .customize .row.image-bar .grid__item:nth-child(odd) {
+      /* padding-right: 8px; */
+      padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .customize .row.image-bar {
+      /* margin-top: 14px; */
+      margin-top: 0px;
+  }
+}
+
+/* INDEX PADDING MARGIN ADJUSTING */
+.homepage-section--image-gallery-wrapper {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.shopify-section .homepage-sections-wrapper, .shopify-section .homepage-sections-wrapper--white {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.template-index #main {
+    margin-bottom: 20px;
+}
+
+.homepage-image-text-block--content {
+    /*max-width: 1300px;*/
+    margin: auto;
+    padding: 0 15px;
+}
+
+#shopify-section-ce2d5476-807a-4710-8840-b0ceacc0eb49{
+  margin-top: 50px;
+}
+
+.indiv-product-title-text{
+  text-align: left;
+}
+
+.container {
+  max-width: 100% !important;
+}
+
+/*
+#shopify-section-1595912008958 .homepage-sections-wrapper--white {
+    padding: 25px 0 0 0;
+}
+
+.index-sections .shopify-section .homepage-sections-wrapper {
+    padding-top: 0;
+    padding-bottom: 3px;
+}
+
+#shopify-section-1596537943760, #shopify-section-1595912008958 .homepage-sections-wrapper--white {
+    padding: 14px 0px 5px 0;
+}
+
+#shopify-section-1595832381168, #shopify-section-1595837838285 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+*/
+
+@media screen and (max-width: 768px) {
+  .index-sections .image-bar>div {
+      margin-bottom: 0;
+  }
+  
+  .customize .image-bar>div {
+      /* margin-bottom: 15px; */
+      margin-bottom: 0px;
+  }
+  
+  .index-sections div#shopify-section-1595912008958 .image-bar>div:last-child {
+      margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .index-sections div#shopify-section-1595912008958 .image-bar>div {
+      margin-bottom: 15px;
+  }
+  
+  #shopify-section-1595832381168, #shopify-section-1595837838285 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  #shopify-section-1595912008958 .grid__item:first-child {
+      padding-right: 8px;
+  }
+  
+  #shopify-section-1595912008958 .grid__item:last-child {
+      padding-left: 8px;
+  }
+}
+
+/* LOGIN + REGISTRATION PAGE*/
+.one-half-column-left {
+    width: 50%;
+    float: left;
+}
+
+.one-half-column-right {
+    width: 50%;
+    float: right;
+}
+
+@media only screen and (max-width: 769px) {
+  .one-half-column-left, .one-half-column-right {
+  	width: 100%;
+  }
+}
+
+/* Subscription Mobile Left Align */
+
+@media screen and (max-width: 768px) {
+  .footer-block--wrapper {
+      text-align: left;
+  }
+
+  form#contact_form {
+      float: left;
+  }
+  
+  footer #newsletter-wrapper input {
+      margin-left: 0;
+  }
+}
+
+/** BLog **/
+
+.artikel {
+	max-width: 800px;
+    margin: auto;
+}
+
+/** Nitip **/
+
+.blog-main h3.type-subheading.type-subheading--2 {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  #shopify-section-1595832381168
+    img.feature-row__image.lazyautosizes.lazyloaded {
+    height: 350px;
+    object-position: right;
+  }
+
+  #shopify-section-1595837838285
+    img.feature-row__image.lazyautosizes.lazyloaded {
+    height: 350px;
+    object-position: left;
+  }
+
+  .homepage-image-text-block--content .image-text-block-row__text-container {
+    padding: 10px 30px 30px 30px;
+  }
+  .collection-sidebar--section {
+    margin-bottom: 10px;
+  }
+}
+
+.collection-sidebar--section ul li {
+  border-bottom: 0;
+  margin: 0;
+  padding: 4px 0;
+}
+
+.indiv-product-title-text,
+h1.product-description-header,
+.cart-item-product-title {
+  font-weight: 400;
+}
+
+span.ui-accordion-header-icon.ui-icon {
+  float: right;
+  top: 2px;
+}
+
+.product-description-main-wrapper .indiv-product-vendor-text,
+.product-description-main-wrapper .indiv-product-sku-text {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.blog--read-more.btn a {
+    color: white;
+    text-decoration: unset;
+    margin-top: 0;
+}
+
+form#customer_login a[href="/account/register"] {
+    display: none;
+}
+
+/** Currency **/
+
+.mobile-menu .ultimate-currency {
+    margin-left: 20px;
+    bottom: 20px;
+}
+
+.mobile-menu .sm-icons {
+  	display: none;
+}
+
+/* Announcement bar Sticky */
+
+#shopify-section-announcement-bar {
+    position: fixed;
+    width: 100%;
+}
+
+#shopify-section-header {
+    margin-top: 44px;
+}
+
+.sticky-header-wrapper.sticky {
+    top: 6%;
+    transform: translateY(-5%);
+}
+
+#top-search-wrapper {
+    border-bottom: 1px solid rgba(51, 51, 51, 0.1);
+}
+
+.top-search #search-wrapper {
+    padding: 8px 15px;
+}
+
+.stuck .top-search #search-wrapper {
+    padding: 15px;
+}
+
+.sticky-header-wrapper .sticky-header-search {
+    top: -8px;
+    border-bottom: unset !important;
+}
+
+/* Badges Custom */
+
+.tag_custom_below {
+  text-align: left;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.tag_custom_below .envy-badge.sale-exclusiverelease, .tag_custom_below .envy-badge.sale-preorder, .tag_custom_below .envy-badge.sale-limitededition, .tag_custom_below .envy-badge.sale-onlyonsonderlab {
+background-color: black;
+color: white;
+width: max-content;
+display: inline-block;
+/* font-size: 10px; */
+font-size: 9px;
+line-height: 0px;
+/* padding: 10px 15px; */
+padding: 8px 10px;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+margin-right: 5px;
+margin-bottom: 5px;
+-moz-transition: all 0.02s ease;
+-webkit-transition: all 0.02s ease;
+-o-transition: all 0.02s ease;
+-ms-transition: all 0.02s ease;
+transition: all 0.02s ease;
+}
+
+/** out of stock **/
+
+.iStock-wrapper { background: #F9F9F9; border: 1px solid #E7E7E7; display: none; padding: 20px 20px 10px 20px; margin: 10px 0px 10px 0px; }
+.iStock-wrapper h2 { font-size:20px; margin: 0 0 10px 0; }
+.iStock-notifyTxt { margin-bottom:10px; }
+.iStock-availability { display:none; margin-bottom:10px; }
+.iStock-availability label { color: #6F0000; font-weight: normal; }
+.iStock-availability span { color: #6D6D6D; }
+.iStock-fields { max-width: initial;}
+input.iStock-email-id { display: inline-block; vertical-align: top; border: 1px solid #CCCCCC; background: #ffffff; padding: 5px; margin: 0 2% 10px 0; width: 67%; }
+input.iStock-notify-btn { display: inline-block; vertical-align: top; border: 1px solid #CC244B; background: #F52C5A; padding: 5px 10px; margin: 0 0 10px 0; color: #FFFFFF;  cursor: pointer; }
+.iStock-msg { display:none; color: #008000; font-size: 14px; }
+.iStock-msg.iStock-error { color: #E10101; }
+
+/* Slider */
+.slider-wrapper{
+width:100%;
+
+}
+.sticky-header-wrapper.sticky {
+    top: 44px;
+    transform: none;
+}
+.header-social-links {
+    position: absolute;
+    z-index: 12;
+    right: 0;
+    top: 9px;
+}
+.flexslider-announcement {
+    height: 44px;
+  	width:100%;
+}
+.notification-bar__message p{
+	display:block;
+}
+.notification-bar__message_slider {
+    width: 100%;
+}
+.notification-bar__message_slider {
+  	position:relative;
+    width: 100%;
+    display: block;
+    height: 44px;
+  	line-height:44px;
+}
+.notification-bar.custom-font.notification-bar--with-text.notification-bar--with-icons {
+    display: block;
+}
+.slider-wrapper {
+    height: 44px;
+}
+
+.envy-badge.only-on-sonderlab {
+  background-color: transparent;
+  border: 1px solid;
+  color: black;
+  width: max-content;
+  display: inline-block;
+  /* font-size: 10px; */
+  font-size: 9px;
+  line-height: 0;
+  /* padding: 10px 15px; */
+  padding: 8px 10px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  -moz-transition: all 20ms ease;
+  -webkit-transition: all 20ms ease;
+  -o-transition: all 20ms ease;
+  -ms-transition: all 20ms ease;
+  transition: all 20ms ease;
+}
+
+/** Sale **/
+
+a[href="/collections/sonderswindle2023"] {
+color: red !important;
+}
+
+
+.mega-menu-block {
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+

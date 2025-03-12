@@ -1,0 +1,37 @@
+{%- if paginate.pages > 1 -%}
+
+  <ul class="pagination justify-content-center">
+    <li class="page-item{% unless paginate.previous.is_link %} disabled{% endunless %}">
+      <a class="page-link" href="{{ paginate.previous.url }}"{% unless paginate.previous.is_link %} tabindex="-1"{% endunless %}>
+  			{{ 'general.pagination.previous' | t }}
+  		</a>
+    </li>
+
+    {%- for part in paginate.parts -%}
+      {%- if part.is_link -%}
+        <li class="page-item">
+          <a href="{{ part.url }}" class="page-link">
+            {{ part.title }}
+          </a>
+        </li>
+      {%- else -%}
+        {%- if part.title == paginate.current_page -%}
+          <li class="page-item active" aria-current="page">
+            <span class="page-link">{{ part.title }}</span>
+          </li>
+        {%- else -%}
+          <li class="page-item">
+            <span class="page-link">{{ part.title }}</span>
+          </li>
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+
+    <li class="page-item{% unless paginate.next.is_link %} disabled{% endunless %}">
+      <a class="page-link" href="{{ paginate.next.url }}"{% unless paginate.next.is_link %} tabindex="-1"{% endunless %}>
+  			{{ 'general.pagination.next' | t }}
+  		</a>
+    </li>
+  </ul>
+
+{%- endif -%}

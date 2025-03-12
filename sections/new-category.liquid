@@ -1,0 +1,129 @@
+<section class="container-full-width">
+  <style>
+    @media only screen and (max-width: 641px) {
+      .title-subheading-mobile {
+        font-size: {{ section.settings.subheading_size_mobile | default: '14' }}pt !important;
+      }
+      .title-heading-mobile {
+        font-size: {{ section.settings.heading_size_mobile | default: '17' }}pt !important;
+      }
+    }
+  </style>
+  {% if section.settings.title != blank or section.settings.subheading != blank %}
+    <div class="container header-title-section title-bar custom-font">
+      {% if section.settings.subheading != blank %}
+        <h3 class="type-subheading type-subheading--1 wow title-subheading-mobile fadeIn{% if section.settings.title != blank %} typography--padding-bottom{% endif %}" style="font-size:{{ section.settings.subheading_size }}pt">{{ section.settings.subheading | escape }}</h3>
+      {% endif %}
+      {% if section.settings.title != blank %}
+        <h2 class="wow fadeIn title-heading-mobile {% if section.settings.subheading != blank %} delay-1{% endif %}" style="font-size:{{ section.settings.heading_size }}pt">{{ section.settings.title | escape }}</h2>
+      {% endif %}
+    </div>
+  {% endif %}
+  {% if section.blocks.size > 0 %}
+    <div class="row row-no-margin">
+      {% for block in section.blocks %}
+        <div class="col-md-3 col-lg-3 col-6 category-item">
+          {% assign collection = collections[block.settings.category_target] %}
+          {% if collection.url != blank %}
+            <a href="{{ collection.url }}">
+          {% endif %}
+          {% if block.settings.category_img != blank %}
+            <div class="category-img">
+              {{ block.settings.category_img | img_url: 'master' | img_tag: '', '' }}
+            </div>
+          {% else %}
+            <div class="category-img">
+              {{ 'product-1' | placeholder_svg_tag }}
+            </div>
+          {% endif %}
+          {% if collection.url != blank %}
+            </a>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+</section>
+{% schema %}
+  {
+    "name": "New Category",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Title"
+      },
+      {
+        "type": "range",
+        "id": "heading_size",
+        "label": "Heading base size",
+        "default": 34,
+        "min": 10,
+        "max": 36,
+        "step": 1,
+        "unit": "pt"
+      },
+      {
+        "type": "range",
+        "id": "heading_size_mobile",
+        "label": "Heading base size mobile",
+        "default": 34,
+        "min": 10,
+        "max": 36,
+        "step": 1,
+        "unit": "pt"
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading",
+        "default": "Subheading"
+      },
+      {
+        "type": "range",
+        "id": "subheading_size",
+        "label": "Subheading base size",
+        "default": 14,
+        "min": 10,
+        "max": 36,
+        "step": 1,
+        "unit": "pt"
+      },
+      {
+        "type": "range",
+        "id": "subheading_size_mobile",
+        "label": "Subheading base size mobile",
+        "default": 14,
+        "min": 10,
+        "max": 36,
+        "step": 1,
+        "unit": "pt"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "category",
+        "name": "Category",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "category_img",
+            "label": "Image"
+          },
+          {
+            "type": "collection", 
+            "id": "category_target",
+            "label": "Collection"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "New Category",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}

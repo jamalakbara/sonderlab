@@ -1,0 +1,238 @@
+<section class="container-full-width">
+  {% comment %} slideshow left width {% endcomment %}
+  {% case section.settings.left_width %}
+    {% when '25' %}
+      {% assign left_width = 'col-md-3 col-lg-3 col-12 col-no-padding' %}
+    {% when '50' %}
+      {% assign left_width = 'col-md-6 col-lg-6 col-12 col-no-padding' %}
+    {% when '75' %}
+      {% assign left_width = 'col-md-9 col-lg-9 col-12 col-no-padding' %}
+    {% when '100' %}
+      {% assign left_width = 'col-12 col-no-padding' %}
+  {% endcase %}
+  
+  {% comment %} slideshow right width {% endcomment %}
+  {% case section.settings.right_width %}
+    {% when '25' %}
+      {% assign right_width = 'col-md-3 col-lg-3 col-12 col-no-padding' %}
+    {% when '50' %}
+      {% assign right_width = 'col-md-6 col-lg-6 col-12 col-no-padding' %}
+    {% when '75' %}
+      {% assign right_width = 'col-md-9 col-lg-9 col-12 col-no-padding' %}
+    {% when '100' %}
+      {% assign right_width = 'col-12 col-no-padding' %}
+  {% endcase %}
+
+  <input type="hidden" id="left_slideshow_speed" value="{{ section.settings.left_slideshow_speed | times: 1000 }}">
+  <input type="hidden" id="right_slideshow_speed" value="{{ section.settings.right_slideshow_speed | times: 1000 }}">
+
+  <div class="row row-no-margin">
+    <div class="{{ left_width }}">
+      <div class="left-slideshow owl-carousel owl-theme">
+        {% for block in section.blocks %}
+          {% if block.type == 'left_slideshow' %}
+            <div class="slideshow-item item">
+              {% if block.settings.url != blank %}
+              <a href="{{ block.settings.url }}">
+              {% endif %}
+                {% if block.settings.image_mobile != blank %}
+                  {% if block.settings.image_desktop != blank %}
+                    {{ block.settings.image_desktop | img_url: 'master' | img_tag: '', 'slideshow-img hide-mobile' }}
+                  {% endif %}
+                    {{ block.settings.image_mobile | img_url: 'master' | img_tag: '', 'slideshow-img hide-desktop' }}
+                {% else %}
+                  {% if block.settings.image_desktop != blank %}
+                    {{ block.settings.image_desktop | img_url: 'master' | img_tag: '', 'slideshow-img' }}
+                  {% endif %}
+                {% endif %}
+              {% if block.settings.url != blank %}
+              </a>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="{{ right_width }}">
+      <div class="right-slideshow owl-carousel owl-theme">
+        {% for block in section.blocks %}
+          {% if block.type == 'right_slideshow' %}
+            <div class="slideshow-item item">
+              {% if block.settings.url != blank %}
+              <a href="{{ block.settings.url }}">
+              {% endif %}
+                {% if block.settings.image_mobile != blank %}
+                  {% if block.settings.image_desktop != blank %}
+                    {{ block.settings.image_desktop | img_url: 'master' | img_tag: '', 'slideshow-img hide-mobile' }}
+                  {% endif %}
+                    {{ block.settings.image_mobile | img_url: 'master' | img_tag: '', 'slideshow-img hide-desktop' }}
+                {% else %}
+                  {% if block.settings.image_desktop != blank %}
+                    {{ block.settings.image_desktop | img_url: 'master' | img_tag: '', 'slideshow-img' }}
+                  {% endif %}
+                {% endif %}
+              {% if block.settings.url != blank %}
+              </a>
+              {% endif %}
+            </div> 
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+</section>
+{% schema %}
+{
+  "name": "Alternate Slideshow",
+  "settings": [
+    {
+      "type": "radio",
+      "id": "left_width",
+      "label": "Left slideshow width",
+      "options": [
+        {
+          "value": "25",
+          "label": "25%"
+        },
+        {
+          "value": "50",
+          "label": "50%"
+        },
+        {
+          "value": "75",
+          "label": "75%"
+        },
+        {
+          "value": "100",
+          "label": "100%"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "left_slideshow_speed",
+      "label": "Left slideshow speed",
+      "default": 5,
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "unit": "s"
+    },
+    {
+      "type": "radio",
+      "id": "right_width",
+      "label": "Right slideshow width",
+      "options": [
+        {
+          "value": "25",
+          "label": "25%"
+        },
+        {
+          "value": "50",
+          "label": "50%"
+        },
+        {
+          "value": "75",
+          "label": "75%"
+        },
+        {
+          "value": "100",
+          "label": "100%"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "right_slideshow_speed",
+      "label": "Right slideshow speed",
+      "default": 5,
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "unit": "s"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "left_slideshow",
+      "name": "Left Slideshow",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_desktop",
+          "label": "Image (Desktop)"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_mobile",
+          "label": "Image (Mobile)"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+          "type": "text",
+          "id": "button_title",
+          "label": "Button title"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Url"
+        }
+      ]
+    },
+    {
+      "type": "right_slideshow",
+      "name": "Right Slideshow",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_desktop",
+          "label": "Image (Desktop)"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_mobile",
+          "label": "Image (Mobile)"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+          "type": "text",
+          "id": "button_title",
+          "label": "Button title"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Url"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Alternate Slideshow",
+      "category": "Image",
+      "blocks": []
+    }
+  ]
+}
+{% endschema %}
