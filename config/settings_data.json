@@ -53,11 +53,7 @@
     "navigation--capitalize": true,
     "buttons--font": "body",
     "buttons--capitalize": false,
-<<<<<<< HEAD
-    "cart-type": "drawer",
-=======
     "cart-type": "page",
->>>>>>> development
     "enable-additional-checkout-buttons": true,
     "allow_note": false,
     "enable_terms_conditions": false,
