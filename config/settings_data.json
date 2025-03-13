@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "font-color": "#333333",
@@ -58,33 +67,33 @@
     "match-height": false,
     "show_reviews": false,
     "sm_facebook_link": "",
-    "sm_twitter_link": "https:\/\/twitter.com\/sonderlab",
-    "sm_instagram_link": "https:\/\/instagram.com\/sonderlab",
+    "sm_twitter_link": "https://twitter.com/sonderlab",
+    "sm_instagram_link": "https://instagram.com/sonderlab",
     "sm_youtube_link": "",
     "sm_vimeo_link": "",
-    "sm_tiktok_link": "https:\/\/vt.tiktok.com\/ZSJTwAhDM\/",
+    "sm_tiktok_link": "https://vt.tiktok.com/ZSJTwAhDM/",
     "sm_pinterest_link": "",
     "sm_snapchat_link": "",
     "sm_houzz_link": "",
     "sm_tumblr_link": "",
     "sm_linkedin_link": "",
-    "sm_spotify_link": "https:\/\/open.spotify.com\/user\/ggod0572qizf5h21str0kq743?si=bXmZUQtfRv2z_WdatyUP9w",
+    "sm_spotify_link": "https://open.spotify.com/user/ggod0572qizf5h21str0kq743?si=bXmZUQtfRv2z_WdatyUP9w",
     "popup--enable": false,
     "popup--test-mode": false,
     "pop-up-text-header-text": "JOIN US",
-    "pop-up-text-description-text": "<p>Get <strong>10%<\/strong> off on your first order by subscribing with your email.<\/p>",
+    "pop-up-text-description-text": "<p>Get <strong>10%</strong> off on your first order by subscribing with your email.</p>",
     "popup-newsletter-image": "",
     "pop-up-time": "28",
     "popup-delay": 3,
     "popup--show-social-icons": true,
     "popup--show-newsletter": true,
-    "favicon": "shopify:\/\/shop_images\/LOGO_SONDERLAB.png",
+    "favicon": "shopify://shop_images/LOGO_SONDERLAB.png",
     "enable-product-results": true,
     "enable-article-results": false,
     "enable-page-results": false,
     "animations_enabled": true,
     "checkout_header_image": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Screen_Shot_2023-12-04_at_10.33.15-removebg-preview.png",
+    "checkout_logo_image": "shopify://shop_images/Screen_Shot_2023-12-04_at_10.33.15-removebg-preview.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
     "checkout_body_background_image": "",
@@ -108,7 +117,7 @@
             "disabled": true,
             "settings": {
               "text": "KOLEKTIFLAB (ASIA KOLEKTIFA & SONDERLAB) 16-17 SEPT 2023",
-              "link": "https:\/\/sonderlab.co\/blogs\/news\/asia-kolektifa-sonderlab-present-kolektiflab"
+              "link": "https://sonderlab.co/blogs/news/asia-kolektifa-sonderlab-present-kolektiflab"
             }
           },
           "656c562f-32f3-4e29-8a7b-4d68b5889937": {
@@ -122,7 +131,7 @@
             "type": "announcement_bar",
             "settings": {
               "text": "SONDERSTUDIO — BOOK YOUR APPOINTMENT NOW!",
-              "link": "https:\/\/sonderlab.co\/pages\/sonderstudio"
+              "link": "https://sonderlab.co/pages/sonderstudio"
             }
           },
           "da792a86-dde8-445c-a723-bc4e721cae4d": {
@@ -130,7 +139,7 @@
             "disabled": true,
             "settings": {
               "text": "STUDIO PRIVATE SALE UP TO 50% OFF - SHOP NOW!",
-              "link": "shopify:\/\/collections\/sale"
+              "link": "shopify://collections/sale"
             }
           },
           "0666532c-149b-4654-bb88-57747cf5012a": {
@@ -138,7 +147,7 @@
             "disabled": true,
             "settings": {
               "text": "FLASH SALES (12AM-3PM), (3PM-6PM), (6PM-9PM)",
-              "link": "shopify:\/\/collections\/sonderswindle2023"
+              "link": "shopify://collections/sonderswindle2023"
             }
           },
           "9790be13-3e4c-42f1-ac17-9d207b0f03c5": {
@@ -146,7 +155,7 @@
             "disabled": true,
             "settings": {
               "text": "TREASURE HUNT, where you can get item for low price of IDR0! ZERO! GRATIS",
-              "link": "shopify:\/\/collections\/sonderswindle2023"
+              "link": "shopify://collections/sonderswindle2023"
             }
           }
         },
@@ -161,7 +170,7 @@
         "settings": {
           "enable": true,
           "message_text": "GET 10% OFF ON FIRST ORDER, WITH \"FIRST10\" & FREE DOMESTIC SHIPPING ON ORDERS ABOVE 500K!",
-          "message_link": "shopify:\/\/collections\/new-arrivals",
+          "message_link": "shopify://collections/new-arrivals",
           "notification-bar--background-color": "#000000",
           "notification-bar--text-color": "#ffffff",
           "social-enable": false
@@ -172,8 +181,8 @@
         "settings": {
           "sticky_header": true,
           "overlay_header": false,
-          "logo": "shopify:\/\/shop_images\/LOGO_BARU_SONDERLAB-01.png",
-          "overlay_logo": "shopify:\/\/shop_images\/LOGO_BARU_SONDERLAB-01.png",
+          "logo": "shopify://shop_images/LOGO_BARU_SONDERLAB-01.png",
+          "overlay_logo": "shopify://shop_images/LOGO_BARU_SONDERLAB-01.png",
           "logo_max_width": 260,
           "logo-placement": "within-header",
           "search-enable": true,
@@ -208,7 +217,7 @@
           "89e83502-3f7e-493d-adc3-04164f77ab7d": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/SONDERLAB-WEB-PAYMENT_FINAL_256x256-04_0d25c28d-38c4-40a0-b8b0-d0916ed9c449.png",
+              "image": "shopify://shop_images/SONDERLAB-WEB-PAYMENT_FINAL_256x256-04_0d25c28d-38c4-40a0-b8b0-d0916ed9c449.png",
               "image_max_width": 70,
               "link": "",
               "title": "We Accept"
@@ -217,7 +226,7 @@
           "e9f5a60b-752a-499a-8eee-291226b7632f": {
             "type": "newsletter",
             "settings": {
-              "footer_newsletter_description": "<p>Stay informed about the latest style advice and product launches.<\/p>"
+              "footer_newsletter_description": "<p>Stay informed about the latest style advice and product launches.</p>"
             }
           }
         },
@@ -251,10 +260,7 @@
             }
           }
         },
-        "block_order": [
-          "1593371302345",
-          "1593371280693"
-        ],
+        "block_order": ["1593371302345", "1593371280693"],
         "settings": {
           "grid": 4,
           "rows": 8,
@@ -328,10 +334,7 @@
             }
           }
         },
-        "block_order": [
-          "1596704533969",
-          "1596704552828"
-        ],
+        "block_order": ["1596704533969", "1596704552828"],
         "settings": {
           "grid": 4,
           "rows": 6,
@@ -346,8 +349,8 @@
           "1596432212410": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_APPAREL.png",
-              "link": "shopify:\/\/collections\/mens-apparel",
+              "image": "shopify://shop_images/BANNER_APPAREL.png",
+              "link": "shopify://collections/mens-apparel",
               "title": "",
               "description": ""
             }
@@ -355,8 +358,8 @@
           "1596432235730": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_ACCESORIES.png",
-              "link": "shopify:\/\/collections\/mens-accessories",
+              "image": "shopify://shop_images/BANNER_ACCESORIES.png",
+              "link": "shopify://collections/mens-accessories",
               "title": "",
               "description": ""
             }
@@ -364,8 +367,8 @@
           "1596432265326": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_BAGS_WALLET.png",
-              "link": "shopify:\/\/collections\/mens-bags-and-wallet",
+              "image": "shopify://shop_images/BANNER_BAGS_WALLET.png",
+              "link": "shopify://collections/mens-bags-and-wallet",
               "title": "",
               "description": ""
             }
@@ -373,8 +376,8 @@
           "77c028fc-ef30-4b8a-ab41-32c924d7cfdb": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_JEWELRY.png",
-              "link": "shopify:\/\/collections\/mens-jewelry",
+              "image": "shopify://shop_images/BANNER_JEWELRY.png",
+              "link": "shopify://collections/mens-jewelry",
               "title": "",
               "description": ""
             }
@@ -382,8 +385,8 @@
           "1596432227370": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_FOOTWEAR.png",
-              "link": "shopify:\/\/collections\/mens-footwear",
+              "image": "shopify://shop_images/BANNER_FOOTWEAR.png",
+              "link": "shopify://collections/mens-footwear",
               "title": "",
               "description": ""
             }
@@ -391,8 +394,8 @@
           "9128be5a-0719-429a-9ffb-91ff46dffff4": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_GROOMING.png",
-              "link": "shopify:\/\/collections\/mens-grooming",
+              "image": "shopify://shop_images/BANNER_GROOMING.png",
+              "link": "shopify://collections/mens-grooming",
               "title": "",
               "description": ""
             }
@@ -418,8 +421,8 @@
           "1596434475949": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_Homegoods_Gallery.jpg",
-              "link": "shopify:\/\/collections\/home-goods",
+              "image": "shopify://shop_images/Sonderlab-Web_Homegoods_Gallery.jpg",
+              "link": "shopify://collections/home-goods",
               "title": "",
               "description": ""
             }
@@ -427,17 +430,14 @@
           "1596434783628": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_Beauty_Gallery.jpg",
-              "link": "shopify:\/\/collections\/beauty-grooming",
+              "image": "shopify://shop_images/Sonderlab-Web_Beauty_Gallery.jpg",
+              "link": "shopify://collections/beauty-grooming",
               "title": "",
               "description": ""
             }
           }
         },
-        "block_order": [
-          "1596434475949",
-          "1596434783628"
-        ],
+        "block_order": ["1596434475949", "1596434783628"],
         "settings": {
           "collection_image_enable": false,
           "colors": "white"
@@ -460,10 +460,7 @@
             }
           }
         },
-        "block_order": [
-          "1597338966461",
-          "1597338957249"
-        ],
+        "block_order": ["1597338966461", "1597338957249"],
         "settings": {
           "grid": 3,
           "rows": 6,
@@ -475,7 +472,7 @@
       "password--header": {
         "type": "password--header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/sonderlab.png",
+          "logo": "shopify://shop_images/sonderlab.png",
           "logo_max_width": 400,
           "social_media_icons": false
         }
@@ -485,7 +482,7 @@
         "settings": {
           "text-color": "#000000",
           "background-color": "#ffffff",
-          "background": "shopify:\/\/shop_images\/mank_d6879f64-c748-4b78-b5f0-374eecb9308a.jpg",
+          "background": "shopify://shop_images/mank_d6879f64-c748-4b78-b5f0-374eecb9308a.jpg",
           "image_overlay_opacity": 10,
           "newsletter_enable": true,
           "newsletter_description": ""
@@ -497,8 +494,8 @@
           "1596607762818": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_APPAREL_copy_97ee2aa8-1ae8-4aa8-9602-955cef2a8de8.png",
-              "link": "shopify:\/\/collections\/womens-apparel",
+              "image": "shopify://shop_images/BANNER_APPAREL_copy_97ee2aa8-1ae8-4aa8-9602-955cef2a8de8.png",
+              "link": "shopify://collections/womens-apparel",
               "title": "",
               "description": ""
             }
@@ -506,8 +503,8 @@
           "1596607768725": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_ACCESORIES_copy_3058c77a-c69c-4790-abe2-25e07e717f15.png",
-              "link": "shopify:\/\/collections\/womens-accessories",
+              "image": "shopify://shop_images/BANNER_ACCESORIES_copy_3058c77a-c69c-4790-abe2-25e07e717f15.png",
+              "link": "shopify://collections/womens-accessories",
               "title": "",
               "description": ""
             }
@@ -515,8 +512,8 @@
           "1596607774733": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_BAGS_WALLET_copy_4608cfcb-24d6-4287-862b-f776a74bb60a.png",
-              "link": "shopify:\/\/collections\/womens-bags-and-wallet",
+              "image": "shopify://shop_images/BANNER_BAGS_WALLET_copy_4608cfcb-24d6-4287-862b-f776a74bb60a.png",
+              "link": "shopify://collections/womens-bags-and-wallet",
               "title": "",
               "description": ""
             }
@@ -524,8 +521,8 @@
           "1596607771918": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_FOOTWEAR_copy_33678db4-a323-4016-b923-45472288aaab.png",
-              "link": "shopify:\/\/collections\/womens-footwear",
+              "image": "shopify://shop_images/BANNER_FOOTWEAR_copy_33678db4-a323-4016-b923-45472288aaab.png",
+              "link": "shopify://collections/womens-footwear",
               "title": "",
               "description": ""
             }
@@ -533,8 +530,8 @@
           "1600bade-5d9c-4d52-b32e-84408d31c001": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_JEWELRY_copy_1c84a4a9-e4e3-4401-a4bf-fa4d6a93d2c9.png",
-              "link": "shopify:\/\/collections\/womens-jewelry",
+              "image": "shopify://shop_images/BANNER_JEWELRY_copy_1c84a4a9-e4e3-4401-a4bf-fa4d6a93d2c9.png",
+              "link": "shopify://collections/womens-jewelry",
               "title": "",
               "description": ""
             }
@@ -542,8 +539,8 @@
           "51b9e565-be95-46c0-ae64-9f24fbd1e811": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_GROOMING_copy_bdc29332-a6c2-4e9d-a848-c7f4bf05022a.png",
-              "link": "shopify:\/\/collections\/womens-beauty",
+              "image": "shopify://shop_images/BANNER_GROOMING_copy_bdc29332-a6c2-4e9d-a848-c7f4bf05022a.png",
+              "link": "shopify://collections/womens-beauty",
               "title": "",
               "description": ""
             }
@@ -580,10 +577,7 @@
             }
           }
         },
-        "block_order": [
-          "1597337631148",
-          "1597337623323"
-        ],
+        "block_order": ["1597337631148", "1597337623323"],
         "settings": {
           "grid": 4,
           "rows": 6,
@@ -620,12 +614,12 @@
           "1598187019165": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Category_Slides_Men_Tops_ca506767-900a-472d-a8d2-a868ecece346.jpg",
+              "image": "shopify://shop_images/Sonderlab-Category_Slides_Men_Tops_ca506767-900a-472d-a8d2-a868ecece346.jpg",
               "subheading": "",
               "title": "TOPS",
-              "text": "<p>Choose from a selection of the very best shirts and t-shirts for men of the season.<\/p>",
+              "text": "<p>Choose from a selection of the very best shirts and t-shirts for men of the season.</p>",
               "button_text": "VIEW SELECTION",
-              "link": "shopify:\/\/collections\/men-t-shirt",
+              "link": "shopify://collections/men-t-shirt",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#000000",
@@ -637,12 +631,12 @@
           "1598252646132": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Category_Slides_Men_Bottoms.jpg",
+              "image": "shopify://shop_images/Sonderlab-Category_Slides_Men_Bottoms.jpg",
               "subheading": "",
               "title": "BOTTOMS",
-              "text": "<p>Find a selection of best denim and cuts of your preferences for various occassions.<\/p>",
+              "text": "<p>Find a selection of best denim and cuts of your preferences for various occassions.</p>",
               "button_text": "VIEW SELECTION",
-              "link": "shopify:\/\/collections\/men-bottom",
+              "link": "shopify://collections/men-bottom",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#000000",
@@ -654,12 +648,12 @@
           "1599813873883": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Category_Slides_ACC.jpg",
+              "image": "shopify://shop_images/Sonderlab-Category_Slides_ACC.jpg",
               "subheading": "",
               "title": "ACCESSORIES",
-              "text": "<p>Finishing touch to complete your outfit and utilities to provide ease for your daily routines.<\/p>",
+              "text": "<p>Finishing touch to complete your outfit and utilities to provide ease for your daily routines.</p>",
               "button_text": "VIEW SELECTION",
-              "link": "shopify:\/\/collections\/men-accessories",
+              "link": "shopify://collections/men-accessories",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#000000",
@@ -671,12 +665,12 @@
           "1598186974011": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Category_Slides_Mens_Foot.jpg",
+              "image": "shopify://shop_images/Sonderlab-Category_Slides_Mens_Foot.jpg",
               "subheading": "",
               "title": "FOOTWEAR",
-              "text": "<p>Complete your looks with a great pair of shoes for your daily routines<\/p>",
+              "text": "<p>Complete your looks with a great pair of shoes for your daily routines</p>",
               "button_text": "VIEW SELECTION",
-              "link": "shopify:\/\/collections\/keen",
+              "link": "shopify://collections/keen",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#000000",
@@ -710,12 +704,12 @@
           "1598188281609": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Category_Women_Tops.jpg",
+              "image": "shopify://shop_images/Sonderlab-Category_Women_Tops.jpg",
               "subheading": "",
               "title": "TOPS",
-              "text": "<p>Browse through our edits of women&#x27;s tops which features everything that fits for any occasion or taste.<\/p>",
+              "text": "<p>Browse through our edits of women&#x27;s tops which features everything that fits for any occasion or taste.</p>",
               "button_text": "VIEW SELECTION",
-              "link": "shopify:\/\/collections\/women-t-shirt",
+              "link": "shopify://collections/women-t-shirt",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#000000",
@@ -727,12 +721,12 @@
           "1598246437352": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Category_Women_Bottom_2.jpg",
+              "image": "shopify://shop_images/Sonderlab-Category_Women_Bottom_2.jpg",
               "subheading": "",
               "title": "BOTTOMS",
-              "text": "<p>Refresh your daily wardrobe rotation with our selection of versatile bottoms.<\/p>",
+              "text": "<p>Refresh your daily wardrobe rotation with our selection of versatile bottoms.</p>",
               "button_text": "VIEW SELECTION",
-              "link": "shopify:\/\/collections\/womens-bottoms",
+              "link": "shopify://collections/womens-bottoms",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#000000",
@@ -744,12 +738,12 @@
           "1598188347809": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Category_Women_Footwear.jpg",
+              "image": "shopify://shop_images/Sonderlab-Category_Women_Footwear.jpg",
               "subheading": "",
               "title": "FOOTWEAR",
-              "text": "<p>Complete your looks with a great pair of shoes for your daily routines.<\/p>",
+              "text": "<p>Complete your looks with a great pair of shoes for your daily routines.</p>",
               "button_text": "VIEW SELECTION",
-              "link": "shopify:\/\/collections\/women-footwear",
+              "link": "shopify://collections/women-footwear",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#000000",
@@ -761,12 +755,12 @@
           "1599813754127": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Category_Women_Acc.jpg",
+              "image": "shopify://shop_images/Sonderlab-Category_Women_Acc.jpg",
               "subheading": "",
               "title": "ACCESSORIES",
-              "text": "<p>Complete your outfit with our edit of accessories and elevate your look to the next level.<\/p>",
+              "text": "<p>Complete your outfit with our edit of accessories and elevate your look to the next level.</p>",
               "button_text": "VIEW SELECTION",
-              "link": "shopify:\/\/collections\/women-accessories",
+              "link": "shopify://collections/women-accessories",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#000000",
@@ -778,12 +772,12 @@
           "3d360d93-6848-44ab-a9a6-e63046a0b715": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Category_Women_Dress.jpg",
+              "image": "shopify://shop_images/Sonderlab-Category_Women_Dress.jpg",
               "subheading": "",
               "title": "DRESSES",
-              "text": "<p>Our selection of dress has something for everyone that will be worn time and time again.<\/p>",
+              "text": "<p>Our selection of dress has something for everyone that will be worn time and time again.</p>",
               "button_text": "VIEW SEELECTION",
-              "link": "shopify:\/\/collections\/outerwear-dresses",
+              "link": "shopify://collections/outerwear-dresses",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#242424",
@@ -795,12 +789,12 @@
           "2be2c3d6-4c50-4f11-9828-7f7c37302b73": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Category_Women_Bags.jpg",
+              "image": "shopify://shop_images/Sonderlab-Category_Women_Bags.jpg",
               "subheading": "",
               "title": "BAGS",
-              "text": "<p>Selections of bags to elevate and complete your outfit.<\/p>",
+              "text": "<p>Selections of bags to elevate and complete your outfit.</p>",
               "button_text": "VIEW SELECTION",
-              "link": "shopify:\/\/collections",
+              "link": "shopify://collections",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#242424",
@@ -836,7 +830,7 @@
           "1598188719383": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_Gallery.jpg",
+              "image": "shopify://shop_images/Sonderlab-Web_Gallery.jpg",
               "subheading": "",
               "title": "",
               "text": "",
@@ -851,9 +845,7 @@
             }
           }
         },
-        "block_order": [
-          "1598188719383"
-        ],
+        "block_order": ["1598188719383"],
         "settings": {
           "slider-animation": "slide",
           "slider-width": "fixed",
@@ -872,13 +864,13 @@
           "2c8ad38b-617b-42d8-a82f-d398fe524b77": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/HEADBANNER_OPEN_YY_2x-100_1b9a3b2a-fe46-407f-8686-92ff707fde9b.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/HEADBANNER_OPEN_YY_MOBILE_2x-100_44bf3e5a-24ac-4d23-8202-4a150c86f5dd.jpg",
+              "image": "shopify://shop_images/HEADBANNER_OPEN_YY_2x-100_1b9a3b2a-fe46-407f-8686-92ff707fde9b.jpg",
+              "mobile_image": "shopify://shop_images/HEADBANNER_OPEN_YY_MOBILE_2x-100_44bf3e5a-24ac-4d23-8202-4a150c86f5dd.jpg",
               "subheading": "",
               "title": "",
               "text": "",
               "button_text": "SHOP NOW",
-              "link": "shopify:\/\/collections\/sonderswindle2023",
+              "link": "shopify://collections/sonderswindle2023",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#ffffff",
@@ -891,13 +883,13 @@
           "dac532f1-d775-4f96-af16-07bc8b743409": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/RAW_EMO_2x-100.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/RAW_EMO_1_2x-100.jpg",
+              "image": "shopify://shop_images/RAW_EMO_2x-100.jpg",
+              "mobile_image": "shopify://shop_images/RAW_EMO_1_2x-100.jpg",
               "subheading": "",
               "title": "",
               "text": "",
               "button_text": "SHOP NOW",
-              "link": "shopify:\/\/collections\/exclusive-release",
+              "link": "shopify://collections/exclusive-release",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#ffffff",
@@ -910,13 +902,13 @@
           "1ced39a5-3275-4bc9-a33a-e2f105e588d0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/AKILA_2x-100.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/AKILA_1_2x-100.jpg",
+              "image": "shopify://shop_images/AKILA_2x-100.jpg",
+              "mobile_image": "shopify://shop_images/AKILA_1_2x-100.jpg",
               "subheading": "",
               "title": "",
               "text": "",
               "button_text": "SHOP NOW",
-              "link": "shopify:\/\/collections\/akila",
+              "link": "shopify://collections/akila",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#ffffff",
@@ -929,13 +921,13 @@
           "57436c35-cc4d-4b9b-827a-3b89abf08daf": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/HEADBANNER_OPEN_YY_2x-100_831b7920-7089-4ab9-8cd6-eb1e21cea3a1.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/HEADBANNER_OPEN_YY_MOBILE_2x-100_3dcdb088-e3e7-4854-ad84-e63fc7ad7ac0.jpg",
+              "image": "shopify://shop_images/HEADBANNER_OPEN_YY_2x-100_831b7920-7089-4ab9-8cd6-eb1e21cea3a1.jpg",
+              "mobile_image": "shopify://shop_images/HEADBANNER_OPEN_YY_MOBILE_2x-100_3dcdb088-e3e7-4854-ad84-e63fc7ad7ac0.jpg",
               "subheading": "",
               "title": "",
               "text": "",
               "button_text": "SHOP NOW",
-              "link": "shopify:\/\/collections\/yume-yume",
+              "link": "shopify://collections/yume-yume",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#ffffff",
@@ -948,13 +940,13 @@
           "5164113c-d8eb-4c6e-9a0b-34d3dc38e3a6": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/MANKIND_2x-100.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/MANKIND_1_2x-100.jpg",
+              "image": "shopify://shop_images/MANKIND_2x-100.jpg",
+              "mobile_image": "shopify://shop_images/MANKIND_1_2x-100.jpg",
               "subheading": "",
               "title": "",
               "text": "",
               "button_text": "SHOP NOW",
-              "link": "shopify:\/\/collections\/mankind",
+              "link": "shopify://collections/mankind",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#ffffff",
@@ -967,13 +959,13 @@
           "7a2c37a2-15b7-4dce-a099-0c2d6978bb4b": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/RUNNING_BANNER_SELECTED_BY_JOURDY_PRANATA.png",
-              "mobile_image": "shopify:\/\/shop_images\/RUNNING_BANNER_MOBILE_SELECTED_BY_JOURDY_PRANATA.png",
+              "image": "shopify://shop_images/RUNNING_BANNER_SELECTED_BY_JOURDY_PRANATA.png",
+              "mobile_image": "shopify://shop_images/RUNNING_BANNER_MOBILE_SELECTED_BY_JOURDY_PRANATA.png",
               "subheading": "",
               "title": "",
               "text": "",
               "button_text": "",
-              "link": "shopify:\/\/collections\/selected-by-jourdy-pranata",
+              "link": "shopify://collections/selected-by-jourdy-pranata",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "rgba(0,0,0,0)",
               "button-text": "rgba(0,0,0,0)",
@@ -986,13 +978,13 @@
           "9fa9fb5e-58c2-4ca8-8cbe-af99b28c4172": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/HEADBANNER_OPEN_YY_2x-100_082b4309-12df-4387-84c9-10f802ea553f.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/HEADBANNER_OPEN_YY_MOBILE_2x-100_23994925-fdea-4900-bc7e-f98137a225d3.jpg",
+              "image": "shopify://shop_images/HEADBANNER_OPEN_YY_2x-100_082b4309-12df-4387-84c9-10f802ea553f.jpg",
+              "mobile_image": "shopify://shop_images/HEADBANNER_OPEN_YY_MOBILE_2x-100_23994925-fdea-4900-bc7e-f98137a225d3.jpg",
               "subheading": "",
               "title": "",
               "text": "",
               "button_text": "SHOP NOW",
-              "link": "shopify:\/\/collections\/theopen-product",
+              "link": "shopify://collections/theopen-product",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "rgba(0,0,0,0)",
               "button-text": "#ffffff",
@@ -1005,13 +997,13 @@
           "c71dd108-9412-48ff-89e1-745ee52b9e9f": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ARTS_2x-100.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/ARTS_1_2x-100.jpg",
+              "image": "shopify://shop_images/ARTS_2x-100.jpg",
+              "mobile_image": "shopify://shop_images/ARTS_1_2x-100.jpg",
               "subheading": "",
               "title": "",
               "text": "",
               "button_text": "SHOP NOW",
-              "link": "shopify:\/\/collections\/arts-de-base",
+              "link": "shopify://collections/arts-de-base",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#ffffff",
@@ -1024,13 +1016,13 @@
           "414996ec-bec9-478d-a920-0fa764b0bc21": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/HEADBANNER_51__DESKTOP_2x-100.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/HEADBANNER_51__MOBILE_2x-100.jpg",
+              "image": "shopify://shop_images/HEADBANNER_51__DESKTOP_2x-100.jpg",
+              "mobile_image": "shopify://shop_images/HEADBANNER_51__MOBILE_2x-100.jpg",
               "subheading": "",
               "title": "",
               "text": "",
               "button_text": "SHOP NOW",
-              "link": "shopify:\/\/collections\/51percent",
+              "link": "shopify://collections/51percent",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#ffffff",
@@ -1043,13 +1035,13 @@
           "56e5c021-a9ba-45e6-854b-6428c972a7f3": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/HEADBANNER_TANGAN_DESKTOP_2x-100.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/HEADBANNER_TANGAN_MOBILE_2x-100.jpg",
+              "image": "shopify://shop_images/HEADBANNER_TANGAN_DESKTOP_2x-100.jpg",
+              "mobile_image": "shopify://shop_images/HEADBANNER_TANGAN_MOBILE_2x-100.jpg",
               "subheading": "",
               "title": "",
               "text": "",
               "button_text": "SHOP NOW",
-              "link": "shopify:\/\/collections\/tangan-whim",
+              "link": "shopify://collections/tangan-whim",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#ffffff",
@@ -1062,13 +1054,13 @@
           "b2b2a1a7-0a3f-4ce9-99ce-5e854f980418": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/TOGA_ARCHIVES_2x-100.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/TOGA_ARCHIVES_1_2x-100.jpg",
+              "image": "shopify://shop_images/TOGA_ARCHIVES_2x-100.jpg",
+              "mobile_image": "shopify://shop_images/TOGA_ARCHIVES_1_2x-100.jpg",
               "subheading": "",
               "title": "",
               "text": "",
               "button_text": "SHOP NOW",
-              "link": "shopify:\/\/collections\/toga-archives",
+              "link": "shopify://collections/toga-archives",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#ffffff",
@@ -1081,13 +1073,13 @@
           "2ad51b93-72ce-44eb-99c1-e25ad5606c9b": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/VEGAN_TIGER_2x-100.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/VEGAN_TIGER_1_2x-100.jpg",
+              "image": "shopify://shop_images/VEGAN_TIGER_2x-100.jpg",
+              "mobile_image": "shopify://shop_images/VEGAN_TIGER_1_2x-100.jpg",
               "subheading": "",
               "title": "",
               "text": "",
               "button_text": "SHOP NOW",
-              "link": "shopify:\/\/collections\/vegan-tiger",
+              "link": "shopify://collections/vegan-tiger",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#ffffff",
               "button-text": "#ffffff",
@@ -1145,8 +1137,8 @@
           "a03532e1-b4f8-4a64-bcc5-c98efafef961": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/MENS_TSHIRT.png",
-              "link": "shopify:\/\/collections\/mens-t-shirt",
+              "image": "shopify://shop_images/MENS_TSHIRT.png",
+              "link": "shopify://collections/mens-t-shirt",
               "title": "",
               "description": ""
             }
@@ -1154,8 +1146,8 @@
           "452f4f9f-35cf-4471-bf41-a956a4664157": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/MENS_SHIRT.png",
-              "link": "shopify:\/\/collections\/mens-shirt",
+              "image": "shopify://shop_images/MENS_SHIRT.png",
+              "link": "shopify://collections/mens-shirt",
               "title": "",
               "description": ""
             }
@@ -1163,8 +1155,8 @@
           "bb398940-9ac5-40f0-8a95-2ec742d06605": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/MENS_OUTER.png",
-              "link": "shopify:\/\/collections\/mens-outer",
+              "image": "shopify://shop_images/MENS_OUTER.png",
+              "link": "shopify://collections/mens-outer",
               "title": "",
               "description": ""
             }
@@ -1172,8 +1164,8 @@
           "946336dc-e6da-49d3-b360-6332457505e3": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/MENS_OTHER_TOPS.png",
-              "link": "shopify:\/\/collections\/other-mens-top",
+              "image": "shopify://shop_images/MENS_OTHER_TOPS.png",
+              "link": "shopify://collections/other-mens-top",
               "title": "",
               "description": ""
             }
@@ -1181,8 +1173,8 @@
           "3f8d5e60-8891-454d-84b1-be78c1bf115e": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/MENS_PANTS.png",
-              "link": "shopify:\/\/collections\/mens-pants",
+              "image": "shopify://shop_images/MENS_PANTS.png",
+              "link": "shopify://collections/mens-pants",
               "title": "",
               "description": ""
             }
@@ -1190,8 +1182,8 @@
           "eec1772e-e0b9-4bc6-8206-f9114ab66d77": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/MENS_SHORT.png",
-              "link": "shopify:\/\/collections\/mens-shorts",
+              "image": "shopify://shop_images/MENS_SHORT.png",
+              "link": "shopify://collections/mens-shorts",
               "title": "",
               "description": ""
             }
@@ -1232,8 +1224,8 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_MENS_CASES_73a534ca-ea08-4f02-baee-a221247c4b32.jpg",
-              "link": "shopify:\/\/collections\/mens-cases",
+              "image": "shopify://shop_images/Sonderlab-Web_MENS_CASES_73a534ca-ea08-4f02-baee-a221247c4b32.jpg",
+              "link": "shopify://collections/mens-cases",
               "title": "",
               "description": ""
             }
@@ -1242,8 +1234,8 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_MENS_EYEWEAR_267c4c1d-117d-4c6c-8cbb-d2b9efec03ec.jpg",
-              "link": "shopify:\/\/collections\/mens-eyewear",
+              "image": "shopify://shop_images/Sonderlab-Web_MENS_EYEWEAR_267c4c1d-117d-4c6c-8cbb-d2b9efec03ec.jpg",
+              "link": "shopify://collections/mens-eyewear",
               "title": "",
               "description": ""
             }
@@ -1252,8 +1244,8 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_MENS_HATS_cf6c2926-a3cc-4457-8b85-409a48e45ddb.jpg",
-              "link": "shopify:\/\/collections\/mens-hat",
+              "image": "shopify://shop_images/Sonderlab-Web_MENS_HATS_cf6c2926-a3cc-4457-8b85-409a48e45ddb.jpg",
+              "link": "shopify://collections/mens-hat",
               "title": "",
               "description": ""
             }
@@ -1262,8 +1254,8 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_MENS_MASK_bdc7d26a-5ca1-4c09-9b84-23960f937f1c.jpg",
-              "link": "shopify:\/\/collections\/mens-mask",
+              "image": "shopify://shop_images/Sonderlab-Web_MENS_MASK_bdc7d26a-5ca1-4c09-9b84-23960f937f1c.jpg",
+              "link": "shopify://collections/mens-mask",
               "title": "",
               "description": ""
             }
@@ -1291,8 +1283,8 @@
           "a5faecbf-655c-4218-8837-65dc7df83b70": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_MENS_RING.jpg",
-              "link": "shopify:\/\/collections\/mens-ring",
+              "image": "shopify://shop_images/Sonderlab-Web_MENS_RING.jpg",
+              "link": "shopify://collections/mens-ring",
               "title": "",
               "description": ""
             }
@@ -1300,8 +1292,8 @@
           "0e15661c-00e4-43d4-b0d0-cca7b81bb924": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_MENS_NECKLACE.jpg",
-              "link": "shopify:\/\/collections\/mens-necklace",
+              "image": "shopify://shop_images/Sonderlab-Web_MENS_NECKLACE.jpg",
+              "link": "shopify://collections/mens-necklace",
               "title": "",
               "description": ""
             }
@@ -1309,8 +1301,8 @@
           "2524056d-58dd-4d65-8152-df033fd52e31": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_MENS_EARRING.jpg",
-              "link": "shopify:\/\/collections\/mens-earring",
+              "image": "shopify://shop_images/Sonderlab-Web_MENS_EARRING.jpg",
+              "link": "shopify://collections/mens-earring",
               "title": "",
               "description": ""
             }
@@ -1318,8 +1310,8 @@
           "42c05acd-ec44-4214-8b60-d8788e8cfff2": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_MENS_BRACELET.jpg",
-              "link": "shopify:\/\/collections\/mens-bracelet",
+              "image": "shopify://shop_images/Sonderlab-Web_MENS_BRACELET.jpg",
+              "link": "shopify://collections/mens-bracelet",
               "title": "",
               "description": ""
             }
@@ -1357,8 +1349,8 @@
           "33e5696e-2b24-443e-b23f-6e7e61bde7a7": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_MENS_SHOES.jpg",
-              "link": "shopify:\/\/collections\/mens-shoes",
+              "image": "shopify://shop_images/Sonderlab-Web_MENS_SHOES.jpg",
+              "link": "shopify://collections/mens-shoes",
               "title": "",
               "description": ""
             }
@@ -1366,8 +1358,8 @@
           "e2c1705f-e551-417a-b181-03b9aa673932": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_MENS_SANDALS.jpg",
-              "link": "shopify:\/\/collections\/mens-sandals",
+              "image": "shopify://shop_images/Sonderlab-Web_MENS_SANDALS.jpg",
+              "link": "shopify://collections/mens-sandals",
               "title": "",
               "description": ""
             }
@@ -1403,8 +1395,8 @@
           "c628da14-8db5-4342-8852-ce2d03a8e784": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_WOMENS_SHIRT.png",
-              "link": "shopify:\/\/collections\/womens-shirt",
+              "image": "shopify://shop_images/BANNER_WOMENS_SHIRT.png",
+              "link": "shopify://collections/womens-shirt",
               "title": "",
               "description": ""
             }
@@ -1412,8 +1404,8 @@
           "e7033bae-71ca-4dd6-b026-763de22ed81c": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_WOMENS_OTHER_TOPS.png",
-              "link": "shopify:\/\/collections\/other-womens-top",
+              "image": "shopify://shop_images/BANNER_WOMENS_OTHER_TOPS.png",
+              "link": "shopify://collections/other-womens-top",
               "title": "",
               "description": ""
             }
@@ -1421,8 +1413,8 @@
           "edcb2d78-e6bc-41a2-87b0-d97e83212055": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_WOMENS_TSHIRT.png",
-              "link": "shopify:\/\/collections\/womens-t-shirt",
+              "image": "shopify://shop_images/BANNER_WOMENS_TSHIRT.png",
+              "link": "shopify://collections/womens-t-shirt",
               "title": "",
               "description": ""
             }
@@ -1430,8 +1422,8 @@
           "62950824-6ff4-4ee8-a1b6-877bf8566334": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_WOMENS_OUTER.png",
-              "link": "shopify:\/\/collections\/womens-outer",
+              "image": "shopify://shop_images/BANNER_WOMENS_OUTER.png",
+              "link": "shopify://collections/womens-outer",
               "title": "",
               "description": ""
             }
@@ -1439,8 +1431,8 @@
           "e52d27fc-1207-4424-a794-826214563351": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_WOMENS_DRESSES_JUMPSUIT.png",
-              "link": "shopify:\/\/collections\/womens-dresses-and-jumpsuit",
+              "image": "shopify://shop_images/BANNER_WOMENS_DRESSES_JUMPSUIT.png",
+              "link": "shopify://collections/womens-dresses-and-jumpsuit",
               "title": "",
               "description": ""
             }
@@ -1448,8 +1440,8 @@
           "21b672a1-304b-483b-a69c-6ea71b863690": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_WOMENS_SHORT.png",
-              "link": "shopify:\/\/collections\/womens-shorts",
+              "image": "shopify://shop_images/BANNER_WOMENS_SHORT.png",
+              "link": "shopify://collections/womens-shorts",
               "title": "",
               "description": ""
             }
@@ -1457,8 +1449,8 @@
           "ec5fffec-44ea-4b5e-847d-643f57b9d1e9": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_WOMENS_SKIRT.png",
-              "link": "shopify:\/\/collections\/womens-skirt",
+              "image": "shopify://shop_images/BANNER_WOMENS_SKIRT.png",
+              "link": "shopify://collections/womens-skirt",
               "title": "",
               "description": ""
             }
@@ -1466,8 +1458,8 @@
           "b1d7b7ed-21bb-4847-9b66-13d84bee2e2e": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_WOMENS_PANTS.png",
-              "link": "shopify:\/\/collections\/womens-pants",
+              "image": "shopify://shop_images/BANNER_WOMENS_PANTS.png",
+              "link": "shopify://collections/womens-pants",
               "title": "",
               "description": ""
             }
@@ -1475,8 +1467,8 @@
           "b05014db-9fcf-4177-9c01-94069abad3f7": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_WOMENS_SWIMWEAR.png",
-              "link": "shopify:\/\/collections\/womens-swimwear",
+              "image": "shopify://shop_images/BANNER_WOMENS_SWIMWEAR.png",
+              "link": "shopify://collections/womens-swimwear",
               "title": "",
               "description": ""
             }
@@ -1484,8 +1476,8 @@
           "cb7ca7b2-fc6b-4d4a-9ac9-6e633b2915d2": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_WOMENS_LINGERIE.png",
-              "link": "shopify:\/\/collections\/womens-lingerie",
+              "image": "shopify://shop_images/BANNER_WOMENS_LINGERIE.png",
+              "link": "shopify://collections/womens-lingerie",
               "title": "",
               "description": ""
             }
@@ -1539,8 +1531,8 @@
           "f7ce094b-60c6-46d5-92c8-6c5e3b7982c2": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_WOMENS_CASES.jpg",
-              "link": "shopify:\/\/collections\/womens-cases",
+              "image": "shopify://shop_images/Sonderlab-Web_WOMENS_CASES.jpg",
+              "link": "shopify://collections/womens-cases",
               "title": "",
               "description": ""
             }
@@ -1548,8 +1540,8 @@
           "79d20d49-6c52-4397-bd7c-9b28b626230d": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_WOMENS_EYEWEAR.jpg",
-              "link": "shopify:\/\/collections\/womens-eyewear",
+              "image": "shopify://shop_images/Sonderlab-Web_WOMENS_EYEWEAR.jpg",
+              "link": "shopify://collections/womens-eyewear",
               "title": "",
               "description": ""
             }
@@ -1557,8 +1549,8 @@
           "99a7ffeb-15e4-471e-bdd3-221e26013bce": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_WOMENS_HATS.jpg",
-              "link": "shopify:\/\/collections\/womens-hat",
+              "image": "shopify://shop_images/Sonderlab-Web_WOMENS_HATS.jpg",
+              "link": "shopify://collections/womens-hat",
               "title": "",
               "description": ""
             }
@@ -1566,8 +1558,8 @@
           "5b4362ce-fd98-4d44-a4d1-9417f3def1a6": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_WOMENS_mask.jpg",
-              "link": "shopify:\/\/collections\/womens-mask",
+              "image": "shopify://shop_images/Sonderlab-Web_WOMENS_mask.jpg",
+              "link": "shopify://collections/womens-mask",
               "title": "",
               "description": ""
             }
@@ -1605,8 +1597,8 @@
           "bbfeecc1-d690-4301-98cc-1b5a1b5e7345": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_WOMENS_BRACELET.jpg",
-              "link": "shopify:\/\/collections\/womens-bracelet",
+              "image": "shopify://shop_images/Sonderlab-Web_WOMENS_BRACELET.jpg",
+              "link": "shopify://collections/womens-bracelet",
               "title": "",
               "description": ""
             }
@@ -1614,8 +1606,8 @@
           "92c95852-7f75-448e-9571-c7a762e77ee5": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_WOMENS_EARRINGS.jpg",
-              "link": "shopify:\/\/collections\/womens-earring",
+              "image": "shopify://shop_images/Sonderlab-Web_WOMENS_EARRINGS.jpg",
+              "link": "shopify://collections/womens-earring",
               "title": "",
               "description": ""
             }
@@ -1623,8 +1615,8 @@
           "df30e5bb-6b8f-4471-96f9-0cbe8f6b861b": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_WOMENS_NECKLACE.jpg",
-              "link": "shopify:\/\/collections\/womens-necklace",
+              "image": "shopify://shop_images/Sonderlab-Web_WOMENS_NECKLACE.jpg",
+              "link": "shopify://collections/womens-necklace",
               "title": "",
               "description": ""
             }
@@ -1632,8 +1624,8 @@
           "2bd8a238-417d-4dce-b461-4470fe4042c1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_WOMENS_Ring.jpg",
-              "link": "shopify:\/\/collections\/womens-ring",
+              "image": "shopify://shop_images/Sonderlab-Web_WOMENS_Ring.jpg",
+              "link": "shopify://collections/womens-ring",
               "title": "",
               "description": ""
             }
@@ -1671,8 +1663,8 @@
           "59895301-cfeb-48a8-829c-523876a63b13": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_WOMENS_Sandals.jpg",
-              "link": "shopify:\/\/collections\/womens-sandals",
+              "image": "shopify://shop_images/Sonderlab-Web_WOMENS_Sandals.jpg",
+              "link": "shopify://collections/womens-sandals",
               "title": "",
               "description": ""
             }
@@ -1680,8 +1672,8 @@
           "b05bb5e1-aec4-4c85-a252-ca578c2ef132": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_WOMENS_SHOES.jpg",
-              "link": "shopify:\/\/collections\/womens-footwear",
+              "image": "shopify://shop_images/Sonderlab-Web_WOMENS_SHOES.jpg",
+              "link": "shopify://collections/womens-footwear",
               "title": "",
               "description": ""
             }
@@ -1717,8 +1709,8 @@
           "dc00c46f-4485-4856-92b3-a5882f59328d": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_MENS_BAGS_30f8b5cc-314e-427a-bb8a-2cd21ae239eb.jpg",
-              "link": "shopify:\/\/collections\/mens-bag",
+              "image": "shopify://shop_images/Sonderlab-Web_MENS_BAGS_30f8b5cc-314e-427a-bb8a-2cd21ae239eb.jpg",
+              "link": "shopify://collections/mens-bag",
               "title": "",
               "description": ""
             }
@@ -1726,8 +1718,8 @@
           "8d70be40-e04e-462f-aed3-35d1df4e286e": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_MENS_Wallett.jpg",
-              "link": "shopify:\/\/collections\/mens-wallet",
+              "image": "shopify://shop_images/Sonderlab-Web_MENS_Wallett.jpg",
+              "link": "shopify://collections/mens-wallet",
               "title": "",
               "description": ""
             }
@@ -1813,8 +1805,8 @@
           "8049d342-1917-4fc0-8e66-616bbc8fc83a": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_WOMENS_BAGS_682b0363-3c3b-47fd-a18e-d780655ba52b.jpg",
-              "link": "shopify:\/\/collections\/womens-bag",
+              "image": "shopify://shop_images/Sonderlab-Web_WOMENS_BAGS_682b0363-3c3b-47fd-a18e-d780655ba52b.jpg",
+              "link": "shopify://collections/womens-bag",
               "title": "",
               "description": ""
             }
@@ -1822,8 +1814,8 @@
           "b3afcd4a-7b9a-44be-9f71-ee6c8a2f623b": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_WOMENS_WALLET_3c434f15-98f4-411c-9b9f-a648170900d6.jpg",
-              "link": "shopify:\/\/collections\/womens-wallet",
+              "image": "shopify://shop_images/Sonderlab-Web_WOMENS_WALLET_3c434f15-98f4-411c-9b9f-a648170900d6.jpg",
+              "link": "shopify://collections/womens-wallet",
               "title": "",
               "description": ""
             }
@@ -1879,8 +1871,8 @@
           "e34ea38c-77ba-4e21-90e0-16b625799a5d": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_MENS_FACE.jpg",
-              "link": "shopify:\/\/collections\/face",
+              "image": "shopify://shop_images/Sonderlab-Web_MENS_FACE.jpg",
+              "link": "shopify://collections/face",
               "title": "",
               "description": ""
             }
@@ -1888,8 +1880,8 @@
           "aac96527-46dd-476a-b937-21b3617ba550": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_MENS_body.jpg",
-              "link": "shopify:\/\/collections\/body",
+              "image": "shopify://shop_images/Sonderlab-Web_MENS_body.jpg",
+              "link": "shopify://collections/body",
               "title": "",
               "description": ""
             }
@@ -1925,8 +1917,8 @@
           "c969d35d-1e90-4653-b643-5afecfe999b7": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_WOMENS_FACE.jpg",
-              "link": "shopify:\/\/collections\/face",
+              "image": "shopify://shop_images/Sonderlab-Web_WOMENS_FACE.jpg",
+              "link": "shopify://collections/face",
               "title": "",
               "description": ""
             }
@@ -1934,8 +1926,8 @@
           "a5f8b967-dcf0-4901-81cf-bcd9bac4b45d": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sonderlab-Web_WOMENS_Body.jpg",
-              "link": "shopify:\/\/collections\/body",
+              "image": "shopify://shop_images/Sonderlab-Web_WOMENS_Body.jpg",
+              "link": "shopify://collections/body",
               "title": "",
               "description": ""
             }
@@ -1958,8 +1950,8 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/2000x450_NY-04.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/2000_Mobile_NY-04.jpg",
+              "image": "shopify://shop_images/2000x450_NY-04.jpg",
+              "mobile_image": "shopify://shop_images/2000_Mobile_NY-04.jpg",
               "subheading": "",
               "title": "",
               "text": "",
@@ -1977,8 +1969,8 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/Banner_List_Brand-06_1.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/WhatsApp_Image_2021-09-24_at_23.37.18.jpg",
+              "image": "shopify://shop_images/Banner_List_Brand-06_1.jpg",
+              "mobile_image": "shopify://shop_images/WhatsApp_Image_2021-09-24_at_23.37.18.jpg",
               "subheading": "",
               "title": "",
               "text": "",
@@ -2025,56 +2017,56 @@
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0": {
             "type": "category",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/SPORTY_b426700d-0064-4bae-9519-107bb9d2b87c.png",
+              "category_img": "shopify://shop_images/SPORTY_b426700d-0064-4bae-9519-107bb9d2b87c.png",
               "category_target": "sporty-and-rich"
             }
           },
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7": {
             "type": "category",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/BATOE_2ae9f7dc-ff22-45ef-8e9c-f35c278c3f04.png",
+              "category_img": "shopify://shop_images/BATOE_2ae9f7dc-ff22-45ef-8e9c-f35c278c3f04.png",
               "category_target": "batoe"
             }
           },
           "9c94ea9f-ad02-4a9a-9206-1ca37323641e": {
             "type": "category",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/PERCA_49b439c3-7268-442a-bc4b-2a580901223a.png",
+              "category_img": "shopify://shop_images/PERCA_49b439c3-7268-442a-bc4b-2a580901223a.png",
               "category_target": "perca-project"
             }
           },
           "9a0077c3-e56b-4360-809f-d7946e427804": {
             "type": "category",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/ALTO.png",
+              "category_img": "shopify://shop_images/ALTO.png",
               "category_target": "alto-project"
             }
           },
           "cd09ea28-a154-4665-b47b-bdf31b89f0a4": {
             "type": "category",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/NANOU_1ef297d0-9864-48e8-9bad-cc084694aef9.png",
+              "category_img": "shopify://shop_images/NANOU_1ef297d0-9864-48e8-9bad-cc084694aef9.png",
               "category_target": "nanou-the-brand"
             }
           },
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d": {
             "type": "category",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/HLAII.png",
+              "category_img": "shopify://shop_images/HLAII.png",
               "category_target": "exclusive-collection"
             }
           },
           "6ae10d52-e0b2-479f-88db-5f6137e04f9d": {
             "type": "category",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/bysonder_83abc07c-9c9b-4545-8f96-13d92afa46e5.png",
+              "category_img": "shopify://shop_images/bysonder_83abc07c-9c9b-4545-8f96-13d92afa46e5.png",
               "category_target": "sonderlab"
             }
           },
           "95cad93d-6d14-48c2-aeef-f736adf2fccb": {
             "type": "category",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/AKILA_dfb09e09-5770-441b-b39c-29e6c8632aea.png",
+              "category_img": "shopify://shop_images/AKILA_dfb09e09-5770-441b-b39c-29e6c8632aea.png",
               "category_target": "akila"
             }
           }
@@ -2120,17 +2112,17 @@
           "d4197604-ce7c-4c81-ad7f-8b9749d33239": {
             "type": "category",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/MEN_5c07f270-a906-4538-a939-ff2e20b969fa.png",
+              "category_img": "shopify://shop_images/MEN_5c07f270-a906-4538-a939-ff2e20b969fa.png",
               "category_title": "",
-              "category_target": "shopify:\/\/collections\/men"
+              "category_target": "shopify://collections/men"
             }
           },
           "993979fc-a04a-4452-85aa-7b320a6552b0": {
             "type": "category",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/WOMEN_15a1138c-130e-41be-8c4d-d851da478ea4.png",
+              "category_img": "shopify://shop_images/WOMEN_15a1138c-130e-41be-8c4d-d851da478ea4.png",
               "category_title": "",
-              "category_target": "shopify:\/\/collections\/women"
+              "category_target": "shopify://collections/women"
             }
           }
         },
@@ -2165,97 +2157,97 @@
           "96a73edc-887f-44ba-9784-295dd10452fb": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/Artboard_1_4af01176-e4b1-457a-b32a-e8a0ed744f91.png",
-              "image_mobile": "shopify:\/\/shop_images\/Artboard_1_4af01176-e4b1-457a-b32a-e8a0ed744f91.png",
+              "image_desktop": "shopify://shop_images/Artboard_1_4af01176-e4b1-457a-b32a-e8a0ed744f91.png",
+              "image_mobile": "shopify://shop_images/Artboard_1_4af01176-e4b1-457a-b32a-e8a0ed744f91.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/published-by"
+              "url": "shopify://collections/published-by"
             }
           },
           "f13608dc-cce4-404d-927d-223b90a15dbc": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/Artboard_18_577f60a4-93c8-4b69-8bd1-837a862ba573.png",
-              "image_mobile": "shopify:\/\/shop_images\/Artboard_18_577f60a4-93c8-4b69-8bd1-837a862ba573.png",
+              "image_desktop": "shopify://shop_images/Artboard_18_577f60a4-93c8-4b69-8bd1-837a862ba573.png",
+              "image_mobile": "shopify://shop_images/Artboard_18_577f60a4-93c8-4b69-8bd1-837a862ba573.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/one-off-ones"
+              "url": "shopify://collections/one-off-ones"
             }
           },
           "97e528c8-5480-497d-9897-8e270e1ad11a": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/Artboard_16_ce42d32e-a562-4ca3-91f9-dc6f694526a2.png",
-              "image_mobile": "shopify:\/\/shop_images\/Artboard_16_ce42d32e-a562-4ca3-91f9-dc6f694526a2.png",
+              "image_desktop": "shopify://shop_images/Artboard_16_ce42d32e-a562-4ca3-91f9-dc6f694526a2.png",
+              "image_mobile": "shopify://shop_images/Artboard_16_ce42d32e-a562-4ca3-91f9-dc6f694526a2.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/erlina-erlina"
+              "url": "shopify://collections/erlina-erlina"
             }
           },
           "d667a2e0-8403-4b9b-9b8b-8dbc46e58d15": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/Artboard_2_a8d463cf-38d5-4ffd-97db-acf54cc807ba.png",
-              "image_mobile": "shopify:\/\/shop_images\/Artboard_2_a8d463cf-38d5-4ffd-97db-acf54cc807ba.png",
+              "image_desktop": "shopify://shop_images/Artboard_2_a8d463cf-38d5-4ffd-97db-acf54cc807ba.png",
+              "image_mobile": "shopify://shop_images/Artboard_2_a8d463cf-38d5-4ffd-97db-acf54cc807ba.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/song-for-the-mute"
+              "url": "shopify://collections/song-for-the-mute"
             }
           },
           "40306223-14f6-48fd-ad87-cd64126dc86f": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/Artboard_17_afc1b866-d3e0-48f7-bfde-c8d45523eb87.png",
-              "image_mobile": "shopify:\/\/shop_images\/Artboard_17_afc1b866-d3e0-48f7-bfde-c8d45523eb87.png",
+              "image_desktop": "shopify://shop_images/Artboard_17_afc1b866-d3e0-48f7-bfde-c8d45523eb87.png",
+              "image_mobile": "shopify://shop_images/Artboard_17_afc1b866-d3e0-48f7-bfde-c8d45523eb87.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/saroong-atelier"
+              "url": "shopify://collections/saroong-atelier"
             }
           },
           "c7edf080-46fe-4793-9346-ae72de30e98a": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/Artboard_19_f0f81ad6-1ba0-45df-b6f3-a58247a04e58.png",
-              "image_mobile": "shopify:\/\/shop_images\/Artboard_19_f0f81ad6-1ba0-45df-b6f3-a58247a04e58.png",
+              "image_desktop": "shopify://shop_images/Artboard_19_f0f81ad6-1ba0-45df-b6f3-a58247a04e58.png",
+              "image_mobile": "shopify://shop_images/Artboard_19_f0f81ad6-1ba0-45df-b6f3-a58247a04e58.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/rassvet"
+              "url": "shopify://collections/rassvet"
             }
           },
           "left_slideshow_Uynt3r": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/SPORTY_WEB_784753c0-9f91-494f-b59d-022d43219a0f.png",
-              "image_mobile": "shopify:\/\/shop_images\/SPORTY_MOBILE_c1b642c1-058a-4dea-9a1a-16b59ce3b50d.png",
+              "image_desktop": "shopify://shop_images/SPORTY_WEB_784753c0-9f91-494f-b59d-022d43219a0f.png",
+              "image_mobile": "shopify://shop_images/SPORTY_MOBILE_c1b642c1-058a-4dea-9a1a-16b59ce3b50d.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/sporty-and-rich"
+              "url": "shopify://collections/sporty-and-rich"
             }
           },
           "6eab1dcc-4d02-4c4e-95e6-52081b8281a0": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/AKILA_WEB.png",
-              "image_mobile": "shopify:\/\/shop_images\/AKILA_MOBILE.png",
+              "image_desktop": "shopify://shop_images/AKILA_WEB.png",
+              "image_mobile": "shopify://shop_images/AKILA_MOBILE.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/akila"
+              "url": "shopify://collections/akila"
             }
           },
           "left_slideshow_TrGFfi": {
             "type": "left_slideshow",
             "disabled": true,
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/VALENTINE_WEB_53630044-d3bc-46d4-b051-eadfb1545aea.png",
-              "image_mobile": "shopify:\/\/shop_images\/VALENTINE_f4f0f7d0-afed-460f-83d4-b2d2e19eb260.png",
+              "image_desktop": "shopify://shop_images/VALENTINE_WEB_53630044-d3bc-46d4-b051-eadfb1545aea.png",
+              "image_mobile": "shopify://shop_images/VALENTINE_f4f0f7d0-afed-460f-83d4-b2d2e19eb260.png",
               "title": "",
               "description": "",
               "button_title": "",
@@ -2266,85 +2258,85 @@
             "type": "left_slideshow",
             "disabled": true,
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/VALENTINE_WEB.png",
-              "image_mobile": "shopify:\/\/shop_images\/VALENTINE.png",
+              "image_desktop": "shopify://shop_images/VALENTINE_WEB.png",
+              "image_mobile": "shopify://shop_images/VALENTINE.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/sweat-affection"
+              "url": "shopify://collections/sweat-affection"
             }
           },
           "4fcffd14-8665-41e6-bd9c-2594e98f8336": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/DIBBA_5b8697e3-ef7e-44d3-abef-e895760b6396.png",
-              "image_mobile": "shopify:\/\/shop_images\/DIBBA_MOBILE.png",
+              "image_desktop": "shopify://shop_images/DIBBA_5b8697e3-ef7e-44d3-abef-e895760b6396.png",
+              "image_mobile": "shopify://shop_images/DIBBA_MOBILE.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/dibba"
+              "url": "shopify://collections/dibba"
             }
           },
           "left_slideshow_z9U9yp": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/HANAKA_WEB_f169a73e-d0f6-4d96-9349-97391124b686.png",
-              "image_mobile": "shopify:\/\/shop_images\/HANAKA_MOBILE_565eccb3-08ca-448f-9290-09b3ab7335cc.png",
+              "image_desktop": "shopify://shop_images/HANAKA_WEB_f169a73e-d0f6-4d96-9349-97391124b686.png",
+              "image_mobile": "shopify://shop_images/HANAKA_MOBILE_565eccb3-08ca-448f-9290-09b3ab7335cc.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/hanaka"
+              "url": "shopify://collections/hanaka"
             }
           },
           "left_slideshow_7HEBwD": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/NACHE_WEB.png",
-              "image_mobile": "shopify:\/\/shop_images\/NACHE_MOBILE.png",
+              "image_desktop": "shopify://shop_images/NACHE_WEB.png",
+              "image_mobile": "shopify://shop_images/NACHE_MOBILE.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/exclusive-release"
+              "url": "shopify://collections/exclusive-release"
             }
           },
           "15c2ab47-27e6-418d-861d-cce7cccbbe3a": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/RASSVET_WEB.png",
-              "image_mobile": "shopify:\/\/shop_images\/RASSVET_MOBILE.png",
+              "image_desktop": "shopify://shop_images/RASSVET_WEB.png",
+              "image_mobile": "shopify://shop_images/RASSVET_MOBILE.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/rassvet"
+              "url": "shopify://collections/rassvet"
             }
           },
           "da877537-5f7f-43a0-9a79-b15cd937c5c0": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/PORTER_WEB.png",
-              "image_mobile": "shopify:\/\/shop_images\/PORTER_MOBILE.png",
+              "image_desktop": "shopify://shop_images/PORTER_WEB.png",
+              "image_mobile": "shopify://shop_images/PORTER_MOBILE.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/porter"
+              "url": "shopify://collections/porter"
             }
           },
           "63d76e5e-72b1-4288-8df2-2c634aeb13a1": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/YUME_WEB_7ffe5bf3-bba4-4f40-83e9-48643e3f7a5f.png",
-              "image_mobile": "shopify:\/\/shop_images\/YUME_MOBILE_32327c10-98ba-482a-b912-b90aea49d439.png",
+              "image_desktop": "shopify://shop_images/YUME_WEB_7ffe5bf3-bba4-4f40-83e9-48643e3f7a5f.png",
+              "image_mobile": "shopify://shop_images/YUME_MOBILE_32327c10-98ba-482a-b912-b90aea49d439.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/yume-yume"
+              "url": "shopify://collections/yume-yume"
             }
           },
           "left_slideshow_A8hTkV": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/BRI_WEB.png",
-              "image_mobile": "shopify:\/\/shop_images\/BRI_MOBILE.png",
+              "image_desktop": "shopify://shop_images/BRI_WEB.png",
+              "image_mobile": "shopify://shop_images/BRI_MOBILE.png",
               "title": "",
               "description": "",
               "button_title": "",
@@ -2354,56 +2346,56 @@
           "649ab954-ca6f-4863-a02e-be3777967b74": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/RV_WEB.png",
-              "image_mobile": "shopify:\/\/shop_images\/RV_MOBILE.png",
+              "image_desktop": "shopify://shop_images/RV_WEB.png",
+              "image_mobile": "shopify://shop_images/RV_MOBILE.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/exclusive-collection"
+              "url": "shopify://collections/exclusive-collection"
             }
           },
           "left_slideshow_tkKGPR": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/TOGA_WEB_8411954a-7496-4043-9d0c-c487834f9a06.png",
-              "image_mobile": "shopify:\/\/shop_images\/TOGA_MOBILE_256fc22c-60fc-42e7-816f-424961b968b8.png",
+              "image_desktop": "shopify://shop_images/TOGA_WEB_8411954a-7496-4043-9d0c-c487834f9a06.png",
+              "image_mobile": "shopify://shop_images/TOGA_MOBILE_256fc22c-60fc-42e7-816f-424961b968b8.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/toga-x-porter-exclusive-preview"
+              "url": "shopify://collections/toga-x-porter-exclusive-preview"
             }
           },
           "left_slideshow_kHKJEA": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/SONG_WEB.png",
-              "image_mobile": "shopify:\/\/shop_images\/SONG_MOBILE.png",
+              "image_desktop": "shopify://shop_images/SONG_WEB.png",
+              "image_mobile": "shopify://shop_images/SONG_MOBILE.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/song-for-the-mute"
+              "url": "shopify://collections/song-for-the-mute"
             }
           },
           "9588db3d-9f72-455c-8c69-06a09b6bc9f4": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/SA_WEB.png",
-              "image_mobile": "shopify:\/\/shop_images\/SA_MOBILE.png",
+              "image_desktop": "shopify://shop_images/SA_WEB.png",
+              "image_mobile": "shopify://shop_images/SA_MOBILE.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/space-available"
+              "url": "shopify://collections/space-available"
             }
           },
           "f895d03b-1516-40ad-8d75-2793f73ea255": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/OPEN_YY_WEB.png",
-              "image_mobile": "shopify:\/\/shop_images\/OPEN_YY_MOBILE.png",
+              "image_desktop": "shopify://shop_images/OPEN_YY_WEB.png",
+              "image_mobile": "shopify://shop_images/OPEN_YY_MOBILE.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/theopen-product"
+              "url": "shopify://collections/theopen-product"
             }
           }
         },
@@ -2444,8 +2436,8 @@
           "6997b69c-110e-45f2-8b99-28d7a079ad79": {
             "type": "slider_banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ss-1-d.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/ss-1-m.jpg",
+              "image": "shopify://shop_images/ss-1-d.jpg",
+              "image_mobile": "shopify://shop_images/ss-1-m.jpg",
               "title": "",
               "alternate_title": "",
               "richtext": "",
@@ -2455,8 +2447,8 @@
           "ef25a9fc-d542-4053-ab4d-22e22473a52f": {
             "type": "slider_banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ss-2-d.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/ss-2-m.jpg",
+              "image": "shopify://shop_images/ss-2-d.jpg",
+              "image_mobile": "shopify://shop_images/ss-2-m.jpg",
               "title": "",
               "alternate_title": "",
               "richtext": "",
@@ -2466,8 +2458,8 @@
           "568bffa9-3870-485b-af8f-814078facc3c": {
             "type": "slider_banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ss-3-d.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/ss-3-m.jpg",
+              "image": "shopify://shop_images/ss-3-d.jpg",
+              "image_mobile": "shopify://shop_images/ss-3-m.jpg",
               "title": "",
               "alternate_title": "",
               "richtext": "",
@@ -2477,8 +2469,8 @@
           "1285783d-6567-4ddd-b4f6-c05e9317c1bf": {
             "type": "slider_banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ss-4-d.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/ss-4-m.jpg",
+              "image": "shopify://shop_images/ss-4-d.jpg",
+              "image_mobile": "shopify://shop_images/ss-4-m.jpg",
               "title": "",
               "alternate_title": "",
               "richtext": "",
@@ -2494,8 +2486,8 @@
         ],
         "disabled": true,
         "settings": {
-          "image": "shopify:\/\/shop_images\/ss-1-d.jpg",
-          "image_mobile": "shopify:\/\/shop_images\/ss-1-m.jpg",
+          "image": "shopify://shop_images/ss-1-d.jpg",
+          "image_mobile": "shopify://shop_images/ss-1-m.jpg",
           "title": "",
           "alternate_title": "",
           "richtext": "",
@@ -2506,7 +2498,7 @@
         "type": "announcement-running-text",
         "settings": {
           "title": "A NEW AND REDEFINING ERA FOR SONDERLAB HAS ARRIVED. FIND OUT MORE HERE.",
-          "url": "shopify:\/\/collections\/sonderlab",
+          "url": "shopify://collections/sonderlab",
           "title_size": 10,
           "title_size_mobile": 10
         }
@@ -2550,12 +2542,12 @@
         "type": "alternate-banner",
         "disabled": true,
         "settings": {
-          "image": "shopify:\/\/shop_images\/SONDERSELECT_DESKTOP_3x-100.jpg",
-          "image_mobile": "shopify:\/\/shop_images\/SONDERSELECT_MOBILE_3x-100.jpg",
+          "image": "shopify://shop_images/SONDERSELECT_DESKTOP_3x-100.jpg",
+          "image_mobile": "shopify://shop_images/SONDERSELECT_MOBILE_3x-100.jpg",
           "title": "",
           "alternate_title": "",
           "richtext": "",
-          "url": "shopify:\/\/collections\/sonder-select"
+          "url": "shopify://collections/sonder-select"
         }
       },
       "ce2d5476-807a-4710-8840-b0ceacc0eb49": {
@@ -2564,243 +2556,243 @@
           "34c1b92f-36fb-4b69-a5b0-5aaf0482b17a": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/BANNER_WEB_BARU.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/RUNNING_BANNER_MOBILE_BARU.jpg",
+              "image_desktop": "shopify://shop_images/BANNER_WEB_BARU.jpg",
+              "image_mobile": "shopify://shop_images/RUNNING_BANNER_MOBILE_BARU.jpg",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/exclusive-collection"
+              "url": "shopify://collections/exclusive-collection"
             }
           },
           "49e46af2-705c-433b-91b9-fc1fe919a812": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/AKILA_ER.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/AKILA_ER_MOBILE.jpg",
+              "image_desktop": "shopify://shop_images/AKILA_ER.jpg",
+              "image_mobile": "shopify://shop_images/AKILA_ER_MOBILE.jpg",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/exclusive-release"
+              "url": "shopify://collections/exclusive-release"
             }
           },
           "78dec986-fffa-4756-b61b-20de78e3fe0c": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/NACHE_ER.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/NACHE_ER_MOBILE.jpg",
+              "image_desktop": "shopify://shop_images/NACHE_ER.jpg",
+              "image_mobile": "shopify://shop_images/NACHE_ER_MOBILE.jpg",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/exclusive-release"
+              "url": "shopify://collections/exclusive-release"
             }
           },
           "be587ffc-eaac-410c-90ba-0ece971ef4a8": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/KALA_WEB_47c894c7-cdff-428f-b3ff-d7cee58fb1f1.png",
-              "image_mobile": "shopify:\/\/shop_images\/KALA_b86b2499-5540-4b24-9e48-b8a69a60bc92.png",
+              "image_desktop": "shopify://shop_images/KALA_WEB_47c894c7-cdff-428f-b3ff-d7cee58fb1f1.png",
+              "image_mobile": "shopify://shop_images/KALA_b86b2499-5540-4b24-9e48-b8a69a60bc92.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/exclusive-release"
+              "url": "shopify://collections/exclusive-release"
             }
           },
           "3aba305e-82f1-4f40-b544-b8cfec1981ab": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/SEGI_WEB_BARU.png",
-              "image_mobile": "shopify:\/\/shop_images\/SEGI_MOBILE_BARU.png",
+              "image_desktop": "shopify://shop_images/SEGI_WEB_BARU.png",
+              "image_mobile": "shopify://shop_images/SEGI_MOBILE_BARU.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/only-on-sonderlab"
+              "url": "shopify://collections/only-on-sonderlab"
             }
           },
           "732d9853-b4e7-41b1-81be-6f86a8f4244b": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/BANNER_WEB_TOKODIDIYO_BARU.png",
-              "image_mobile": "shopify:\/\/shop_images\/RUNNING_BANNER_TOKO_DIDIYO_MOBILE_BARU_da327ede-77db-4abd-8370-6945f56e5197.png",
+              "image_desktop": "shopify://shop_images/BANNER_WEB_TOKODIDIYO_BARU.png",
+              "image_mobile": "shopify://shop_images/RUNNING_BANNER_TOKO_DIDIYO_MOBILE_BARU_da327ede-77db-4abd-8370-6945f56e5197.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/exclusive-collection"
+              "url": "shopify://collections/exclusive-collection"
             }
           },
           "162a316f-94a5-40b3-bfc4-e74b1c38455e": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/BANNER_WEB_BARU.png",
-              "image_mobile": "shopify:\/\/shop_images\/RUNNING_BANNER_MOBILE_BARU.png",
+              "image_desktop": "shopify://shop_images/BANNER_WEB_BARU.png",
+              "image_mobile": "shopify://shop_images/RUNNING_BANNER_MOBILE_BARU.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/only-on-sonderlab"
+              "url": "shopify://collections/only-on-sonderlab"
             }
           },
           "fec17aa0-5ab5-40b6-8c93-cd3343768044": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/BANNER_WEB_MASOU_BARU.png",
-              "image_mobile": "shopify:\/\/shop_images\/RUNNING_BANNER_MASOUMOBILE_BARU.png",
+              "image_desktop": "shopify://shop_images/BANNER_WEB_MASOU_BARU.png",
+              "image_mobile": "shopify://shop_images/RUNNING_BANNER_MASOUMOBILE_BARU.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/masou-atelier"
+              "url": "shopify://collections/masou-atelier"
             }
           },
           "32ea0def-a2bf-4207-a09a-49a900284b44": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/BANNER_WEB_PERCA.png",
-              "image_mobile": "shopify:\/\/shop_images\/RUNNING_BANNER_MOBILE_PERCA.png",
+              "image_desktop": "shopify://shop_images/BANNER_WEB_PERCA.png",
+              "image_mobile": "shopify://shop_images/RUNNING_BANNER_MOBILE_PERCA.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/perca-project"
+              "url": "shopify://collections/perca-project"
             }
           },
           "e3fe5210-2840-4a1f-b404-16c549cb2c67": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/OLINE_WEB.png",
-              "image_mobile": "shopify:\/\/shop_images\/OLINE_MOBILE.png",
+              "image_desktop": "shopify://shop_images/OLINE_WEB.png",
+              "image_mobile": "shopify://shop_images/OLINE_MOBILE.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/sonderlab-exclusive"
+              "url": "shopify://collections/sonderlab-exclusive"
             }
           },
           "866fb40a-cd82-4ff1-9a2f-40da1a3671c0": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/CAPSUL_WEB.png",
-              "image_mobile": "shopify:\/\/shop_images\/CAPSUL_MOBILE.png",
+              "image_desktop": "shopify://shop_images/CAPSUL_WEB.png",
+              "image_mobile": "shopify://shop_images/CAPSUL_MOBILE.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/sonderlab-exclusive"
+              "url": "shopify://collections/sonderlab-exclusive"
             }
           },
           "03a607a1-f187-483d-96d2-eaa9cc571729": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/RAW_EMO_MOBILE.png",
-              "image_mobile": "shopify:\/\/shop_images\/RAW_EMO_WEB.png",
+              "image_desktop": "shopify://shop_images/RAW_EMO_MOBILE.png",
+              "image_mobile": "shopify://shop_images/RAW_EMO_WEB.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/sonderlab-exclusive"
+              "url": "shopify://collections/sonderlab-exclusive"
             }
           },
           "1a62f8e9-77be-436c-aa5a-ec8e071fe473": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/HIGHLIGHTArtboard_2.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/HIGHLIGHTArtboard_2.jpg",
+              "image_desktop": "shopify://shop_images/HIGHLIGHTArtboard_2.jpg",
+              "image_mobile": "shopify://shop_images/HIGHLIGHTArtboard_2.jpg",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/only-on-sonderlab"
+              "url": "shopify://collections/only-on-sonderlab"
             }
           },
           "2d609ca1-dcc1-463b-b570-bb54d1df907a": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/HIGHLIGHTArtboard_4.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/HIGHLIGHTArtboard_4.jpg",
+              "image_desktop": "shopify://shop_images/HIGHLIGHTArtboard_4.jpg",
+              "image_mobile": "shopify://shop_images/HIGHLIGHTArtboard_4.jpg",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/only-on-sonderlab"
+              "url": "shopify://collections/only-on-sonderlab"
             }
           },
           "7b2b95ff-b7a0-4617-9b66-c2e2ae810c6b": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/HIGHLIGHTArtboard_5.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/HIGHLIGHTArtboard_5.jpg",
+              "image_desktop": "shopify://shop_images/HIGHLIGHTArtboard_5.jpg",
+              "image_mobile": "shopify://shop_images/HIGHLIGHTArtboard_5.jpg",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/only-on-sonderlab"
+              "url": "shopify://collections/only-on-sonderlab"
             }
           },
           "d773ff1e-fae2-486f-ba90-9778f8dda7b1": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/HIGHLIGHTArtboard_3.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/HIGHLIGHTArtboard_3.jpg",
+              "image_desktop": "shopify://shop_images/HIGHLIGHTArtboard_3.jpg",
+              "image_mobile": "shopify://shop_images/HIGHLIGHTArtboard_3.jpg",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/only-on-sonderlab"
+              "url": "shopify://collections/only-on-sonderlab"
             }
           },
           "right_slideshow_chjxhe": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/HIGHLIGHTArtboard_1.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/HIGHLIGHTArtboard_1.jpg",
+              "image_desktop": "shopify://shop_images/HIGHLIGHTArtboard_1.jpg",
+              "image_mobile": "shopify://shop_images/HIGHLIGHTArtboard_1.jpg",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/exclusive-collection"
+              "url": "shopify://collections/exclusive-collection"
             }
           },
           "right_slideshow_RkXdTa": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/RUMME_4e1c4240-8389-4011-971c-bb763213fcc6.png",
-              "image_mobile": "shopify:\/\/shop_images\/RUMME_4e1c4240-8389-4011-971c-bb763213fcc6.png",
+              "image_desktop": "shopify://shop_images/RUMME_4e1c4240-8389-4011-971c-bb763213fcc6.png",
+              "image_mobile": "shopify://shop_images/RUMME_4e1c4240-8389-4011-971c-bb763213fcc6.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/only-on-sonderlab"
+              "url": "shopify://collections/only-on-sonderlab"
             }
           },
           "right_slideshow_7MBDAY": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/PERCA_5fa70fa5-55e9-4421-a8ba-8dc28e62290f.png",
-              "image_mobile": "shopify:\/\/shop_images\/PERCA_5fa70fa5-55e9-4421-a8ba-8dc28e62290f.png",
+              "image_desktop": "shopify://shop_images/PERCA_5fa70fa5-55e9-4421-a8ba-8dc28e62290f.png",
+              "image_mobile": "shopify://shop_images/PERCA_5fa70fa5-55e9-4421-a8ba-8dc28e62290f.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/only-on-sonderlab"
+              "url": "shopify://collections/only-on-sonderlab"
             }
           },
           "right_slideshow_n8G4Ew": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/MASOU_5464e9da-6134-4954-8af0-b981a27e0256.png",
-              "image_mobile": "shopify:\/\/shop_images\/MASOU_5464e9da-6134-4954-8af0-b981a27e0256.png",
+              "image_desktop": "shopify://shop_images/MASOU_5464e9da-6134-4954-8af0-b981a27e0256.png",
+              "image_mobile": "shopify://shop_images/MASOU_5464e9da-6134-4954-8af0-b981a27e0256.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/only-on-sonderlab"
+              "url": "shopify://collections/only-on-sonderlab"
             }
           },
           "a03ac46e-cb8b-48c8-b3fb-266c7b536aee": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/HANAKA_e1aef77d-c609-4f53-891f-0bb63a94f0a3.png",
-              "image_mobile": "shopify:\/\/shop_images\/HANAKA_e1aef77d-c609-4f53-891f-0bb63a94f0a3.png",
+              "image_desktop": "shopify://shop_images/HANAKA_e1aef77d-c609-4f53-891f-0bb63a94f0a3.png",
+              "image_mobile": "shopify://shop_images/HANAKA_e1aef77d-c609-4f53-891f-0bb63a94f0a3.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/sonderlab-exclusive"
+              "url": "shopify://collections/sonderlab-exclusive"
             }
           },
           "4a4d5a83-1602-4847-8465-ba9d9519b9bb": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify:\/\/shop_images\/RAW_EMO_f05999d8-7f55-457b-9c4c-a03554cc1cc4.png",
-              "image_mobile": "shopify:\/\/shop_images\/RAW_EMO_f05999d8-7f55-457b-9c4c-a03554cc1cc4.png",
+              "image_desktop": "shopify://shop_images/RAW_EMO_f05999d8-7f55-457b-9c4c-a03554cc1cc4.png",
+              "image_mobile": "shopify://shop_images/RAW_EMO_f05999d8-7f55-457b-9c4c-a03554cc1cc4.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify:\/\/collections\/sonderlab-exclusive"
+              "url": "shopify://collections/sonderlab-exclusive"
             }
           }
         },
@@ -2838,17 +2830,17 @@
       "969dc4af-81a1-4a36-8bfb-c50e01c4fa68": {
         "type": "new-banner",
         "settings": {
-          "image_1": "shopify:\/\/shop_images\/SONDERLAB_4179d28c-8a5c-4e55-89c3-bc67097a1a9c.png",
+          "image_1": "shopify://shop_images/SONDERLAB_4179d28c-8a5c-4e55-89c3-bc67097a1a9c.png",
           "alt_image_1": "Alt Image 1",
-          "url_image_1": "shopify:\/\/collections\/sonderlab",
+          "url_image_1": "shopify://collections/sonderlab",
           "heading_image_1": "",
-          "image_2": "shopify:\/\/shop_images\/7A78CFB1-5D97-4EF5-8C6B-58CA59ABFEB0.jpg",
+          "image_2": "shopify://shop_images/7A78CFB1-5D97-4EF5-8C6B-58CA59ABFEB0.jpg",
           "alt_image_2": "Alt Image 2",
-          "url_image_2": "shopify:\/\/collections\/select-by-sonderlab",
+          "url_image_2": "shopify://collections/select-by-sonderlab",
           "heading_image_2": "",
-          "image_3": "shopify:\/\/shop_images\/SONDERSELECT.png",
+          "image_3": "shopify://shop_images/SONDERSELECT.png",
           "alt_image_3": "Alt Image 3",
-          "url_image_3": "shopify:\/\/collections\/sonder-select",
+          "url_image_3": "shopify://collections/sonder-select",
           "heading_image_3": ""
         }
       },
@@ -2862,7 +2854,7 @@
         "settings": {
           "subheading": "",
           "title": "",
-          "url": "https:\/\/youtu.be\/b-6fgdBswdE?si=qV6APTFhbfAYpEwo?controls=0&shofinfo=0",
+          "url": "https://youtu.be/b-6fgdBswdE?si=qV6APTFhbfAYpEwo?controls=0&shofinfo=0",
           "autoplay": true,
           "loop": true,
           "mute": true,
@@ -2885,22 +2877,20 @@
           "video_GyRjeP": {
             "type": "video",
             "settings": {
-              "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/81564d19944c48acb7e5ca3f1789bb3e.mp4",
-              "video_image": "shopify:\/\/shop_images\/Artboard_1_203076d3-4602-4fef-823e-f6d11aa309a4.png",
+              "video_link": "https://cdn.shopify.com/videos/c/o/v/892d3f79ba4a480fa5b1b3548c8da606.mp4",
+              "video_image": "shopify://shop_images/BANNER_STILL_STUDIO_PRIVATE_SALE.png",
               "overlay_opacity": 0,
               "title": "",
               "text": "",
               "color_text": "#ffffff",
               "button_label": "",
-              "button_link": "",
+              "button_link": "shopify://collections/studio-private-sale-1",
               "color_btn_bg": "#ffffff",
               "color_btn_text": "#ffffff"
             }
           }
         },
-        "block_order": [
-          "video_GyRjeP"
-        ],
+        "block_order": ["video_GyRjeP"],
         "settings": {}
       },
       "template--cart": {
@@ -2927,19 +2917,19 @@
     ],
     "blocks": {
       "15796953133730294439": {
-        "type": "shopify:\/\/apps\/growave-loyalty-wishlist-3\/blocks\/block.embed.socialshopwave-helper\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+        "type": "shopify://apps/growave-loyalty-wishlist-3/blocks/block.embed.socialshopwave-helper/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
         "disabled": false,
         "settings": {}
       },
       "5149645339031002760": {
-        "type": "shopify:\/\/apps\/order-limits-minmaxify\/blocks\/app-embed-block\/3acfba32-89f3-4377-ae20-cbb9abc48475",
+        "type": "shopify://apps/order-limits-minmaxify/blocks/app-embed-block/3acfba32-89f3-4377-ae20-cbb9abc48475",
         "disabled": false,
         "settings": {
           "async": false
         }
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
         "settings": {
           "button_color": "#202a36",
@@ -2951,22 +2941,22 @@
         }
       },
       "pagefly-page-builder": {
-        "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
+        "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
         "settings": {}
       },
       "16843599010748508989": {
-        "type": "shopify:\/\/apps\/simply-shipping-protection\/blocks\/simply-insurance\/e9bd463f-26d8-4126-9497-0375dca0f009",
+        "type": "shopify://apps/simply-shipping-protection/blocks/simply-insurance/e9bd463f-26d8-4126-9497-0375dca0f009",
         "disabled": false,
         "settings": {}
       },
       "13027630495364635475": {
-        "type": "shopify:\/\/apps\/discount-ninja\/blocks\/la-dn-app-embed-core-v5-assetless\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+        "type": "shopify://apps/discount-ninja/blocks/la-dn-app-embed-core-v5-assetless/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
         "disabled": false,
         "settings": {}
       },
       "10727672529976264282": {
-        "type": "shopify:\/\/apps\/discount-ninja\/blocks\/la-dn-app-embed-core-v5-assetless-1124\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+        "type": "shopify://apps/discount-ninja/blocks/la-dn-app-embed-core-v5-assetless-1124/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
         "disabled": true,
         "settings": {}
       }
@@ -2983,7 +2973,7 @@
       "buttons--capitalize": false,
       "enable-additional-checkout-buttons": true,
       "header_font_style": "normal",
-      "pop-up-text-description-text": "<p>Give your customers a reason to sign up to your newsletter<\/p>",
+      "pop-up-text-description-text": "<p>Give your customers a reason to sign up to your newsletter</p>",
       "popup--show-social-icons": false,
       "pop-up-background-color": "#e8edf1",
       "pop-up-text-color": "#333",
@@ -3027,12 +3017,7 @@
               "settings": {}
             }
           },
-          "block_order": [
-            "footer-0",
-            "footer-1",
-            "footer-2",
-            "footer-3"
-          ],
+          "block_order": ["footer-0", "footer-1", "footer-2", "footer-3"],
           "settings": {}
         },
         "image--slideshow": {
@@ -3043,9 +3028,9 @@
               "settings": {
                 "subheading": "Subheading",
                 "title": "Share your story",
-                "text": "<p>Here's your chance to make a great first impression<\/p>",
+                "text": "<p>Here's your chance to make a great first impression</p>",
                 "button_text": "Shop now",
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "caption-text": "#ffffff",
                 "button-text": "#ffffff",
                 "button-background": "#222222",
@@ -3057,9 +3042,9 @@
               "type": "image",
               "settings": {
                 "title": "Share your story",
-                "text": "<p>Here's your chance to make a great first impression<\/p>",
+                "text": "<p>Here's your chance to make a great first impression</p>",
                 "button_text": "Shop now",
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "caption-text": "#ffffff",
                 "button-text": "#ffffff",
                 "button-background": "#222222",
@@ -3067,10 +3052,7 @@
               }
             }
           },
-          "block_order": [
-            "image--slideshow-0",
-            "image--slideshow-1"
-          ],
+          "block_order": ["image--slideshow-0", "image--slideshow-1"],
           "settings": {
             "slider-width": "full-width",
             "caption-heading-size": 48
@@ -3107,11 +3089,7 @@
               "settings": {}
             }
           },
-          "block_order": [
-            "collection-0",
-            "collection-1",
-            "collection-2"
-          ],
+          "block_order": ["collection-0", "collection-1", "collection-2"],
           "settings": {
             "title": "Collection list"
           }
@@ -3120,10 +3098,10 @@
           "type": "image--image-with-text-overlay",
           "settings": {
             "title": "Share your story",
-            "text": "<p>Add a large image with text overlay to give focus to your chosen product, collection, or blog post<\/p>",
+            "text": "<p>Add a large image with text overlay to give focus to your chosen product, collection, or blog post</p>",
             "parallax": true,
             "hero_size": "medium",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_label": "Shop now"
           }
         },
@@ -3137,10 +3115,10 @@
           "type": "image--image-with-text-overlay",
           "settings": {
             "title": "Share your story",
-            "text": "<p>Add a large image with text overlay to give focus to your chosen product, collection, or blog post<\/p>",
+            "text": "<p>Add a large image with text overlay to give focus to your chosen product, collection, or blog post</p>",
             "parallax": true,
             "hero_size": "medium",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_label": "Shop now"
           }
         },
@@ -3195,7 +3173,7 @@
       "heading-case": "uppercase",
       "header_font_style": "normal",
       "pop-up-text-header-text": "Sign up today!",
-      "pop-up-text-description-text": "<p>Give your customers a reason to sign up to your newsletter<\/p>",
+      "pop-up-text-description-text": "<p>Give your customers a reason to sign up to your newsletter</p>",
       "popup--show-social-icons": false,
       "pop-up-background-color": "#fff",
       "pop-up-text-color": "#333",
@@ -3225,9 +3203,9 @@
               "settings": {
                 "subheading": "NEW",
                 "title": "Share your story",
-                "text": "<p>Here's your chance to make a great first impression<\/p>",
+                "text": "<p>Here's your chance to make a great first impression</p>",
                 "button_text": "Shop now",
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "caption-text": "#ffffff",
                 "button-text": "#ffffff",
                 "button-background": "#222222",
@@ -3240,9 +3218,9 @@
               "settings": {
                 "subheading": "NEW",
                 "title": "Share your story",
-                "text": "<p>Here's your chance to make a great first impression<\/p>",
+                "text": "<p>Here's your chance to make a great first impression</p>",
                 "button_text": "Shop now",
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "caption-text": "#ffffff",
                 "button-text": "#ffffff",
                 "button-background": "#222222",
@@ -3250,10 +3228,7 @@
               }
             }
           },
-          "block_order": [
-            "image--slideshow-0",
-            "image--slideshow-1"
-          ],
+          "block_order": ["image--slideshow-0", "image--slideshow-1"],
           "settings": {
             "slider-width": "full-width",
             "caption-heading-size": 38,
@@ -3267,24 +3242,21 @@
             "gallery-0": {
               "type": "image",
               "settings": {
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "title": "Collection title",
-                "description": "<p>Show off your best selling collections<\/p>"
+                "description": "<p>Show off your best selling collections</p>"
               }
             },
             "gallery-1": {
               "type": "image",
               "settings": {
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "title": "Collection title",
-                "description": "<p>Show off your best selling collections<\/p>"
+                "description": "<p>Show off your best selling collections</p>"
               }
             }
           },
-          "block_order": [
-            "gallery-0",
-            "gallery-1"
-          ],
+          "block_order": ["gallery-0", "gallery-1"],
           "settings": {}
         },
         "collection--featured-collection": {
@@ -3301,7 +3273,7 @@
             "background-color": "#ffffff",
             "horizontal-alignment": "center",
             "subheading": "LIMITED TIME",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_label": "Learn more"
           }
         },
@@ -3319,7 +3291,7 @@
             "mobileHeight": "350",
             "subheading": "NEW",
             "text": "",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_label": "Learn more"
           }
         },
@@ -3388,11 +3360,7 @@
               "settings": {}
             }
           },
-          "block_order": [
-            "footer-0",
-            "footer-1",
-            "footer-2"
-          ],
+          "block_order": ["footer-0", "footer-1", "footer-2"],
           "settings": {}
         }
       },
@@ -3429,7 +3397,7 @@
       "menu-case": "menu-normal-case",
       "header_font_style": "normal",
       "pop-up-text-header-text": "Sign up today!",
-      "pop-up-text-description-text": "<p>Give your customers a reason to sign up to your newsletter<\/p>",
+      "pop-up-text-description-text": "<p>Give your customers a reason to sign up to your newsletter</p>",
       "popup--show-social-icons": false,
       "pop-up-background-color": "#fff",
       "pop-up-text-color": "#242424",
@@ -3460,7 +3428,7 @@
                 "title": "Share your story",
                 "text": "",
                 "button_text": "View Collections",
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "caption-background": "#222222",
                 "caption-text": "#ffffff",
                 "button-text": "#222222",
@@ -3476,7 +3444,7 @@
                 "title": "Share your story",
                 "text": "",
                 "button_text": "Shop now",
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "caption-background": "#222222",
                 "caption-text": "#ffffff",
                 "button-text": "#222222",
@@ -3486,10 +3454,7 @@
               }
             }
           },
-          "block_order": [
-            "image--slideshow-0",
-            "image--slideshow-1"
-          ],
+          "block_order": ["image--slideshow-0", "image--slideshow-1"],
           "settings": {
             "slider-width": "full-width",
             "caption-heading-size": 40,
@@ -3516,10 +3481,7 @@
               "settings": {}
             }
           },
-          "block_order": [
-            "collection-0",
-            "collection-1"
-          ],
+          "block_order": ["collection-0", "collection-1"],
           "settings": {
             "colors": "light"
           }
@@ -3542,7 +3504,7 @@
             "desktopHeight": "550",
             "mobileHeight": "350",
             "text": "",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_label": "Watch the video"
           }
         },
@@ -3572,11 +3534,7 @@
               "settings": {}
             }
           },
-          "block_order": [
-            "footer-0",
-            "footer-1",
-            "footer-2"
-          ],
+          "block_order": ["footer-0", "footer-1", "footer-2"],
           "settings": {}
         }
       },
@@ -3619,7 +3577,7 @@
       "navigation--capitalize": false,
       "header_font_style": "normal",
       "pop-up-text-header-text": "Sign up today!",
-      "pop-up-text-description-text": "<p>Give your customers a reason to sign up to your newsletter<\/p>",
+      "pop-up-text-description-text": "<p>Give your customers a reason to sign up to your newsletter</p>",
       "popup--show-social-icons": false,
       "pop-up-background-color": "#fff",
       "pop-up-text-color": "#242424",
@@ -3648,9 +3606,9 @@
               "type": "image",
               "settings": {
                 "title": "Share your story",
-                "text": "<p>Here's your chance to make a great first impression<\/p>",
+                "text": "<p>Here's your chance to make a great first impression</p>",
                 "button_text": "Shop now",
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "caption-text": "#ffffff",
                 "button-text": "#ffffff",
                 "button-background": "#242424",
@@ -3661,9 +3619,9 @@
               "type": "image",
               "settings": {
                 "title": "Share your story",
-                "text": "<p>Here's your chance to make a great first impression<\/p>",
+                "text": "<p>Here's your chance to make a great first impression</p>",
                 "button_text": "Shop now",
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "caption-text": "#ffffff",
                 "button-text": "#ffffff",
                 "button-background": "#242424",
@@ -3671,10 +3629,7 @@
               }
             }
           },
-          "block_order": [
-            "image--slideshow-0",
-            "image--slideshow-1"
-          ],
+          "block_order": ["image--slideshow-0", "image--slideshow-1"],
           "settings": {
             "slider-width": "full-width",
             "caption-heading-size": 50,
@@ -3707,11 +3662,7 @@
               "settings": {}
             }
           },
-          "block_order": [
-            "collection-0",
-            "collection-1",
-            "collection-2"
-          ],
+          "block_order": ["collection-0", "collection-1", "collection-2"],
           "settings": {
             "title": ""
           }
@@ -3736,12 +3687,7 @@
               "settings": {}
             }
           },
-          "block_order": [
-            "logo-0",
-            "logo-1",
-            "logo-2",
-            "logo-3"
-          ],
+          "block_order": ["logo-0", "logo-1", "logo-2", "logo-3"],
           "settings": {}
         },
         "image--image-with-text-overlay": {
@@ -3749,7 +3695,7 @@
           "settings": {
             "text": "",
             "hero_size": "medium",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_label": "Shop now"
           }
         },
@@ -3776,11 +3722,7 @@
               "settings": {}
             }
           },
-          "block_order": [
-            "testimonial-0",
-            "testimonial-1",
-            "testimonial-2"
-          ],
+          "block_order": ["testimonial-0", "testimonial-1", "testimonial-2"],
           "settings": {
             "colors": "light",
             "show-slide-dots": false,
@@ -3814,11 +3756,7 @@
               "settings": {}
             }
           },
-          "block_order": [
-            "footer-0",
-            "footer-1",
-            "footer-2"
-          ],
+          "block_order": ["footer-0", "footer-1", "footer-2"],
           "settings": {}
         }
       },
