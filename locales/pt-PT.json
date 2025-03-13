@@ -1,8 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "404": {
       "title": "404 Página Não Encontrada",
-      "subtext_html": "A página que você pediu não existe. <a href=\"\/collections\/all\">Por favor, clique aqui para continuar as suas compras.<\/a>"
+      "subtext_html": "A página que você pediu não existe. <a href=\"/collections/all\">Por favor, clique aqui para continuar as suas compras.</a>"
     },
     "meta": {
       "tags": "Etiquetado como \"{{ tags }}\"",
@@ -17,8 +26,8 @@
     },
     "homepage": {
       "featured_products": "Produtos em destaque",
-      "no_products_html": "Não tem produtos na sua Coleção Frontpage. Esta imagem de preenchimento será exibida até <a href=\"\/admin\/collections?tutorial=Frontpage\">adicionar um produto a esta coleção<\/a>.",
-      "no_collections_html": "Ainda não tem coleções para exibir aqui. <a href=\"\/admin\/custom_collections\">Adicione algumas coleções<\/a> para continuar com a Frontpage predefinida."
+      "no_products_html": "Não tem produtos na sua Coleção Frontpage. Esta imagem de preenchimento será exibida até <a href=\"/admin/collections?tutorial=Frontpage\">adicionar um produto a esta coleção</a>.",
+      "no_collections_html": "Ainda não tem coleções para exibir aqui. <a href=\"/admin/custom_collections\">Adicione algumas coleções</a> para continuar com a Frontpage predefinida."
     },
     "pagination": {
       "next": "Próximo",
@@ -45,11 +54,11 @@
     },
     "onboarding": {
       "modal_title": "Quase lá...",
-      "no_products_html": "Não tem produtos na sua Coleção home page. Esta imagem de preenchimento será exibida até <a href=\"\/admin\/collections?tutorial=Frontpage\">adicionar um produto a esta coleção<\/a>.",
+      "no_products_html": "Não tem produtos na sua Coleção home page. Esta imagem de preenchimento será exibida até <a href=\"/admin/collections?tutorial=Frontpage\">adicionar um produto a esta coleção</a>.",
       "add_product": "Adicionar um produto",
       "product_title": "Título do Produto Exemplo",
       "product_description": "Esta área é usada para descrever o seu produto detalhadamente. Informe o cliente do aspeto, toque e estilo do seu produto. Adicione detalhes sobre a cor, materiais usados, tamanhos e onde foi fabricado.",
-      "no_collections_html": "Ainda não tem coleções para exibir aqui. <a href=\"\/admin\/custom_collections\">Adicione algumas coleções<\/a> para continuar com a home page predefinida.",
+      "no_collections_html": "Ainda não tem coleções para exibir aqui. <a href=\"/admin/custom_collections\">Adicione algumas coleções</a> para continuar com a home page predefinida.",
       "add_collection": "Adicionar uma coleção",
       "collection_title": "Título da Coleção Exemplo",
       "blog_title": "O título do seu post",
@@ -99,9 +108,9 @@
       "note": "Adicionar uma nota para este vendedor",
       "subtotal": "Subtotal",
       "taxes_and_shipping_at_checkout": "Taxas e portes de envio calculados no pagamento",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxas e <a href=\"{{ link }}\">portes de envio<\/a> calculados no pagamento",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxas e <a href=\"{{ link }}\">portes de envio</a> calculados no pagamento",
       "taxes_included_but_shipping_at_checkout": "Taxas incluídas e portes de envio calculados no pagamento",
-      "taxes_included_and_shipping_policy_html": "Taxas incluídas. <a href=\"{{ link }}\">Portes de envio<\/a> calculados no pagamento.",
+      "taxes_included_and_shipping_policy_html": "Taxas incluídas. <a href=\"{{ link }}\">Portes de envio</a> calculados no pagamento.",
       "total": "Total",
       "price": "Preço",
       "quantity": "Quantidade",
@@ -112,7 +121,7 @@
       "alt_checkout": "Ou faça o pagamento usando",
       "continue_browsing_html": "Continue as Suas Compras!",
       "terms_text": "Marque esta caixa para concordar com os nossos termos e condições.",
-      "terms_text_html": "Marque esta caixa para concordar com os <a href=\"#\">termos e condições<\/a>",
+      "terms_text_html": "Marque esta caixa para concordar com os <a href=\"#\">termos e condições</a>",
       "terms_agree": "Você deve concordar com os termos e condições de vendas para realizar o check out."
     }
   },
@@ -302,7 +311,7 @@
       "sorry_stock": "Desculpe, de momento não temos o produto em stock",
       "quantity": "Quantidade",
       "thanks": "Obrigado! Nós o notificaremos quando este produto estiver disponível!",
-      "out-stock_html": "<a href=\"#\"><strong>Clique em<\/strong><\/a> para ser notificado por e-mail quando {{ product }} ficar disponível.",
+      "out-stock_html": "<a href=\"#\"><strong>Clique em</strong></a> para ser notificado por e-mail quando {{ product }} ficar disponível.",
       "wrong-email": "Por favor, forneça um endereço de e-mail válido.",
       "view_in_space": "Ver no seu espaço",
       "view_in_space_label": "Ver no seu espaço, carrega item na janela de realidade aumentada",
@@ -331,9 +340,9 @@
       "find_out": "Descubra quando abrimos",
       "password": "Entrar na loja usando a palavra passe:",
       "store_owner": "É o dono da loja?",
-      "store_owner_html": "<a href=\"\/admin\">Faça o log in aqui<\/a> ou <a href=\"\/admin\/online_store\/preferences?tutorial=unlock\">mude as definições da sua palavra passe <\/a>",
+      "store_owner_html": "<a href=\"/admin\">Faça o log in aqui</a> ou <a href=\"/admin/online_store/preferences?tutorial=unlock\">mude as definições da sua palavra passe </a>",
       "continue": "Continuar",
-      "powered_by_html": "Esta loja é patrocinada pela <a href=\"http:\/\/www.shopify.com\">Shopify<\/a>"
+      "powered_by_html": "Esta loja é patrocinada pela <a href=\"http://www.shopify.com\">Shopify</a>"
     }
   },
   "date_formats": {

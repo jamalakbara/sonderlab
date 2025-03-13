@@ -1,8 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "404": {
       "title": "404 Página no encontrada ",
-      "subtext_html": "La página solicitada no existe. <a href=\"\/collections\/all\">Haga clic aquí para seguir comprando.<\/a>"
+      "subtext_html": "La página solicitada no existe. <a href=\"/collections/all\">Haga clic aquí para seguir comprando.</a>"
     },
     "meta": {
       "tags": "Etiquetado \"{{ tags }}\"",
@@ -17,8 +26,8 @@
     },
     "homepage": {
       "featured_products": "Productos destacados",
-      "no_products_html": "No tiene productos en su colección de portada. Este indicador aparecerá hasta que <a href=\"\/admin\/collections?tutorial=Frontpage\">agregue un producto a esta colección<\/a>.",
-      "no_collections_html": "No tiene colecciones para mostrar aquí. <a href=\"\/admin\/custom_collections\">Agregue algunas colecciones<\/a> que acompañen a la Portada por defecto."
+      "no_products_html": "No tiene productos en su colección de portada. Este indicador aparecerá hasta que <a href=\"/admin/collections?tutorial=Frontpage\">agregue un producto a esta colección</a>.",
+      "no_collections_html": "No tiene colecciones para mostrar aquí. <a href=\"/admin/custom_collections\">Agregue algunas colecciones</a> que acompañen a la Portada por defecto."
     },
     "pagination": {
       "next": "Siguiente",
@@ -45,11 +54,11 @@
     },
     "onboarding": {
       "modal_title": "Casi allí...",
-      "no_products_html": "No tiene productos en su colección de portada. Este indicador aparecerá hasta que <a href=\"\/admin\/collections?tutorial=Frontpage\">agregue un producto a esta colección<\/a>.",
+      "no_products_html": "No tiene productos en su colección de portada. Este indicador aparecerá hasta que <a href=\"/admin/collections?tutorial=Frontpage\">agregue un producto a esta colección</a>.",
       "add_product": "Añadir un producto",
       "product_title": "Ejemplo título de producto",
       "product_description": " Este campo se utiliza para describir los detalles de tu producto. Informa a los clientes acerca de la apariencia, percepción y estilo de tu producto. Incluye detalles sobre el color, los materiales utilizados, el tamaño y donde se hizo.",
-      "no_collections_html": "No tiene colecciones para mostrar aquí. <a href=\"\/admin\/custom_collections\">Agregue algunas colecciones<\/a> que acompañen a la Portada por defecto.",
+      "no_collections_html": "No tiene colecciones para mostrar aquí. <a href=\"/admin/custom_collections\">Agregue algunas colecciones</a> que acompañen a la Portada por defecto.",
       "add_collection": "Añadir una colección",
       "collection_title": "Ejemplo título de colección",
       "blog_title": "Título de tu publicación",
@@ -99,9 +108,9 @@
       "note": "Añadir una nota para el vendedor",
       "subtotal": "Subtotal",
       "taxes_and_shipping_at_checkout": "Los impuestos y gastos de envío se calculan en la pantalla de pagos",
-      "taxes_and_shipping_policy_at_checkout_html": "Los impuestos y <a href=\"{{ link }}\">gastos de envío<\/a> se calculan en la pantalla de pagos",
+      "taxes_and_shipping_policy_at_checkout_html": "Los impuestos y <a href=\"{{ link }}\">gastos de envío</a> se calculan en la pantalla de pagos",
       "taxes_included_but_shipping_at_checkout": "En la pantalla de pagos se incluye el impuesto y se calculan los gastos de envío",
-      "taxes_included_and_shipping_policy_html": "Impuesto incluido. Los <a href=\"{{ link }}\">gastos de envío<\/a> se calculan en la pantalla de pagos.",
+      "taxes_included_and_shipping_policy_html": "Impuesto incluido. Los <a href=\"{{ link }}\">gastos de envío</a> se calculan en la pantalla de pagos.",
       "total": "Total",
       "price": "Precio",
       "quantity": "Cantidad",
@@ -112,7 +121,7 @@
       "alt_checkout": "O realice la compra utilizando",
       "continue_browsing_html": "Continuar comprando!",
       "terms_text": "Por favor, marque la casilla para estar de acuerdo con nuestros términos y condiciones",
-      "terms_text_html": "Por favor, marque la casilla para estar de acuerdo con nuestros <a href=\"#\">términos y condiciones<\/a>",
+      "terms_text_html": "Por favor, marque la casilla para estar de acuerdo con nuestros <a href=\"#\">términos y condiciones</a>",
       "terms_agree": "Debe estar de acuerdo con los términos y condiciones de las ventas para salir"
     }
   },
@@ -184,7 +193,7 @@
       "city": "Ciudad",
       "country": "País",
       "province": "Provincia",
-      "zip": "Código Postal \/ Zip",
+      "zip": "Código Postal / Zip",
       "phone": "Teléfono",
       "set_default": "Establecer como dirección predeterminada",
       "add": "Añadir Dirección",
@@ -302,7 +311,7 @@
       "sorry_stock": "Lo sentimos, actualmente no disponible",
       "quantity": "Cantidad",
       "thanks": "¡Gracias!. Le notificaremos cuando este producto esté disponible",
-      "out-stock_html": "Clique <a href=\"#\"><strong>here<\/strong><\/a> para notificarle por email cuando {{ product }} esté disponible.",
+      "out-stock_html": "Clique <a href=\"#\"><strong>here</strong></a> para notificarle por email cuando {{ product }} esté disponible.",
       "wrong-email": "Por favor, proporcione una dirección de email válida.",
       "view_in_space": "Ver en tu espacio",
       "view_in_space_label": "Ver en tu espacio, carga el artículo en la ventana de realidad aumentada",
@@ -331,9 +340,9 @@
       "find_out": "Descubra cuándo abrimos",
       "password": "Entrar a la tienda usando contraseña",
       "store_owner": "¿Es el propietario de la tienda?",
-      "store_owner_html": "<a href=\"\/admin\">Inicie sesión aquí<\/a> o <a href=\"\/admin\/online_store\/preferences?tutorial=unlock\">cambie sus ajustes de contraseña<\/a>",
+      "store_owner_html": "<a href=\"/admin\">Inicie sesión aquí</a> o <a href=\"/admin/online_store/preferences?tutorial=unlock\">cambie sus ajustes de contraseña</a>",
       "continue": "Continuar",
-      "powered_by_html": "Esta tienda está patrocinada por <a href=\"http:\/\/www.shopify.com\">Shopify<\/a>"
+      "powered_by_html": "Esta tienda está patrocinada por <a href=\"http://www.shopify.com\">Shopify</a>"
     }
   },
   "date_formats": {

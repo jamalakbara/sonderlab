@@ -1,8 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "404": {
       "title": "404 Page Not Found",
-      "subtext_html": "The page you requested does not exist. Click <a href=\"\/collections\/all\">here<\/a> to continue shopping."
+      "subtext_html": "The page you requested does not exist. Click <a href=\"/collections/all\">here</a> to continue shopping."
     },
     "meta": {
       "tags": "Tagged \"{{ tags }}\"",
@@ -17,8 +26,8 @@
     },
     "homepage": {
       "featured_products": "Featured Products",
-      "no_products_html": "You have no products in your Frontpage collection. This placeholder will appear until you <a href=\"\/admin\/collections?tutorial=Frontpage\">add a product to this collection<\/a>.",
-      "no_collections_html": "You don't have any collections to show here. <a href=\"\/admin\/custom_collections\">Add some collections<\/a> to go along with the default Frontpage."
+      "no_products_html": "You have no products in your Frontpage collection. This placeholder will appear until you <a href=\"/admin/collections?tutorial=Frontpage\">add a product to this collection</a>.",
+      "no_collections_html": "You don't have any collections to show here. <a href=\"/admin/custom_collections\">Add some collections</a> to go along with the default Frontpage."
     },
     "pagination": {
       "next": "Next",
@@ -45,11 +54,11 @@
     },
     "onboarding": {
       "modal_title": "Almost there...",
-      "no_products_html": "You have no products in your home page collection. This placeholder will appear until you <a href=\"\/admin\/collections?tutorial=Frontpage\">add a product to this collection<\/a>.",
+      "no_products_html": "You have no products in your home page collection. This placeholder will appear until you <a href=\"/admin/collections?tutorial=Frontpage\">add a product to this collection</a>.",
       "add_product": "Add a Product",
       "product_title": "Product Title",
       "product_description": "This area is used to describe your product’s details. Tell customers about the look, feel, and style of your product. Add details on color, materials used, sizing, and where it was made.",
-      "no_collections_html": "You don't have any collections to show here. <a href=\"\/admin\/custom_collections\">Add some collections<\/a> to go along with the default home page.",
+      "no_collections_html": "You don't have any collections to show here. <a href=\"/admin/custom_collections\">Add some collections</a> to go along with the default home page.",
       "add_collection": "Add a Collection",
       "collection_title": "Collection Title",
       "blog_title": "Your post's title",
@@ -99,9 +108,9 @@
       "note": "Add a note for the seller",
       "subtotal": "Subtotal",
       "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
       "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
-      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
+      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
       "total": "Total",
       "price": "Price",
       "quantity": "Quantity",
@@ -112,7 +121,7 @@
       "alt_checkout": "Or checkout out using",
       "continue_browsing_html": "Continue Shopping!",
       "terms_text": "Please check this box to agree to our terms and conditions",
-      "terms_text_html": "Please check this box to agree to our <a target=\"_blank\" href=\"#\">terms and conditions<\/a>",
+      "terms_text_html": "Please check this box to agree to our <a target=\"_blank\" href=\"#\">terms and conditions</a>",
       "terms_agree": "You must agree with the terms and conditions of sales to check out."
     }
   },
@@ -184,7 +193,7 @@
       "city": "City",
       "country": "Country",
       "province": "Province",
-      "zip": "Postal\/Zip Code",
+      "zip": "Postal/Zip Code",
       "phone": "Phone",
       "set_default": "Set as default address",
       "add": "Add Address",
@@ -302,7 +311,7 @@
       "sorry_stock": "Sorry, currently out of stock",
       "quantity": "Quantity",
       "thanks": "Thanks! We will notify you when this product becomes available!",
-      "out-stock_html": "Click <a href=\"#\"><strong>here<\/strong><\/a> to be notified by email when {{ product }} becomes available.",
+      "out-stock_html": "Click <a href=\"#\"><strong>here</strong></a> to be notified by email when {{ product }} becomes available.",
       "wrong-email": "Please provide a valid email address.",
       "view_in_space": "View in your space",
       "view_in_space_label": "View in your space, loads item in augmented reality window",
@@ -331,9 +340,9 @@
       "find_out": "Find out when we open",
       "password": "Enter store using password",
       "store_owner": "Are you the store owner?",
-      "store_owner_html": "<a href=\"\/admin\">Log in here<\/a> or <a href=\"\/admin\/online_store\/preferences?tutorial=unlock\">change your password settings<\/a>",
+      "store_owner_html": "<a href=\"/admin\">Log in here</a> or <a href=\"/admin/online_store/preferences?tutorial=unlock\">change your password settings</a>",
       "continue": "Continue",
-      "powered_by_html": "This store will be powered by <a href=\"http:\/\/www.shopify.com\">Shopify<\/a>"
+      "powered_by_html": "This store will be powered by <a href=\"http://www.shopify.com\">Shopify</a>"
     }
   },
   "date_formats": {
@@ -342,8 +351,8 @@
   "shopify": {
     "checkout": {
       "contact": {
-        "address2_label": "Kecamatan \/ Area",
-        "optional_address2_label": "Kecamatan \/ Area"
+        "address2_label": "Kecamatan / Area",
+        "optional_address2_label": "Kecamatan / Area"
       },
       "shipping": {
         "local_delivery": "Sameday Delivery*"
