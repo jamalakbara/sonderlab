@@ -1,4 +1,18 @@
-<div class="indiv-product">
+{% comment %}Added/Modified by Limoni Apps on 20/12/24 to support Discount Ninja{% endcomment %}
+
+<div 
+data-la-dn-product-handle="{{ liquidObject.handle }}" 
+data-la-dn-product-id="{{ liquidObject.id }}" 
+data-la-dn-product-collection-handles="{{ liquidObject.collections | map: 'handle' | join: ',' | default: '[[--NONE--]]' }}" 
+data-la-dn-product-collection-ids="{{ liquidObject.collections | map: 'id' | join: ',' | default: '[[--NONE--]]' }}" 
+data-la-dn-product-available="{{ liquidObject.available}}" 
+data-la-dn-product-price="{{ liquidObject.first_available_variant.price | default: liquidObject.price }}"
+data-la-dn-product-compare-at-price="{{ liquidObject.first_available_variant.compare_at_price | default: liquidObject.first_available_variant.price | default: liquidObject.compare_at_price | default: liquidObject.price }}" 
+data-la-dn-product-price-varies="{{ liquidObject.price_varies }}" 
+data-la-dn-product-compare-at-price-varies="{{ liquidObject.compare_at_price_varies }}"
+data-la-dn-product-price-min="{{ liquidObject.price_min }}"
+data-la-dn-product-tags="{{ liquidObject.tags | join: ',' | escape | default: '[[--NONE--]]' }}"
+class="indiv-product">
 
   {% case settings.hover-effect %}
 
@@ -46,8 +60,9 @@
     <a href="{{ liquidObject.url | within: collection }}">
 
       <span class="indiv-product-title-text">{{ liquidObject.title | capitalize }}</span>
+{% comment %}Added/Modified by Limoni Apps on 20/12/24 to support Discount Ninja{% endcomment %}
 
-      <span class="money-styling">
+      <span class="money-styling" data-la-dn-price>
 
         {% if liquidObject.compare_at_price_max > liquidObject.price %}
           <span class="compare-at-price">

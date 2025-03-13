@@ -231,6 +231,7 @@
   				{% form 'product', product, id: "add-to-cart-form" %}
             <input type="hidden" id="cart-link" value="{{ routes.cart_url }}" />
             <ul class="product-page--pricing">
+              <span data-la-dn-price>
               <!-- Variant price -->
               <li class="product-page--pricing--variant-price">
                 <span id="price-field">
@@ -251,7 +252,7 @@
                   <span class="money">{{ current_variant.compare_at_price | money_without_currency | prepend: 'IDR ' }}</span>
                 </span>
               </li>
-
+</span>
             {% render 'unit-price-measurement-variant', variant: current_variant %}
 
             {% case section.settings.show_discount %}
@@ -275,7 +276,7 @@
               {% endcase %}
 
             </ul>
-
+<div la-dn-product-banner></div>
             {% assign hide_default_title = false %}
             {% if product.variants.size == 1 and product.variants.first.title contains 'Default' %}
               {% assign hide_default_title = true %}

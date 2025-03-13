@@ -18,7 +18,7 @@
 
 		<tbody>
 			{% for item in cart.items %}
-				<tr class="{% cycle 'even', 'odd' %}">
+				<tr data-la-dn-cart-item-row data-la-dn-cart-item-key="{{ item.key }}" class="{% cycle 'even', 'odd' %}">
 					<td class="cart-table-image">
 						<a class="cart_thumb" href="{{item.product.url}}" title="View {{item.title}} Page">
 							{% render 'responsive-image' with item, alt: item.title %}
@@ -27,7 +27,7 @@
 
 					<td class="cart-table-title">
 						<a class="cart-table-title__title" href="{{ item.url }}" title="View {{ item.title | escape }}">{{ item.product.title }}</a>
-
+<div data-la-dn-cart-item-text></div>
 						{% unless item.variant.title contains 'Default' %}
 							<div class="cart__meta-text">
 								{% for option in item.product.options %}
@@ -61,6 +61,8 @@
 					</td>
 
 					<td class="cart-table-price">
+                      <span data-la-dn-cart-item-product-price></span>
+                      <span data-la-dn-cart-item-hide-if-dynamic-pricing-isshown>
 						{%- if item.original_price != item.final_price -%}
 							<span class="hidden">{{ 'products.general.regular_price' | t }}</span>
 							<del><span class="money">{{ item.original_price | money }}</span></del>
@@ -85,9 +87,10 @@
 							<span data-unit-price>( {{ item.unit_price | money }}</span>{{- unit_price_separator -}}{{- unit_price_base_unit -}})
 						</span>
 						{% endif %}
+              </span>
 					</td>
 
-					<td class="cart-table-quantity">
+					<td class="cart-table-quantity" data-la-dn-cart-item-quantity>
 						<div class="quantity-controls">
 							<button type="button" class="qty-minus">-</button>
 							<input class="number quantity-selector" type="text" size="4" name="updates[{{item.variant.id}}]" id="updates_{{item.variant.id}}" value="{{item.quantity}}"/>
@@ -97,6 +100,9 @@
 					</td>
 
 					<td class="cart-table-line-price cart--final-column">
+                      <span data-la-dn-cart-item-line-price></span>
+
+                      <span data-la-dn-cart-item-hide-if-dynamic-pricing-isshown>
 						{%- if item.original_line_price != item.final_line_price -%}
 							<span class="hidden">{{ 'products.general.regular_price' | t }}</span>
 							<del><span class="money">{{ item.original_line_price | money }}</span></del>
@@ -115,7 +121,7 @@
                 {%- endfor -%}
               </ul>
             {%- endif -%}
-
+              </span>
 					</td>
 
 				</tr>
@@ -136,7 +142,7 @@
 		{%- if cart.cart_level_discount_applications != blank -%}
 			<div class="cart--order-discount-wrapper custom-font">
 				{%- for discount_application in cart.cart_level_discount_applications -%}
-				<div class="cart--order-discount-wrapper--indiv">
+				<div class="cart--order-discount-wrapper--indiv limoniapps-discountninja-whenactivepromotions-hide">
 					<span class="order-discount--cart-title">
 						<span class="hidden">{{ 'customer.order.discount' | t }}:</span>{{- discount_application.title -}}
 					</span>
@@ -145,10 +151,11 @@
 				{%- endfor -%}
 			</div>
 		{%- endif -%}
-
-		<div class="cart-totals--wrapper">
+<div data-la-dn-promotion-summary-placeholder></div>
+      <div data-la-dn-promocodefield-placeholder></div>
+		<div class="cart-totals--wrapper limoniapps-discountninja-cart-subtotal">
 			<div id="cart-total-header">{{ 'cart.general.subtotal' | t }}</div>
-			<div id="cart-total-final-price">
+			<div id="cart-total-final-price limoniapps-discountninja-cart-subtotal-price">
 				<span class="money">{{ cart.total_price | money }}</span>
 			</div>
 			<div class="cart-table-price-per-unit">

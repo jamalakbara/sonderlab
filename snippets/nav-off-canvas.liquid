@@ -1,7 +1,8 @@
 <ul class="nav {{ class }}">
   {% for link in linklists[nav-off-canvas].links %}
+    {% assign link_title_downcase = link.title | downcase %}
     <li {% if link.active %}class="site-nav--active"{% endif %}>
-      <a class="nav-canvas {% if link.links != blank %}nav-canvas-item{% endif %}" {% if link.links != blank %}data-nav="{{ link.handle }}" aria-opened="false"{% endif %} href="{% if link.links != blank %}javascript:void(0);{% else %}{{ link.url }}{% endif %}">{{ link.title }}</a>
+      <a class="nav-canvas {% if link.links != blank %}nav-canvas-item{% endif %} {% if link_title_downcase contains 'sale' %}sale-link{% endif %}" {% if link.links != blank %}data-nav="{{ link.handle }}" aria-opened="false"{% endif %} href="{% if link.links != blank %}javascript:void(0);{% else %}{{ link.url }}{% endif %}">{{ link.title }}</a>
     </li>
   {% endfor %}
 </ul>
