@@ -1,0 +1,170 @@
+<section class="container-full-width">
+  {% if section.blocks.size == 0 %}
+  <div class="row row-no-margin">
+    <div class="col-12 col-no-padding">
+      <div class="banner-wrapper">
+        {% if section.settings.url != blank %}
+          <a href="{{ section.settings.url }}" class="banner-url">
+        {% endif %}
+          {% if section.settings.title != blank %}
+            <div class="banner-text-container">
+              <header class="banner-header">
+                <h1 class="banner-title">{{ section.settings.title | escape | default: 'Your title goes here...' }}</h1>
+              </header>    
+            </div>
+          {% endif %}
+          {% if section.settings.image_mobile != blank %}
+            {% if section.settings.image != blank %}
+              {{ section.settings.image | img_url: 'master' | img_tag: '', 'banner-img hide-mobile' }}
+            {% endif %}
+              {{ section.settings.image_mobile | img_url: 'master' | img_tag: '', 'banner-img hide-desktop' }}
+          {% else %}
+            {% if section.settings.image != blank %}
+              {{ section.settings.image | img_url: 'master' | img_tag: '', 'banner-img' }}
+            {% endif %}
+          {% endif %}
+          {% if section.settings.alternate_title != blank or section.settings.richtext != blank %}
+            <div class="banner-footer">
+              <div class="banner-alternate-title">
+                <span>{{ section.settings.alternate_title | escape }}</span>
+              </div>
+              <div class="banner-richtext">
+                {{ section.settings.richtext }}
+              </div>
+            </div>
+          {% endif %}
+        {% if section.settings.url != blank %}
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-no-margin alternate-slider-banner owl-carousel owl-theme">
+    {% for block in section.blocks %}
+      <div class="slide-item">
+        <a href="{{ block.settings.url }}">
+          <div class="col-12 col-no-padding">
+            <div class="banner-wrapper">
+              {% if block.settings.url != blank %}
+                <a href="{{ block.settings.url }}" class="banner-url">
+              {% endif %}
+                {% if block.settings.title != blank %}
+                  <div class="banner-text-container">
+                    <header class="banner-header">
+                      <h1 class="banner-title">{{ block.settings.title | escape | default: 'Your title goes here...' }}</h1>
+                    </header>    
+                  </div>
+                {% endif %}
+                {% if block.settings.image_mobile != blank %}
+                  {% if block.settings.image != blank %}
+                    {{ block.settings.image | img_url: 'master' | img_tag: '', 'banner-img hide-mobile' }}
+                  {% endif %}
+                    {{ block.settings.image_mobile | img_url: 'master' | img_tag: '', 'banner-img hide-desktop' }}
+                {% else %}
+                  {% if block.settings.image != blank %}
+                    {{ block.settings.image | img_url: 'master' | img_tag: '', 'banner-img' }}
+                  {% endif %}
+                {% endif %}
+                {% if block.settings.alternate_title != blank or block.settings.richtext != blank %}
+                  <div class="banner-footer">
+                    <div class="banner-alternate-title">
+                      <span>{{ block.settings.alternate_title | escape }}</span>
+                    </div>
+                    <div class="banner-richtext">
+                      {{ block.settings.richtext }}
+                    </div>
+                  </div>
+                {% endif %}
+              {% if block.settings.url != blank %}
+                </a>
+              {% endif %}
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</section>
+{% schema %}
+{
+  "name": "Alternate Banner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "Image Mobile"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "alternate_title",
+      "label": "Alternate Title"
+    },
+    {
+      "type": "richtext",
+      "id": "richtext",
+      "label": "Richtext"
+    },
+    {
+      "type": "url",
+      "id": "url",
+      "label": "Url"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slider_banner",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_mobile",
+          "label": "Image Mobile"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "alternate_title",
+          "label": "Alternate Title"
+        },
+        {
+          "type": "richtext",
+          "id": "richtext",
+          "label": "Richtext"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Url"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Alternate Banner",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}

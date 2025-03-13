@@ -1,0 +1,207 @@
+{% if section.settings.main_linklist == blank and section.settings.top_bar_linklist != blank %}
+  {% assign navMobile = linklists[section.settings.top_bar_linklist] %}
+{% else %}
+  {% assign navMobile = linklists[section.settings.main_linklist] %}
+{% endif %}
+
+<script type="application/json" id="mobile-menu-data">
+{
+    {% for link in navMobile.links %}
+        {% assign forloop_1 = forloop %}
+        {% unless forloop.first %},{% endunless %}
+        "{{ forloop_1.index0 }}": {
+            "level": 0,
+            "url": "{{ link.url }}",
+            "title": {{ link.title | json }},
+            "links": [
+                {% for sublink in link.links %}
+                    "{{ forloop_1.index0 }}--{{ forloop.index0 }}"{% unless forloop.last %},{% endunless %}
+                {% endfor %}
+            ]
+        }
+        {% for sublink in link.links %}
+          {% assign forloop_2 = forloop %}
+            , "{{ forloop_1.index0 }}--{{ forloop_2.index0 }}": {
+            "level": 1,
+            "url": "{{ sublink.url }}",
+            "title": {{ sublink.title | json }},
+            "links": [
+                {% for subsublink in sublink.links %}
+                    "{{ forloop_1.index0 }}--{{ forloop_2.index0 }}--{{ forloop.index0 }}"{% unless forloop.last %},{% endunless %}
+                {% endfor %}
+            ]
+        }
+        {% for subsublink in sublink.links %}
+        {% assign forloop_3 = forloop %}
+        , "{{ forloop_1.index0 }}--{{ forloop_2.index0 }}--{{ forloop_3.index0 }}": {
+            "level": 2,
+            "url": "{{ subsublink.url }}",
+            "title": {{ subsublink.title | json }},
+            "links": []
+        }
+        {% endfor %}
+        {% endfor %}
+    {% endfor %}
+}
+</script>
+
+<ul class="mobile-menu mobile-menu-main{% if section.settings.search-enable %} search-enabled{% else %} search-disabled{% endif %}" id="mobile-menu--{{ navMobile.handle }}">
+  <a href="#" class="slide-menu menu-close-icon mobile-menu-close"><i data-feather="x" aria-hidden="true"></i></a>
+
+{% if section.settings.search-enable %}
+  <li class="mobile-search">
+    <form id="search" action="{{ routes.search_url }}">
+    <div id="search-wrapper">
+      <input id="search_text" name="q" type="text" size="20" onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" value="{{ 'layout.header.search' | t }}"/>
+    </div>
+    </form>
+  </li>
+{% endif %}
+
+  {% for link in navMobile.links %}
+    <li>
+      <a class="mobile-menu-link mobile-menu-link__text{% if settings.navigation--font == 'subheading' %} type-subheading{% endif %}" href="{{ link.url }}">{{ link.title | escape }}</a>
+      {% if link.links != blank %}
+        <a href="#" class="mobile-menu-sub mobile-menu-right mobile-menu-link" aria-canvas-open="false" data-menu="{{ link.handle }}">
+          <i data-feather="chevron-right"></i>
+        </a>
+      {% endif %}
+    </li>
+  {% endfor %}
+
+  {% if shop.customer_accounts_enabled %}
+    {% if customer %}
+      <li class="mobile-menu-link mobile-customer-link{% if settings.navigation--font == 'subheading' %} type-subheading{% endif %}"><a href="{{ routes.account_url }}">{{ 'customer.account.title' | t }}</a></li>
+      <li class="mobile-menu-link mobile-customer-link{% if settings.navigation--font == 'subheading' %} type-subheading{% endif %}">{{ 'layout.customer.log_out' | t | customer_logout_link }}</li>
+    {% else %}
+      <li class="mobile-menu-link mobile-customer-link{% if settings.navigation--font == 'subheading' %} type-subheading{% endif %}">{{ 'layout.customer.log_in' | t | customer_login_link }}</li>
+      {% if shop.customer_accounts_optional %}
+        <li class="mobile-menu-link mobile-customer-link{% if settings.navigation--font == 'subheading' %} type-subheading{% endif %}">{{ 'customer.register.title' | t | customer_register_link }}</li>
+      {% endif %}
+    {% endif %}
+  {% endif %}
+
+  {% if section.settings.show_locale_selector %}
+    <li>
+      <a href="#" class="mobile-menu-link mobile-menu-sub mobile-menu-link-locale" data-link="mobile-menu-locale">{{ 'general.language.dropdown_label' | t }}</a>
+      <a href="#" class="mobile-menu-sub mobile-menu-right mobile-menu-link" data-link="mobile-menu-locale">
+        <i data-feather="chevron-right"></i>
+      </a>
+    </li>
+  {% endif %}
+
+  {% if section.settings.show_currency_selector %}
+    <li>
+      <a href="#" class="mobile-menu-link mobile-menu-sub mobile-menu-link-currency" data-link="mobile-menu-currency">{{ 'general.currency.dropdown_label' | t }}</a>
+      <a href="#" class="mobile-menu-sub mobile-menu-right mobile-menu-link" data-link="mobile-menu-currency">
+        <i data-feather="chevron-right"></i>
+      </a>
+    </li>
+  {% endif %}
+
+  {% render 'social-links' %}
+  <div class="doubly-wrapper"></div>
+  <div class="ultimate-currency"></div>
+</ul>
+
+{%- form 'localization', class: 'localization-selector-form' -%}
+  {% if section.settings.show_locale_selector %}
+    <ul class="mobile-menu mobile-menu-child mobile-menu-hidden{% if settings.navigation--font == 'subheading' %} type-subheading{% endif %}" id="mobile-menu-locale">
+      <a href="#" class="slide-menu menu-close-icon mobile-menu-close"><i data-feather="x" aria-hidden="true"></i></i></a>
+      <li>
+        <a href="#" class="mobile-menu-link mobile-menu-back mobile-menu-link{% if settings.navigation--font == 'subheading' %} type-subheading{% endif %}" data-link="mobile-menu--{{ root_list.handle }}">
+          <i data-feather="chevron-left" aria-hidden="true"></i>
+          <div class="mobile-menu-title">{{ 'general.language.dropdown_label' | t }}</div>
+        </a>
+      </li>
+      {% for locale in form.available_locales %}
+        <li>
+          <button type="submit" name="locale_code" class="mobile-menu-link mobile-menu-locale-link{% if locale.iso_code == form.current_locale.iso_code %} mobile-menu-locale-selected{% endif %}" value="{{ locale.iso_code }}">
+            {{ locale.endonym_name }}
+            {%- if locale.iso_code == form.current_locale.iso_code -%}
+              <i data-feather="check" aria-hidden="true"></i>
+            {%- endif -%}
+          </button>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if section.settings.show_currency_selector %}
+    <ul class="mobile-menu mobile-menu-child mobile-menu-hidden{% if settings.navigation--font == 'subheading' %} type-subheading{% endif %}" id="mobile-menu-currency">
+      <a href="#" class="slide-menu menu-close-icon mobile-menu-close"><i data-feather="x" aria-hidden="true"></i></i></a>
+      <li>
+        <a href="#" class="mobile-menu-back mobile-menu-link" data-link="mobile-menu--{{ root_list.handle }}">
+          <i data-feather="chevron-left" aria-hidden="true"></i>
+          <div class="mobile-menu-title">{{ 'general.currency.dropdown_label' | t }}</div>
+        </a>
+      </li>
+      {% for currency in form.available_currencies %}
+        <li>
+          <button type="submit" name="currency_code" class="mobile-menu-link mobile-menu-currency-link {% if currency.iso_code == form.current_currency.iso_code %}mobile-menu-currency-selected{% endif %}" value="{{ currency.iso_code }}">
+            {{ currency.iso_code }} {%- if currency.symbol -%}{{ currency.symbol }}{%- endif -%}
+            {%- if currency.iso_code == form.current_currency.iso_code -%}
+              <i data-feather="check" aria-hidden="true"></i>
+            {%- endif -%}
+          </button>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{%- endform -%}
+
+<ul class="mobile-menu mobile-menu-child mobile-menu-hidden" id="mobile-menu">
+    <a href="#" class="slide-menu menu-close-icon mobile-menu-close"><i data-feather="x" aria-hidden="true"></i></a>
+    <li aria-haspopup="true">
+        <a href="#" class="mobile-menu-back mobile-menu-link">
+            <i data-feather="chevron-left" aria-hidden="true"></i>
+            <div class="mobile-menu-title{% if settings.navigation--font == 'subheading' %} type-subheading{% endif %}"></div>
+        </a>
+    </li>
+</ul>
+
+<ul class="mobile-menu mobile-menu-grandchild mobile-menu-hidden" id="mobile-submenu">
+    <a href="#" class="slide-menu menu-close-icon mobile-menu-close"><i data-feather="x" aria-hidden="true"></i></a>
+    <li aria-haspopup="true">
+        <a href="#" class="mobile-menu-back mobile-menu-link">
+            <i data-feather="chevron-left" aria-hidden="true"></i>
+            <div class="mobile-menu-title{% if settings.navigation--font == 'subheading' %} type-subheading{% endif %}"></div>
+        </a>
+    </li>
+</ul>
+ 
+<ul id="nav-mobile">
+  {% comment %}
+    <header class="nav-header">
+      <a href="javascript:void(0);" class="close-canvas">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </a>
+    </header>
+  {% endcomment %}
+  <a href="javascript:void(0);" class="close-canvas">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+  </a>
+  <li class="mobile-search">
+    <form style="opacity: 0; cursor: none;">
+    <div style="opacity: 0; cursor: none;">
+      <input style="opacity: 0; height: 55px; cursor: none;" name="q" type="text" size="20" onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" value="{{ 'layout.header.search' | t }}"/>
+    </div>
+    </form>
+  </li>
+  {% for link in navMobile.links %}
+    {% if link.links != blank %}
+      {% for sub_link in link.links %}
+        <li class="mobile-menu-off-canvas nav-menu-off-canvas-for-{{ link.handle }}" style="display: none;"">
+          <a class="mobile-menu-link mobile-menu-link__text type-subheading {% if sub_link.links != blank %}site-nav-accordion{% endif %}" href="{{ sub_link.url }}">{{ sub_link.title }}</a>
+          {% if sub_link.links != blank %}
+            <ul class="nav-child-panel">
+            {% for child_link in sub_link.links %}
+              <li><a href="{{ child_link.url }}" class="">{{ child_link.title }}</a></li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</ul>

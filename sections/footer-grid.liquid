@@ -1,0 +1,92 @@
+<section class="container container-large-width medium-padding">
+ <style>
+    @media only screen and (max-width: 641px) {
+      .footer-grid-item .footer-grid-text-left {
+        font-size: {{ section.settings.title_size_mobile }}pt !important; 
+      }
+    }
+  </style>
+  <div class="row">
+    <div class="page-width col-md-12 padding-x-0">
+      <div class="row row-no-margin footer-grid-slide hide-mobile">
+        {% for block in section.blocks %}
+          <div class="col-md-4 footer-grid-item">
+            {% if block.settings.url != blank %}
+              <a href="{{ block.settings.url }}">
+            {% endif %}
+              {% if block.settings.title != blank %}
+                <div class="footer-grid-text-left">
+                  <span>{{ block.settings.title | escape }}</span>
+                </div>
+              {% endif %}
+            {% if block.settings.url != blank %}
+              </a>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="row row-no-margin footer-grid-slide owl-carousel owl-theme hide-desktop">
+    {% for block in section.blocks %}
+      <div class="col-md-4 col-lg-4 col-12 col-no-padding footer-grid-item">
+        {% if block.settings.url != blank %}
+          <a href="{{ block.settings.url }}">
+        {% endif %}
+          {% if block.settings.title != blank %}
+            <div class="footer-grid-text-left" style="font-size:{{ section.settings.title_size }}pt">
+              <span>{{ block.settings.title | escape }}</span>
+            </div>
+          {% endif %}
+        {% if block.settings.url != blank %}
+          </a>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Footer Grid",
+  "settings": [
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "title base size",
+      "default": 10,
+      "min": 10,
+      "max": 36,
+      "step": 1,
+      "unit": "pt"
+    },
+    {
+      "type": "range",
+      "id": "title_size_mobile",
+      "label": "title base size mobile",
+      "default": 10,
+      "min": 6,
+      "max": 36,
+      "step": 1,
+      "unit": "pt"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+          {
+          "type": "text", 
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Url"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,126 @@
+{% comment %}Added/Modified by Limoni Apps on 20/12/24 to support Discount Ninja{% endcomment %}
+
+<div 
+data-la-dn-product-handle="{{ liquidObject.handle }}" 
+data-la-dn-product-id="{{ liquidObject.id }}" 
+data-la-dn-product-collection-handles="{{ liquidObject.collections | map: 'handle' | join: ',' | default: '[[--NONE--]]' }}" 
+data-la-dn-product-collection-ids="{{ liquidObject.collections | map: 'id' | join: ',' | default: '[[--NONE--]]' }}" 
+data-la-dn-product-available="{{ liquidObject.available}}" 
+data-la-dn-product-price="{{ liquidObject.first_available_variant.price | default: liquidObject.price }}"
+data-la-dn-product-compare-at-price="{{ liquidObject.first_available_variant.compare_at_price | default: liquidObject.first_available_variant.price | default: liquidObject.compare_at_price | default: liquidObject.price }}" 
+data-la-dn-product-price-varies="{{ liquidObject.price_varies }}" 
+data-la-dn-product-compare-at-price-varies="{{ liquidObject.compare_at_price_varies }}"
+data-la-dn-product-price-min="{{ liquidObject.price_min }}"
+data-la-dn-product-tags="{{ liquidObject.tags | join: ',' | escape | default: '[[--NONE--]]' }}"
+class="indiv-product">
+
+  {% case settings.hover-effect %}
+
+  {% when 'none' %}
+
+    <a class="grid__image" href="{{ product.url | within: collection }}" title="{{ liquidObject.title | escape }}">
+      {% render 'responsive-image' with liquidObject.media[0].preview_image, alt: liquidObject.title %}
+    </a>
+
+  {% when 'second-image' %}
+
+    {% if liquidObject.media.size > 1 %}
+      <div class="reveal">
+        <a class="grid__image" href="{{ liquidObject.url | within: collection }}" title="{{ liquidObject.title | escape }}">
+          {% render 'responsive-image' with liquidObject.media[0].preview_image, alt: liquidObject.title %}
+          <div class="hidden">
+            {% render 'responsive-image' with liquidObject.media[1].preview_image, alt: liquidObject.images.last.alt %}
+          </div>
+        </a>
+      </div>
+    {% else %}
+      <a class="grid__image" href="{{ liquidObject.url | within: collection }}" title="{{ liquidObject.title | escape }}">
+        {% render 'responsive-image' with liquidObject.media[0].preview_image, alt: liquidObject.title %}
+      </a>
+    {% endif %}
+
+  {% when 'zoom' %}
+
+    <div class="collection-image--zoom-effect">
+      <div class="zoom-effect--inner">
+        <a class="grid__image" href="{{ liquidObject.url | within: collection }}" title="{{ liquidObject.title | escape }}">
+          {% render 'responsive-image' with liquidObject.media[0].preview_image, alt: liquidObject.title %}
+        </a>
+      </div>
+    </div>
+
+  {% endcase %}
+
+  <div class="hp-title">
+
+  {% if settings.product-grid--show-vendor %}
+    <div class="indiv-product-vendor-text">{{ liquidObject.vendor | link_to_vendor }}</div>
+  {% endif %}
+
+    <a href="{{ liquidObject.url | within: collection }}">
+
+      <span class="indiv-product-title-text">{{ liquidObject.title | capitalize }}</span>
+{% comment %}Added/Modified by Limoni Apps on 20/12/24 to support Discount Ninja{% endcomment %}
+
+      <span class="money-styling" data-la-dn-price>
+
+        {% if liquidObject.compare_at_price_max > liquidObject.price %}
+          <span class="compare-at-price">
+            <span class="money conversion-bear-money">{{ liquidObject.compare_at_price_max | money_without_currency | prepend: 'IDR ' }}</span>
+          </span>
+        {% endif %}
+
+        {% if liquidObject.price_varies %}
+          <span class="money conversion-bear-money">{{ liquidObject.price_min | money_without_currency | prepend: 'IDR ' }}</span>
+        {% else %}
+          <span class="money conversion-bear-money">{{ liquidObject.price_min | money_without_currency | prepend: 'IDR ' }}</span>
+        {% endif %}
+
+        {% assign first_variant = liquidObject.variants[0] %}
+        {% render 'unit-price-measurement-grid', variant: first_variant %}
+
+      </span>
+
+      {% if settings.show_reviews %}
+        <span class="shopify-product-reviews-badge" data-id="{{ liquidObject.id }}"></span>
+      {% endif %}
+
+    </a>
+  </div>
+  
+    <div class="tag_custom_below">
+      {%- if product.tags contains 'Exclusive Release' -%}
+        <div class="envy-badge sale-exclusiverelease">
+          Exclusive Release
+        </div>
+      {%- endif -%}
+      
+       {%- if product.tags contains 'Limited Edition' -%}
+        <div class="envy-badge sale-limitededition">
+          Limited Edition
+        </div>
+      {%- endif -%}
+      
+      {%- if product.tags contains 'Preorder' -%}
+        <div class="envy-badge sale-preorder">
+          Preorder
+        </div>
+      {%- endif -%}
+      
+      {%- if product.tags contains 'onlyonsonderlab' -%}
+        <div class="envy-badge only-on-sonderlab">
+          Only On Sonderlab
+        </div>
+      {%- endif -%}
+    </div>
+  
+  {% if liquidObject.available %}
+    {% if liquidObject.compare_at_price_max > liquidObject.price and settings.sale_badge %}
+      <div class="envy-badge sale-badge">{{ 'products.general.sale' | t }}</div>
+    {% endif %}
+  {% elsif settings.sold_out_badge %}
+    <div class="envy-badge sold-out-badge">{{ 'products.product.sold_out' | t }}</div>
+  {% endif %}
+</div>
+
+

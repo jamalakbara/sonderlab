@@ -1,0 +1,317 @@
+{% case section.settings.colors %}
+  {% when 'white' %}
+    <div class="homepage-sections-wrapper homepage-sections-wrapper--white container">
+  {% when 'light' %}
+    <div class="homepage-sections-wrapper homepage-sections-wrapper--light container">
+  {% when 'accent' %}
+    <div class="homepage-sections-wrapper homepage-sections-wrapper--accent container">
+  {% when 'dark' %}
+    <div class="homepage-sections-wrapper homepage-sections-wrapper--dark container">
+{% endcase %}
+
+{% assign collection_image_enable = section.settings.collection_image_enable %}
+{% if collection_image_enable %}
+	<style>
+	#main-navigation-wrapper{
+		margin-bottom: 0px;
+	}
+	</style>
+
+	{% if collection.image %}
+		<div class="collection-image-wrapper">
+			{% render 'responsive-image' with collection.image, alt: collection.title %}
+		</div>
+	{% endif %}
+{% endif %}
+      
+        <div class="grid__item mb-30 {{ column_size }}
+
+        wow fadeInUp {% cycle 'animDelay': '', 'delay-1', 'delay-2', 'delay-3' %}
+
+        " {{ section.shopify_attributes }}>
+          {% if section.settings.banner_link != blank %}
+            <a href="{{ section.settings.banner_link }}">
+          {% else %}
+            <div class="image-bar__item">
+          {% endif %}
+
+          <div class="image-bar__content">
+
+            {% if section.settings.banner_img != blank %}
+              {% render 'responsive-image' with section.settings.banner_img, alt: section.settings.banner_img.alt %}
+            {% endif %}
+          </div>
+
+          {% if section.settings.banner_link != blank %}
+            </a>
+          {% else %}
+            </div>
+          {% endif %}
+      
+    <div class="row image-bar">
+      {% for block in section.blocks %}
+
+        {% case section.blocks.size %}
+          {% when 1 %}
+            {%- assign column_size = 'col-sm-12 col-md-6 image-bar--single-image image-bar--single-column-mobile' -%}
+          {% when 2 %}
+            {%- assign column_size = ' col-12 col-sm-6 col-md-6' -%}
+          {% when 3 %}
+            {%- assign column_size = 'col-sm-12 col-md-6 image-bar--single-column-mobile' -%}
+          {% else %}
+            {%- assign column_size = 'col-sm-12 col-md-6 image-bar--single-column-mobile' -%}
+        {% endcase %}
+
+        <div class="grid__item collection-gallery-p-0 {{ column_size }}
+
+        wow fadeInUp {% cycle 'animDelay': '', 'delay-1', 'delay-2', 'delay-3' %}
+
+        " {{ block.shopify_attributes }}>
+          {% if block.settings.link != blank %}
+            <a href="{{ block.settings.link }}">
+          {% else %}
+            <div class="image-bar__item">
+          {% endif %}
+
+          <div class="image-bar__content">
+
+            {% if block.settings.image != blank %}
+              {% render 'responsive-image' with block.settings.image, alt: block.settings.image.alt %}
+            {% endif %}
+          </div>
+
+          {% if block.settings.link != blank %}
+            </a>
+          {% else %}
+            </div>
+          {% endif %}
+
+          {% if block.settings.title != '' %}
+            <h3 class="type-subheading type-subheading--1 image-bar--title">{{ block.settings.title }}</h4>
+          {% endif %}
+
+          {% if block.settings.description != '' %}
+            <div class="image-bar--description">{{ block.settings.description }}</div>
+          {% endif %}
+
+        </div>
+
+      {% endfor %}
+
+      {% if section.blocks.size == 0 %}
+        <div class="placeholder-noblocks">
+          {{ 'general.onboarding.no_content' | t }}
+        </div>
+      {% endif %}
+
+  </div>
+
+</div>
+
+{% schema %}
+{
+    "name": {
+        "en": "Men's Collection Gallery"
+    },
+    "class": "homepage-section--image-gallery-wrapper customize",
+    "max_blocks": 10,
+    "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "banner_img",
+                    "label": {
+                        "en": "Banner",
+                        "de": "Bild",
+                        "es": "Imagen",
+                        "fr": "Image",
+                        "pt-PT": "Imagem"
+                    },
+                    "info": {
+                        "en": "1000 x 525px recommended",
+                        "de": "1000 x 525 px empfohlen",
+                        "es": "Recomendado 1000 x 525 px",
+                        "fr": "1000 x 525 px recommandé",
+                        "pt-PT": "1000 x 525px, recomendado"
+                    }
+                },
+                {
+                    "type": "url",
+                    "id": "banner_link",
+                    "label": {
+                        "en": "Banner Link",
+                        "de": "Link",
+                        "es": "Enlace",
+                        "fr": "Lien",
+                        "pt-PT": "Ligação"
+                    },
+                    "info": {
+                        "en": "Optional",
+                        "de": "Optional",
+                        "es": "Opcional",
+                        "fr": "Facultatif",
+                        "pt-PT": "Opcional"
+                    }
+                },
+        {
+            "type": "checkbox",
+            "id": "collection_image_enable",
+            "label": {
+                "en": "Show collection image",
+                "de": "Kollektionsbild anzeigen",
+                "es": "Mostar la imagen de la colección",
+                "fr": "Afficher l'image de la collection",
+                "pt-PT": "Mostrar imagem da coleção"
+            },
+            "default": false
+        },
+        {
+            "type": "select",
+            "id": "colors",
+            "label": {
+                "en": "Color scheme",
+                "de": "Farbschema",
+                "es": "Esquema de colores",
+                "fr": "Palette de couleurs",
+                "pt-PT": "Esquema de cores"
+            },
+            "default": "white",
+            "options": [
+                {
+                    "value": "white",
+                    "label": {
+                        "en": "White",
+                        "de": "Weiß",
+                        "es": "Blanco",
+                        "fr": "Blanc",
+                        "pt-PT": "Branco"
+                    }
+                },
+                {
+                    "value": "light",
+                    "label": {
+                        "en": "Light",
+                        "de": "Licht",
+                        "es": "Luz",
+                        "fr": "Clair",
+                        "pt-PT": "Claro"
+                    }
+                },
+                {
+                    "value": "accent",
+                    "label": {
+                        "en": "Feature",
+                        "de": "Eigenschaft",
+                        "es": "Destacado",
+                        "fr": "Caractéristique",
+                        "pt-PT": "Funcionalidade"
+                    }
+                },
+                {
+                    "value": "dark",
+                    "label": {
+                        "en": "Dark",
+                        "de": "Dunkel",
+                        "es": "Oscuro",
+                        "fr": "Foncé",
+                        "pt-PT": "Escuro"
+                    }
+                }
+            ],
+            "info": {
+                "en": "The colors in each 'scheme' can be changed in the 'Theme settings' > 'Colors' section of your admin",
+                "de": "Die Farben in jedem 'Schema' können in den 'Theme-Einstellungen' geändert werden > in Ihrem Admin die Sektion 'Farben'",
+                "es": "Los colores en cada 'esquema' se pueden cambiar en la sección 'Configuración del tema' > 'Colores' del administrador",
+                "fr": "Les couleurs de chaque « modèle » peuvent être modifiées dans la section « Paramètres du thème » > « Couleurs » de votre administrateur.",
+                "pt-PT": "As cores em cada \"esquema\" podem ser alteradas na secção \"Definições de tema\" > \"Cores\" da sua página de administrador."
+            }
+        }
+    ],
+    "blocks": [
+        {
+            "type": "image",
+            "name": {
+                "en": "Image",
+                "de": "Bild",
+                "es": "Imagen",
+                "fr": "Image",
+                "pt-PT": "Imagem"
+            },
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": {
+                        "en": "Image",
+                        "de": "Bild",
+                        "es": "Imagen",
+                        "fr": "Image",
+                        "pt-PT": "Imagem"
+                    },
+                    "info": {
+                        "en": "1000 x 525px recommended",
+                        "de": "1000 x 525 px empfohlen",
+                        "es": "Recomendado 1000 x 525 px",
+                        "fr": "1000 x 525 px recommandé",
+                        "pt-PT": "1000 x 525px, recomendado"
+                    }
+                },
+                {
+                    "type": "url",
+                    "id": "link",
+                    "label": {
+                        "en": "Link",
+                        "de": "Link",
+                        "es": "Enlace",
+                        "fr": "Lien",
+                        "pt-PT": "Ligação"
+                    },
+                    "info": {
+                        "en": "Optional",
+                        "de": "Optional",
+                        "es": "Opcional",
+                        "fr": "Facultatif",
+                        "pt-PT": "Opcional"
+                    }
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": {
+                        "en": "Title",
+                        "de": "Titel",
+                        "es": "Título",
+                        "fr": "Titre",
+                        "pt-PT": "Título"
+                    },
+                    "info": {
+                        "en": "Optional",
+                        "de": "Optional",
+                        "es": "Opcional",
+                        "fr": "Facultatif",
+                        "pt-PT": "Opcional"
+                    }
+                },
+                {
+                    "type": "richtext",
+                    "id": "description",
+                    "label": {
+                        "en": "Description",
+                        "de": "Beschreibung",
+                        "es": "Descripción",
+                        "fr": "Description",
+                        "pt-PT": "Descrição"
+                    },
+                    "info": {
+                        "en": "Optional",
+                        "de": "Optional",
+                        "es": "Opcional",
+                        "fr": "Facultatif",
+                        "pt-PT": "Opcional"
+                    }
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}
+

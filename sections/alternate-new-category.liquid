@@ -1,0 +1,107 @@
+<section class="container-full-width">
+  {% if section.settings.title != blank or section.settings.subheading != blank %}
+    <div class="container header-title-section title-bar custom-font">
+      {% if section.settings.subheading != blank %}
+        <h3 class="type-subheading type-subheading--1 wow fadeIn{% if section.settings.title != blank %} typography--padding-bottom{% endif %}">{{ section.settings.subheading | escape }}</h3>
+      {% endif %}
+      {% if section.settings.title != blank %}
+        <h2 class="wow fadeIn{% if section.settings.subheading != blank %} delay-1{% endif %}">{{ section.settings.title | escape }}</h2>
+      {% endif %}
+    </div>
+  {% endif %}
+  {% case section.settings.grid_category %}
+    {% when 2 %}
+      {% assign gridClass = 'col-md-6 col-lg-6 col-12' %}
+    {% when 3 %}
+      {% assign gridClass = 'col-md-4 col-lg-4 col-12' %}
+    {% when 4 %}
+      {% assign gridClass = 'col-md-3 col-lg-3 col-12' %}
+  {% endcase %}
+  {% if section.blocks.size > 0 %}
+    <div class="row row-no-margin">
+      {% for block in section.blocks %}
+        <div class="{{ gridClass }} category-item">
+          {% assign url = block.settings.category_target %}
+          {% if url != blank %}
+            <a href="{{ url }}">
+          {% endif %}
+          {% if block.settings.category_img != blank %}
+            <div class="category-img">
+              {{ block.settings.category_img | img_url: 'master' | img_tag: '', '' }}
+            </div>
+            {% if block.settings.category_title != blank %}
+              <div class="category-overlay">
+                <h4 class="category-title">{{ block.settings.category_title | escape }}</h4>
+              </div>
+            {% endif %}
+          {% else %}
+            <div class="category-img">
+              {{ 'product-1' | placeholder_svg_tag }}
+            </div>
+          {% endif %}
+          {% if url != blank %}
+            </a>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+</section>
+{% schema %}
+  {
+    "name": "Alternate New Category",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Title"
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading",
+        "default": "Subheading"
+      },
+      {
+        "type": "range",
+        "id": "grid_category",
+        "label": "Row grid",
+        "min": 2,
+        "max": 4,
+        "step": 1,
+        "default": 2
+      }
+    ],
+    "blocks": [
+      {
+        "type": "category",
+        "name": "Category",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "category_img",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "category_title",
+            "label": "Title",
+            "default": "Title"
+          },
+          {
+            "type": "url", 
+            "id": "category_target",
+            "label": "Url"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Alternate New Category",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}

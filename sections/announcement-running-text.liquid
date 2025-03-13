@@ -1,0 +1,87 @@
+{% unless template.name == 'index' %}
+  <style>
+      #shopify-section-announcement-running-text {
+        position: relative;
+      }
+    @media only screen and (max-width: 641px) {
+      #shopify-section-announcement-running-text {
+        overflow: hidden;
+      }
+    }
+  </style>
+{% endunless %}
+
+<section class="container-full-width">
+  <div class="running-text-wrapper">
+    <style>
+      @media only screen and (max-width: 641px) {
+        .running-text-item {
+          font-size: {{ section.settings.title_size_mobile | default: '14' }}pt !important;
+        }
+      }
+    </style>
+    {% if section.settings.url != blank %}
+      <a href="{{ section.settings.url }}" class="running-text-link">
+    {% endif %}
+      {% if section.settings.title != blank %}
+        <div class="running-text-item" style="font-size:{{ section.settings.title_size }}pt"></div>
+      {% endif %}
+      {% if section.settings.title != blank %}
+        <div class="running-text-item" style="font-size:{{ section.settings.title_size }}pt"></div>
+      {% endif %}
+      {% if section.settings.title != blank %}
+        <div class="running-text-item" style="font-size:{{ section.settings.title_size }}pt"></div>
+      {% endif %}
+      {% if section.settings.title != blank %}
+        <div class="running-text-item" style="font-size:{{ section.settings.title_size }}pt"></div>
+      {% endif %}
+      {% if section.settings.title != blank %}
+        <div class="running-text-item" style="font-size:{{ section.settings.title_size }}pt"></div>
+      {% endif %}
+    {% if section.settings.url != blank %}
+      </a>
+    {% endif %}
+  </div>
+</section>
+<style>
+  .running-text-item:before {
+    content: "{{ section.settings.title | escape }}";
+  }
+</style>
+{% schema %}
+{
+  "name": "Announcement Running Text",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "url",
+      "id": "url",
+      "label": "Url"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "title base size",
+      "default": 10,
+      "min": 10,
+      "max": 36,
+      "step": 1,
+      "unit": "pt"
+    },
+    {
+      "type": "range",
+      "id": "title_size_mobile",
+      "label": "title base size mobile",
+      "default": 10,
+      "min": 10,
+      "max": 36,
+      "step": 1,
+      "unit": "pt"
+    }
+  ]
+}
+{% endschema %}
