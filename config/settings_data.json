@@ -256,7 +256,10 @@
             }
           }
         },
-        "block_order": ["1593371302345", "1593371280693"],
+        "block_order": [
+          "1593371302345",
+          "1593371280693"
+        ],
         "settings": {
           "grid": 4,
           "rows": 8,
@@ -330,7 +333,10 @@
             }
           }
         },
-        "block_order": ["1596704533969", "1596704552828"],
+        "block_order": [
+          "1596704533969",
+          "1596704552828"
+        ],
         "settings": {
           "grid": 4,
           "rows": 6,
@@ -433,7 +439,10 @@
             }
           }
         },
-        "block_order": ["1596434475949", "1596434783628"],
+        "block_order": [
+          "1596434475949",
+          "1596434783628"
+        ],
         "settings": {
           "collection_image_enable": false,
           "colors": "white"
@@ -456,7 +465,10 @@
             }
           }
         },
-        "block_order": ["1597338966461", "1597338957249"],
+        "block_order": [
+          "1597338966461",
+          "1597338957249"
+        ],
         "settings": {
           "grid": 3,
           "rows": 6,
@@ -573,7 +585,10 @@
             }
           }
         },
-        "block_order": ["1597337631148", "1597337623323"],
+        "block_order": [
+          "1597337631148",
+          "1597337623323"
+        ],
         "settings": {
           "grid": 4,
           "rows": 6,
@@ -841,7 +856,9 @@
             }
           }
         },
-        "block_order": ["1598188719383"],
+        "block_order": [
+          "1598188719383"
+        ],
         "settings": {
           "slider-animation": "slide",
           "slider-width": "fixed",
@@ -2010,6 +2027,13 @@
       "621442e7-76bf-4e28-8a8e-f4192267aa8b": {
         "type": "new-category",
         "blocks": {
+          "cd09ea28-a154-4665-b47b-bdf31b89f0a4": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/OTHMAN.png",
+              "category_target": "nanou-the-brand"
+            }
+          },
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0": {
             "type": "category",
             "settings": {
@@ -2038,13 +2062,6 @@
               "category_target": "alto-project"
             }
           },
-          "cd09ea28-a154-4665-b47b-bdf31b89f0a4": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/NANOU_1ef297d0-9864-48e8-9bad-cc084694aef9.png",
-              "category_target": "nanou-the-brand"
-            }
-          },
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d": {
             "type": "category",
             "settings": {
@@ -2068,11 +2085,11 @@
           }
         },
         "block_order": [
+          "cd09ea28-a154-4665-b47b-bdf31b89f0a4",
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0",
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7",
           "9c94ea9f-ad02-4a9a-9206-1ca37323641e",
           "9a0077c3-e56b-4360-809f-d7946e427804",
-          "cd09ea28-a154-4665-b47b-bdf31b89f0a4",
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d",
           "6ae10d52-e0b2-479f-88db-5f6137e04f9d",
           "95cad93d-6d14-48c2-aeef-f736adf2fccb"
@@ -2875,6 +2892,7 @@
             "settings": {
               "video_link": "https://cdn.shopify.com/videos/c/o/v/892d3f79ba4a480fa5b1b3548c8da606.mp4",
               "video_image": "shopify://shop_images/BANNER_STILL_STUDIO_PRIVATE_SALE.png",
+              "video_link_mobile": "",
               "overlay_opacity": 0,
               "title": "",
               "text": "",
@@ -2886,7 +2904,9 @@
             }
           }
         },
-        "block_order": ["video_GyRjeP"],
+        "block_order": [
+          "video_GyRjeP"
+        ],
         "settings": {}
       },
       "template--cart": {
@@ -3013,7 +3033,12 @@
               "settings": {}
             }
           },
-          "block_order": ["footer-0", "footer-1", "footer-2", "footer-3"],
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2",
+            "footer-3"
+          ],
           "settings": {}
         },
         "image--slideshow": {
@@ -3048,7 +3073,10 @@
               }
             }
           },
-          "block_order": ["image--slideshow-0", "image--slideshow-1"],
+          "block_order": [
+            "image--slideshow-0",
+            "image--slideshow-1"
+          ],
           "settings": {
             "slider-width": "full-width",
             "caption-heading-size": 48
@@ -3085,7 +3113,11 @@
               "settings": {}
             }
           },
-          "block_order": ["collection-0", "collection-1", "collection-2"],
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
           "settings": {
             "title": "Collection list"
           }
@@ -3224,7 +3256,10 @@
               }
             }
           },
-          "block_order": ["image--slideshow-0", "image--slideshow-1"],
+          "block_order": [
+            "image--slideshow-0",
+            "image--slideshow-1"
+          ],
           "settings": {
             "slider-width": "full-width",
             "caption-heading-size": 38,
@@ -3252,7 +3287,10 @@
               }
             }
           },
-          "block_order": ["gallery-0", "gallery-1"],
+          "block_order": [
+            "gallery-0",
+            "gallery-1"
+          ],
           "settings": {}
         },
         "collection--featured-collection": {
@@ -3356,7 +3394,11 @@
               "settings": {}
             }
           },
-          "block_order": ["footer-0", "footer-1", "footer-2"],
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
           "settings": {}
         }
       },
@@ -3450,7 +3492,10 @@
               }
             }
           },
-          "block_order": ["image--slideshow-0", "image--slideshow-1"],
+          "block_order": [
+            "image--slideshow-0",
+            "image--slideshow-1"
+          ],
           "settings": {
             "slider-width": "full-width",
             "caption-heading-size": 40,
@@ -3477,7 +3522,10 @@
               "settings": {}
             }
           },
-          "block_order": ["collection-0", "collection-1"],
+          "block_order": [
+            "collection-0",
+            "collection-1"
+          ],
           "settings": {
             "colors": "light"
           }
@@ -3530,7 +3578,11 @@
               "settings": {}
             }
           },
-          "block_order": ["footer-0", "footer-1", "footer-2"],
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
           "settings": {}
         }
       },
@@ -3625,7 +3677,10 @@
               }
             }
           },
-          "block_order": ["image--slideshow-0", "image--slideshow-1"],
+          "block_order": [
+            "image--slideshow-0",
+            "image--slideshow-1"
+          ],
           "settings": {
             "slider-width": "full-width",
             "caption-heading-size": 50,
@@ -3658,7 +3713,11 @@
               "settings": {}
             }
           },
-          "block_order": ["collection-0", "collection-1", "collection-2"],
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
           "settings": {
             "title": ""
           }
@@ -3683,7 +3742,12 @@
               "settings": {}
             }
           },
-          "block_order": ["logo-0", "logo-1", "logo-2", "logo-3"],
+          "block_order": [
+            "logo-0",
+            "logo-1",
+            "logo-2",
+            "logo-3"
+          ],
           "settings": {}
         },
         "image--image-with-text-overlay": {
@@ -3718,7 +3782,11 @@
               "settings": {}
             }
           },
-          "block_order": ["testimonial-0", "testimonial-1", "testimonial-2"],
+          "block_order": [
+            "testimonial-0",
+            "testimonial-1",
+            "testimonial-2"
+          ],
           "settings": {
             "colors": "light",
             "show-slide-dots": false,
@@ -3752,7 +3820,11 @@
               "settings": {}
             }
           },
-          "block_order": ["footer-0", "footer-1", "footer-2"],
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
           "settings": {}
         }
       },
