@@ -2233,6 +2233,17 @@
               "url": "shopify://collections/rassvet"
             }
           },
+          "left_slideshow_TrGFfi": {
+            "type": "left_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/SPORTY_WEB_68e98990-c0cb-47c6-bcab-52afb3ec3959.png",
+              "image_mobile": "shopify://shop_images/SPORTY_MOBILE_59bcdfab-da3c-4b14-95cb-1d6581d31856.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/cissylia-picks"
+            }
+          },
           "left_slideshow_Uynt3r": {
             "type": "left_slideshow",
             "settings": {
@@ -2253,18 +2264,6 @@
               "description": "",
               "button_title": "",
               "url": "shopify://collections/akila"
-            }
-          },
-          "left_slideshow_TrGFfi": {
-            "type": "left_slideshow",
-            "disabled": true,
-            "settings": {
-              "image_desktop": "shopify://shop_images/VALENTINE_WEB_53630044-d3bc-46d4-b051-eadfb1545aea.png",
-              "image_mobile": "shopify://shop_images/VALENTINE_f4f0f7d0-afed-460f-83d4-b2d2e19eb260.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": ""
             }
           },
           "left_slideshow_8hWdRN": {
@@ -2419,9 +2418,9 @@
           "d667a2e0-8403-4b9b-9b8b-8dbc46e58d15",
           "40306223-14f6-48fd-ad87-cd64126dc86f",
           "c7edf080-46fe-4793-9346-ae72de30e98a",
+          "left_slideshow_TrGFfi",
           "left_slideshow_Uynt3r",
           "6eab1dcc-4d02-4c4e-95e6-52081b8281a0",
-          "left_slideshow_TrGFfi",
           "left_slideshow_8hWdRN",
           "4fcffd14-8665-41e6-bd9c-2594e98f8336",
           "left_slideshow_z9U9yp",
