@@ -26,7 +26,7 @@
             "row_divider": "#000000",
             "index_color": "#000000",
             "brand_text_color": "#808080",
-            "icon_color": "#EA0606",
+            "icon_color": "#ea0606",
             "index_style": "H4",
             "index_text_size": 18,
             "brand_text_size": 16,
@@ -46,10 +46,23 @@
         "lfs_instant_brand_page_brand_page_hiaJ4e"
       ],
       "settings": {}
+    },
+    "text_rich_text_Dp3DPN": {
+      "type": "text--rich-text",
+      "settings": {
+        "colors": "white",
+        "width": "medium",
+        "subheading": "",
+        "title": "Our Brands",
+        "text": "",
+        "button_link": "",
+        "button_label": ""
+      }
     }
   },
   "order": [
     "pf-d88a93cc",
+    "text_rich_text_Dp3DPN",
     "17427955850ab7e0fd"
   ]
 }
