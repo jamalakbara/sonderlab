@@ -11,10 +11,45 @@
   "sections": {
     "pf-d88a93cc": {
       "type": "pf-d88a93cc",
+      "disabled": true,
+      "settings": {}
+    },
+    "17427955850ab7e0fd": {
+      "type": "apps",
+      "blocks": {
+        "lfs_instant_brand_page_brand_page_hiaJ4e": {
+          "type": "shopify://apps/lfs-instant-brand-page/blocks/brand-page/cce62951-67ac-44d9-a5d7-e29328a3d9e7",
+          "settings": {
+            "layout": "page_vert",
+            "columns": 4,
+            "custom_class": "",
+            "row_divider": "#000000",
+            "index_color": "#000000",
+            "brand_text_color": "#808080",
+            "icon_color": "#EA0606",
+            "index_style": "H4",
+            "index_text_size": 18,
+            "brand_text_size": 16,
+            "item_display": "text",
+            "brand_image_size": 100,
+            "icon_radius": 10,
+            "image_display": "contain",
+            "icon_style": "instant-brand-sale1.png",
+            "on_sale": false,
+            "source_collection": "",
+            "redirect_menu": "",
+            "custom_filter": ""
+          }
+        }
+      },
+      "block_order": [
+        "lfs_instant_brand_page_brand_page_hiaJ4e"
+      ],
       "settings": {}
     }
   },
   "order": [
-    "pf-d88a93cc"
+    "pf-d88a93cc",
+    "17427955850ab7e0fd"
   ]
 }
