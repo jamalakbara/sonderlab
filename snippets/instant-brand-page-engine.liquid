@@ -1,156 +1,117 @@
-{% assign excludedbrands_array = excludedbrandlist | split: "**" %}
-{% assign customimagebrandlistformatted = customimagebrandlist | downcase | replace: " ", "_" %}
-{% assign customimagebrands_array = customimagebrandlistformatted | split: "**" %}
-{% assign notificationbrands_array = notificationbrandlist | split: "**" %}
-{% assign vendorlist="" %}
-{% assign salelist="" %}
-{% assign lastbrand = "" %}
-{% assign nocustombrand = true %}
-{% assign columnwidth = 100 | divided_by: pagecolumns %}
-        
-{% assign mobileready = "" %}
-{% assign mobilefontstyle = "'font-size : 28px; border-bottom : 0px;'" %}
-{% assign mobileimgwith = "200px" %}
-{% assign mobilenav = "<p style='text-align:center; word-wrap: break-word;font-size:24px;'>&nbsp;" %}
 
 
-{% if bshowimages %}
-	{% assign margintop = '-6px' %}
-  {% case imgwith %}
-    {% when '18px' %}
-		{% assign marginleft = '0px' %}
-		{% assign salebannersize = '14px' %}
-    {% when '20px' %}
-		{% assign marginleft = '0px' %}
-		{% assign salebannersize = '16px' %}
-    {% when '25px' %}
-		{% assign marginleft = '0px' %}
-		{% assign salebannersize = '17px' %}
-    {% when '30px' %}
-		{% assign marginleft = '-1px' %}
-		{% assign salebannersize = '17px' %}
-    {% when '35px' %}
-		{% assign marginleft = '-4px' %}
-		{% assign margintop = '-7px' %}
-		{% assign salebannersize = '18px' %}
-    {% when '40px' %}
-		{% assign marginleft = '-7px' %}
-		{% assign margintop = '-7px' %}
-		{% assign salebannersize = '20px' %}
-    {% when '50px' %}
-		{% assign marginleft = '-8px' %}
-		{% assign margintop = '-8px' %}
-		{% assign salebannersize = '22px' %}
-    {% when '60px' %}
-		{% assign marginleft = '-8px' %}
-		{% assign margintop = '-8px' %}
-		{% assign salebannersize = '25px' %}
-    {% when '75px' %}
-		{% assign marginleft = '-10px' %}
-		{% assign margintop = '-10px' %}
-		{% assign salebannersize = '27px' %}
-    {% when '100px' %}
-		{% assign marginleft = '-12px' %}
-		{% assign margintop = '-10px' %}
-		{% assign salebannersize = '30px' %}
-  {% endcase %}
-{% else %}
-	{% assign salebannersize = fontsize | replace: 'px', '' %}
-  {% assign salebannersize = salebannersize | plus: 2 | floor  %}
-  {% assign salebannersize = salebannersize | append: 'px' %}
-{% endif %}
+{% liquid 
 
-        
-{% assign maxprodquery = shop.collections_count  | divided_by: 100 %}
+capture version_render
+  render 'instant-brand-page-version'
+endcapture
 
-{% if maxprodquery == 0 %}
-  {% assign maxprodquery = 1000 %}
-{% else %}
-    {% assign maxprodquery = 1000  | divided_by: maxprodquery %}
-{% endif %}
+assign customimagebrands_array = shop.metafields.instant-brand-page.brand-list-settings.value.custom_images
+assign excludedbrands_array = shop.metafields.instant-brand-page.brand-list-settings.value.excluded_brand_list 
+assign notificationbrands_array = shop.metafields.instant-brand-page.brand-list-settings.value.tagged_brand_list 
 
 
-{% for product_vendor in shop.vendors %}
-  {% assign fullvendorlist = fullvendorlist | append: product_vendor | append: "**" %}
-{% endfor %}
+if bshowsale   
+  for sale_item in shop.metafields.instant-brand-page.brand-sale.value
+     assign notificationbrands_array = notificationbrands_array | concat: sale_item
+  endfor 
+endif 
+unless outofstockvendors  
+  assign instock_cache = shop.metafields.instant-brand-page.brand-instock.value
+endunless
 
-{% if bshowsale or outofstockvendors == false %}        
-    {% if shop.products_count > 999 %}
-    <!-- max product review -->
-    {% paginate collections by 10000 %}
-                {% for collection in collections %}
-                    {% paginate collection.products by maxprodquery %}
-                      {% for product in collection.products %}
-                        {% if product.available %}
-                          {% assign instockvendorlist = instockvendorlist | append: product.vendor | append: "**" %}
-                        {% endif %}
-                        {% if bshowsale %}
-                           {% if product.price < product.compare_at_price_max %}
-                               {% assign salelist = salelist | append: product.vendor | append: "**" %}
-                           {% endif %}
-                        {% endif %}
-                      {% endfor %}
-                    {% endpaginate %}
-                {% endfor %}
-      {% endpaginate %}
-    {% endif %}
-    
-   <!-- normal Product review -->
-    {% assign my_instock_vendor_array = instockvendorlist | split: "**" %}
-    {% assign my_full_vendor_array = fullvendorlist | split: "**" %}
+if bmatchcollectionURL
+  assign collection_cache = shop.metafields.instant-brand-page.brand-collections.value
+endif
+  
+assign fullvendorlist = ""
 
-    {% for vendorname in my_full_vendor_array %}
-            {% if outofstockvendors %}
-                {% assign vendorlist = vendorlist | append: vendorname | append: "**" %}
-            {% else %}
-                {% if my_instock_vendor_array contains vendorname %}
-                    {% assign vendorlist = vendorlist | append: vendorname | append: "**" %}
-                {% endif %}
-            {% endif %}      			
-    {% endfor %}
-                   
-    {% paginate collections.all.products by 10000 %}
-      {% for product in collections.all.products %}
-       {% if outofstockvendors %}
-           {% assign vendorlist = vendorlist | append: product.vendor | append: "**" %}
-       {% else %}
-         {% if product.available %}
-           {% assign vendorlist = vendorlist | append: product.vendor | append: "**" %}
-         {% endif %}
-       {% endif %}
-       {% if bshowsale %}
-         {% if product.price < product.compare_at_price_max %}
-             {% assign salelist = salelist | append: product.vendor | append: "**" %}
-         {% endif %}
-       {% endif %}
-      {% endfor %}
-   {% endpaginate %}
-                            
-    {% assign my_vendor_array = vendorlist | split: "**" %}
-    {% assign my_vendor_array_sorted =  my_vendor_array | sort_natural | uniq %}
-    {% assign my_vendor_sale_array_draft = salelist | split: "**" %}
-	  {% assign my_vendor_sale_array = my_vendor_sale_array_draft | concat: notificationbrands_array %}
-    {% assign my_vendor_sale_array_sorted =  my_vendor_sale_array | sort_natural | uniq %}
-    {% assign myvendorsize = my_vendor_array_sorted | size %}
-       
-{% else %}
+if linkofinterest
+  for link in linklists[linkofinterest].links
+    assign brand_add = link.title | split: '!*:::::::::*!'
+    unless outofstockvendors
+      unless instock_cache contains link.title
+        assign excludedbrands_array = excludedbrands_array | concat: brand_add
+      endunless
+    endunless 
+    if accent_consolidate
+      assign brand_pref = link.title | handleize | slice: 0 | capitalize | append: '!**!' | append: link.title
+    else
+      assign brand_pref = link.title | slice: 0 | capitalize | append: '!**!' | append: link.title
+    endif
+    assign fullvendorlist = fullvendorlist | append: brand_pref | append: "/**/"
+  endfor
+else 
+  for link in linklists.instant-brand-page-redirect-menu.links
+    assign brand_add = link.title | split: '!*:::::::::*!'
+    unless outofstockvendors
+      unless instock_cache contains link.title
+        assign excludedbrands_array = excludedbrands_array | concat: brand_add
+      endunless
+    endunless 
+    if accent_consolidate
+      assign brand_pref = link.title | handleize | slice: 0 | capitalize | append: '!**!' | append: link.title
+    else
+      assign brand_pref = link.title | slice: 0 | capitalize | append: '!**!' | append: link.title
+    endif
+    assign fullvendorlist = fullvendorlist | append: brand_pref | append: "/**/"
+  endfor
+endif
 
-<!-- Aggregating Vendor List -->
-  {% assign my_vendor_array = fullvendorlist | split: "**" %}
-  {% assign my_vendor_array_sorted =  my_vendor_array | sort_natural | uniq %}
-  {% assign myvendorsize = my_vendor_array_sorted | size %}
-  {% assign my_vendor_sale_array = notificationbrands_array %}
-  {% assign my_vendor_sale_array_sorted =  my_vendor_sale_array | sort_natural | uniq %}
+if collofinterest
+  for vendor in collections[collofinterest].all_vendors
+    assign brand_add = vendor | split: '!*:::::::::*!'
+    unless outofstockvendors
+      unless instock_cache contains vendor
+        assign excludedbrands_array = excludedbrands_array | concat: brand_add
+      endunless
+    endunless 
+    if accent_consolidate
+        assign brand_pref = vendor | handleize | slice: 0 | capitalize | append: '!**!' | append: vendor
+      else
+        assign brand_pref = vendor | slice: 0 | capitalize | append: '!**!' | append: vendor
+      endif
+    assign fullvendorlist = fullvendorlist | append: brand_pref | append: "/**/"
+  endfor
+else
+  for vendor in shop.vendors
+    assign brand_add = vendor | split: '!*:::::::::*!'
+    unless outofstockvendors
+      unless instock_cache contains vendor
+        assign excludedbrands_array = excludedbrands_array | concat: brand_add
+      endunless
+    endunless 
+    if accent_consolidate
+        assign brand_pref = vendor | handleize | slice: 0 | capitalize | append: '!**!' | append: vendor
+      else
+        assign brand_pref = vendor | slice: 0 | capitalize | append: '!**!' | append: vendor
+      endif
+    assign fullvendorlist = fullvendorlist | append: brand_pref | append: "/**/"
+  endfor
+endif
 
-{% endif %}
+assign my_vendor_array = fullvendorlist | split: "/**/"
+assign my_vendor_array_sorted =  my_vendor_array | sort_natural | uniq
+assign myvendorsize = my_vendor_array_sorted | size
 
-<!-- Validate Excluded List -->
-{% for exc_brand_name in excludedbrands_array %}
-	{% if  my_vendor_array contains exc_brand_name %}
-		{% assign myexcsize = myexcsize | plus: 1 %}
-	{% endif %}
-{% endfor %}
+assign my_vendor_sale_array = notificationbrands_array
+assign my_vendor_sale_array_sorted =  my_vendor_sale_array | sort_natural | uniq
 
+assign myexcsize = excludedbrands_array.size
 
-{% assign myTotalVendors = myvendorsize | minus: myexcsize %} 
-{% assign maxvendor = myTotalVendors | divided_by: pagecolumns | ceil %}
+assign myTotalVendors = myvendorsize | minus: myexcsize 
+assign maxvendor = myTotalVendors | divided_by: pagecolumns | ceil
+assign maxvendor = maxvendor | plus: 1
+
+assign last_place =  'ZZZ!**!zzzzzzzzz' | split: ","
+assign exc_last_place =  'zzzzzzzzz' | split: ","
+assign my_vendor_array_sorted = my_vendor_array_sorted | concat: last_place
+assign my_vendor_array_sorted =  my_vendor_array_sorted | sort_natural | uniq
+assign excludedbrands_array = excludedbrands_array | concat: exc_last_place
+
+%}
+
+<!-- IB: {{ version_render }} -->
+<!-- Map Collection: {{ bmatchcollectionURL }} -->
+<!-- Show Out of Stock: {{ outofstockvendors }} -->
+<!-- Show Sale: {{ bshowsale }} -->
