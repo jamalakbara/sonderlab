@@ -1,28 +1,29 @@
-
-
-
 <script type="text/javascript">
-  var instant_brand_slider_options = {"enabled": true, "slider_display": 4, "slider_autoplay_enabled": true};
+  var instant_brand_slider_options = {"enabled": {{ shop.metafields.instant-brand-page.vintage-settings.value.slider_enabled }}, "slider_display": {{ shop.metafields.instant-brand-page.vintage-settings.value.slider_display }}, "slider_autoplay_enabled": {{shop.metafields.instant-brand-page.vintage-settings.value.slider_autoplay_enabled}}};
 </script>
 
-{% assign sliderheader = "<h4>Our Favourite Brands</h4>" %}
-{% assign sliderincludetext = false %}
-{% assign headerformat = "h4" %}
-{% assign imgwith = "100" %}
-{% assign fontsize = "14" %}
-{% assign salebanner = "instant-brand-sale1.png" %}
-{% assign outofstockvendors = true %}
-{% assign bshowsale = false %}
-{% assign saleiconcolor = "#ff0000" %}
-{% assign bmatchcollectionURL = true %}
-{% assign bshowimages = false %}
-{% assign brandformat = "vertical" %}
-{% assign pagecolumns = 4 %}
-{% assign fitbrandimage = false %}
-{% assign bshowtext = true %}
-{% assign headerstyle = "text-decoration: underline;" %}
-{% assign addslidertopage = false %}
-{% assign consolidate_numbers = true %}
-{% assign consolidate_numbers_char = "#" %}
-{% assign display_index = true %}
-{% assign index_long_link = true %}
+{% assign sliderheader = shop.metafields.instant-brand-page.vintage-settings.value.slider_header %}
+{% assign sliderincludetext = shop.metafields.instant-brand-page.vintage-settings.value.slider_includetext %}
+{% assign headerformat = shop.metafields.instant-brand-page.vintage-settings.value.brand_header_size %}
+{% assign imgwith = shop.metafields.instant-brand-page.vintage-settings.value.brand_image_width %}
+{% assign fontsize = shop.metafields.instant-brand-page.vintage-settings.value.brand_font_size %}
+{% assign salebanner = shop.metafields.instant-brand-page.vintage-settings.value.sale_banner %}
+{% assign outofstockvendors = shop.metafields.instant-brand-page.vintage-settings.value.brand_display_outofstock %}
+{% assign bshowsale = shop.metafields.instant-brand-page.vintage-settings.value.brand_display_sales %}
+{% assign saleiconcolor = shop.metafields.instant-brand-page.vintage-settings.value.brand_icon_color %}
+{% assign bmatchcollectionURL = shop.metafields.instant-brand-page.vintage-settings.value.brand_layout_collection %}
+{% assign bshowimages = shop.metafields.instant-brand-page.vintage-settings.value.brand_display_images %}
+{% assign brandformat = shop.metafields.instant-brand-page.vintage-settings.value.brand_layout %}
+{% assign pagecolumns = shop.metafields.instant-brand-page.vintage-settings.value.brand_vertical_columns | times: 1 %}
+{% assign fitbrandimage = shop.metafields.instant-brand-page.vintage-settings.value.brand_display_image_fit %}
+{% assign bshowtext = shop.metafields.instant-brand-page.vintage-settings.value.brand_display_brand_name %}
+{% assign headerstyle = shop.metafields.instant-brand-page.vintage-settings.value.brand_header_style %}
+{% assign addslidertopage = shop.metafields.instant-brand-page.vintage-settings.value.brand_slider_addtopage %}
+{% assign consolidate_numbers = shop.metafields.instant-brand-page.vintage-settings.value.brand_consolidate_numbers %}
+{% assign consolidate_numbers_char = shop.metafields.instant-brand-page.vintage-settings.value.brand_consolidate_numbers_char %}
+{% assign display_index = shop.metafields.instant-brand-page.vintage-settings.value.brand_display_index %}
+{% assign index_long_link = shop.metafields.instant-brand-page.vintage-settings.value.brand_index_long_link %}
+{% assign consolidate_other_char = '...'%}
+{% assign accent_consolidate = true %}
+{% assign mapping_quicklink = '/collections/vendors?q=%brand%' %}
+{% assign sort_order = '' %}
