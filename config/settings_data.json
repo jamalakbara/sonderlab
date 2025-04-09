@@ -2235,6 +2235,7 @@
           },
           "left_slideshow_YkCMDE": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/LASTSHIP_ANC_WEB.png",
               "image_mobile": "shopify://shop_images/LASTSHIP_ANC.png",
@@ -2246,6 +2247,7 @@
           },
           "left_slideshow_kUQEpY": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/ANNC_CLOSE_WEB.png",
               "image_mobile": "shopify://shop_images/ANNC_CLOSE.png",
