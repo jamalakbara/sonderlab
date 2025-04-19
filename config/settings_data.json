@@ -2027,6 +2027,13 @@
       "621442e7-76bf-4e28-8a8e-f4192267aa8b": {
         "type": "new-category",
         "blocks": {
+          "95cad93d-6d14-48c2-aeef-f736adf2fccb": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/OTISH.png",
+              "category_target": "otish"
+            }
+          },
           "9a0077c3-e56b-4360-809f-d7946e427804": {
             "type": "category",
             "settings": {
@@ -2069,13 +2076,6 @@
               "category_target": "sincerely-sea"
             }
           },
-          "95cad93d-6d14-48c2-aeef-f736adf2fccb": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/AP_1538afca-e31f-41d9-885c-146b4818d72c.png",
-              "category_target": "aesthetic-pleasure"
-            }
-          },
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0": {
             "type": "category",
             "settings": {
@@ -2085,13 +2085,13 @@
           }
         },
         "block_order": [
+          "95cad93d-6d14-48c2-aeef-f736adf2fccb",
           "9a0077c3-e56b-4360-809f-d7946e427804",
           "9c94ea9f-ad02-4a9a-9206-1ca37323641e",
           "cd09ea28-a154-4665-b47b-bdf31b89f0a4",
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d",
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7",
           "6ae10d52-e0b2-479f-88db-5f6137e04f9d",
-          "95cad93d-6d14-48c2-aeef-f736adf2fccb",
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0"
         ],
         "settings": {
