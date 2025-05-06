@@ -2898,16 +2898,14 @@
           "video_GyRjeP": {
             "type": "video",
             "settings": {
-              "video_link": "https://cdn.shopify.com/videos/c/o/v/bd64ab395a6f4810983d3b0a1f8c1bb6.mp4",
-              "video_image": "shopify://shop_images/Screenshot_2025-03-20_at_4.24.24_PM.png",
-              "video_link_mobile": "https://cdn.shopify.com/videos/c/o/v/74f1dd978fee4ab7bc564142907bab70.mp4",
-              "video_image_mobile": "shopify://shop_images/STILL_STORY_SONDERLAB_X_WCTM_14_04_2025.png",
+              "video_link": "https://cdn.shopify.com/videos/c/o/v/ea22855e6cf4481e9543d39a43e7c84f.mp4",
+              "video_link_mobile": "https://cdn.shopify.com/videos/c/o/v/ea22855e6cf4481e9543d39a43e7c84f.mp4",
               "overlay_opacity": 0,
               "title": "",
               "text": "",
               "color_text": "#ffffff",
               "button_label": "",
-              "button_link": "shopify://collections/studio-private-sale-1",
+              "button_link": "shopify://collections/sonderlab",
               "color_btn_bg": "#ffffff",
               "color_btn_text": "#ffffff"
             }
