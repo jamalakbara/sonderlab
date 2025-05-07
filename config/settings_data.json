@@ -2027,6 +2027,20 @@
       "621442e7-76bf-4e28-8a8e-f4192267aa8b": {
         "type": "new-category",
         "blocks": {
+          "f9d60ffb-370f-41b8-9fc7-a0867123b26d": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/REJINA_bb8b852a-5be3-4532-853f-15b76b5232a7.png",
+              "category_target": "rejina"
+            }
+          },
+          "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/LAYR.png",
+              "category_target": "published-by"
+            }
+          },
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7": {
             "type": "category",
             "settings": {
@@ -2068,31 +2082,17 @@
               "category_img": "shopify://shop_images/TCM.png",
               "category_target": "theycallme"
             }
-          },
-          "f9d60ffb-370f-41b8-9fc7-a0867123b26d": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/EGON_7e4d2ffc-ffba-49f2-a8ce-081ecdeeb45c.png",
-              "category_target": "egon"
-            }
-          },
-          "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/Published_by_2bb4e93c-042a-4e45-a534-45ef6544cf2a.png",
-              "category_target": "published-by"
-            }
           }
         },
         "block_order": [
+          "f9d60ffb-370f-41b8-9fc7-a0867123b26d",
+          "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0",
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7",
           "6ae10d52-e0b2-479f-88db-5f6137e04f9d",
           "95cad93d-6d14-48c2-aeef-f736adf2fccb",
           "9a0077c3-e56b-4360-809f-d7946e427804",
           "9c94ea9f-ad02-4a9a-9206-1ca37323641e",
-          "cd09ea28-a154-4665-b47b-bdf31b89f0a4",
-          "f9d60ffb-370f-41b8-9fc7-a0867123b26d",
-          "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0"
+          "cd09ea28-a154-4665-b47b-bdf31b89f0a4"
         ],
         "settings": {
           "title": "",
