@@ -2167,6 +2167,17 @@
       "8ca0d835-172e-4092-876f-a61a6c3dce99": {
         "type": "alternate-slideshow",
         "blocks": {
+          "left_slideshow_8hWdRN": {
+            "type": "left_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/AP_WEB_6a9ee7ae-b5cf-43b1-ab9a-f2478047d0c3.png",
+              "image_mobile": "shopify://shop_images/AP_32dc0a3b-fe44-4181-ad08-475368375176.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/exclusive-release"
+            }
+          },
           "96a73edc-887f-44ba-9784-295dd10452fb": {
             "type": "right_slideshow",
             "settings": {
@@ -2288,18 +2299,6 @@
               "description": "",
               "button_title": "",
               "url": "shopify://collections/akila"
-            }
-          },
-          "left_slideshow_8hWdRN": {
-            "type": "left_slideshow",
-            "disabled": true,
-            "settings": {
-              "image_desktop": "shopify://shop_images/VALENTINE_WEB.png",
-              "image_mobile": "shopify://shop_images/VALENTINE.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/sweat-affection"
             }
           },
           "4fcffd14-8665-41e6-bd9c-2594e98f8336": {
@@ -2436,6 +2435,7 @@
           }
         },
         "block_order": [
+          "left_slideshow_8hWdRN",
           "96a73edc-887f-44ba-9784-295dd10452fb",
           "f13608dc-cce4-404d-927d-223b90a15dbc",
           "97e528c8-5480-497d-9897-8e270e1ad11a",
@@ -2447,7 +2447,6 @@
           "left_slideshow_TrGFfi",
           "left_slideshow_Uynt3r",
           "6eab1dcc-4d02-4c4e-95e6-52081b8281a0",
-          "left_slideshow_8hWdRN",
           "4fcffd14-8665-41e6-bd9c-2594e98f8336",
           "left_slideshow_z9U9yp",
           "left_slideshow_7HEBwD",
