@@ -2027,6 +2027,13 @@
       "621442e7-76bf-4e28-8a8e-f4192267aa8b": {
         "type": "new-category",
         "blocks": {
+          "9c94ea9f-ad02-4a9a-9206-1ca37323641e": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/CU.png",
+              "category_target": "cooluncle"
+            }
+          },
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d": {
             "type": "category",
             "settings": {
@@ -2069,13 +2076,6 @@
               "category_target": "biscuitshop"
             }
           },
-          "9c94ea9f-ad02-4a9a-9206-1ca37323641e": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/SP.png",
-              "category_target": "sunny-pixie"
-            }
-          },
           "cd09ea28-a154-4665-b47b-bdf31b89f0a4": {
             "type": "category",
             "settings": {
@@ -2085,13 +2085,13 @@
           }
         },
         "block_order": [
+          "9c94ea9f-ad02-4a9a-9206-1ca37323641e",
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d",
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0",
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7",
           "6ae10d52-e0b2-479f-88db-5f6137e04f9d",
           "95cad93d-6d14-48c2-aeef-f736adf2fccb",
           "9a0077c3-e56b-4360-809f-d7946e427804",
-          "9c94ea9f-ad02-4a9a-9206-1ca37323641e",
           "cd09ea28-a154-4665-b47b-bdf31b89f0a4"
         ],
         "settings": {
