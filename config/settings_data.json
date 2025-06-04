@@ -2027,6 +2027,20 @@
       "621442e7-76bf-4e28-8a8e-f4192267aa8b": {
         "type": "new-category",
         "blocks": {
+          "95cad93d-6d14-48c2-aeef-f736adf2fccb": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/SONDER_46fe4448-625f-43c3-9538-f636aaaa6127.png",
+              "category_target": "sonderlab"
+            }
+          },
+          "9c94ea9f-ad02-4a9a-9206-1ca37323641e": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/SS_27e2f341-dbee-4979-a99a-c895ae36088e.png",
+              "category_target": "sincerely-sea"
+            }
+          },
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d": {
             "type": "category",
             "settings": {
@@ -2055,25 +2069,11 @@
               "category_target": "arthefact"
             }
           },
-          "95cad93d-6d14-48c2-aeef-f736adf2fccb": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/UTARA_d9ed1ef8-2aed-4fef-8901-e70c41386dd5.png",
-              "category_target": "utara-studio"
-            }
-          },
           "cd09ea28-a154-4665-b47b-bdf31b89f0a4": {
             "type": "category",
             "settings": {
               "category_img": "shopify://shop_images/AP_ce6c6fb4-fc3c-4834-9d76-30632dafae95.png",
               "category_target": "aesthetic-pleasure"
-            }
-          },
-          "9c94ea9f-ad02-4a9a-9206-1ca37323641e": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/CU.png",
-              "category_target": "cooluncle"
             }
           },
           "9a0077c3-e56b-4360-809f-d7946e427804": {
@@ -2085,13 +2085,13 @@
           }
         },
         "block_order": [
+          "95cad93d-6d14-48c2-aeef-f736adf2fccb",
+          "9c94ea9f-ad02-4a9a-9206-1ca37323641e",
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d",
           "6ae10d52-e0b2-479f-88db-5f6137e04f9d",
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0",
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7",
-          "95cad93d-6d14-48c2-aeef-f736adf2fccb",
           "cd09ea28-a154-4665-b47b-bdf31b89f0a4",
-          "9c94ea9f-ad02-4a9a-9206-1ca37323641e",
           "9a0077c3-e56b-4360-809f-d7946e427804"
         ],
         "settings": {
