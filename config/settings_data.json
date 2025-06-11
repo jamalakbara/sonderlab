@@ -2034,18 +2034,18 @@
               "category_target": "iyonono"
             }
           },
+          "9c94ea9f-ad02-4a9a-9206-1ca37323641e": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/SIMA.png",
+              "category_target": "sima-design"
+            }
+          },
           "95cad93d-6d14-48c2-aeef-f736adf2fccb": {
             "type": "category",
             "settings": {
               "category_img": "shopify://shop_images/SONDER_46fe4448-625f-43c3-9538-f636aaaa6127.png",
               "category_target": "sonderlab"
-            }
-          },
-          "9c94ea9f-ad02-4a9a-9206-1ca37323641e": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/SS_27e2f341-dbee-4979-a99a-c895ae36088e.png",
-              "category_target": "sincerely-sea"
             }
           },
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d": {
@@ -2086,8 +2086,8 @@
         },
         "block_order": [
           "cd09ea28-a154-4665-b47b-bdf31b89f0a4",
-          "95cad93d-6d14-48c2-aeef-f736adf2fccb",
           "9c94ea9f-ad02-4a9a-9206-1ca37323641e",
+          "95cad93d-6d14-48c2-aeef-f736adf2fccb",
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d",
           "6ae10d52-e0b2-479f-88db-5f6137e04f9d",
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0",
