@@ -2271,12 +2271,12 @@
             "type": "left_slideshow",
             "disabled": true,
             "settings": {
-              "image_desktop": "shopify://shop_images/ANNC_CLOSE_WEB.png",
-              "image_mobile": "shopify://shop_images/ANNC_CLOSE.png",
+              "image_desktop": "shopify://shop_images/WEB_77.png",
+              "image_mobile": "shopify://shop_images/MOBILE_77.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": ""
+              "url": "shopify://collections/sale"
             }
           },
           "left_slideshow_Uynt3r": {
