@@ -2027,6 +2027,13 @@
       "621442e7-76bf-4e28-8a8e-f4192267aa8b": {
         "type": "new-category",
         "blocks": {
+          "6ae10d52-e0b2-479f-88db-5f6137e04f9d": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/AP_2f37beea-fc3b-4f51-8304-b65354710a74.png",
+              "category_target": "aesthetic-pleasure"
+            }
+          },
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0": {
             "type": "category",
             "settings": {
@@ -2075,24 +2082,17 @@
               "category_img": "shopify://shop_images/SONDER_46fe4448-625f-43c3-9538-f636aaaa6127.png",
               "category_target": "sonderlab"
             }
-          },
-          "6ae10d52-e0b2-479f-88db-5f6137e04f9d": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/ARTS_DE_BASE.png",
-              "category_target": "arts-de-base"
-            }
           }
         },
         "block_order": [
+          "6ae10d52-e0b2-479f-88db-5f6137e04f9d",
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0",
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d",
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7",
           "9a0077c3-e56b-4360-809f-d7946e427804",
           "cd09ea28-a154-4665-b47b-bdf31b89f0a4",
           "9c94ea9f-ad02-4a9a-9206-1ca37323641e",
-          "95cad93d-6d14-48c2-aeef-f736adf2fccb",
-          "6ae10d52-e0b2-479f-88db-5f6137e04f9d"
+          "95cad93d-6d14-48c2-aeef-f736adf2fccb"
         ],
         "settings": {
           "title": "",
@@ -2110,10 +2110,10 @@
           "subheading": "",
           "subheading_size": 14,
           "subheading_size_mobile": 12,
-          "title": "SONDERLAB",
+          "title": "SALE 7.7",
           "heading_size": 22,
           "heading_size_mobile": 20,
-          "collection": "sonderlab",
+          "collection": "sale",
           "grid": 5,
           "rows": 1,
           "show_view_all": true
