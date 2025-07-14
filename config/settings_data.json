@@ -2110,10 +2110,10 @@
           "subheading": "",
           "subheading_size": 14,
           "subheading_size_mobile": 12,
-          "title": "SALE 7.7",
+          "title": "SONDERLAB",
           "heading_size": 22,
           "heading_size_mobile": 20,
-          "collection": "sale",
+          "collection": "sonderlab",
           "grid": 5,
           "rows": 1,
           "show_view_all": true
@@ -2246,6 +2246,7 @@
           },
           "left_slideshow_kUQEpY": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/WEB_77.png",
               "image_mobile": "shopify://shop_images/MOBILE_77.png",
