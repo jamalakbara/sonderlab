@@ -2233,6 +2233,17 @@
               "url": "shopify://collections/rassvet"
             }
           },
+          "left_slideshow_YkCMDE": {
+            "type": "left_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/WEB_77_9d484248-d701-4503-80c7-405978f85bd7.png",
+              "image_mobile": "shopify://shop_images/MOBILE_77_9ed6995e-32fa-44f0-8645-1a3372fcbde3.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "https://forms.gle/xRPectr2oWSw141F6"
+            }
+          },
           "left_slideshow_kUQEpY": {
             "type": "left_slideshow",
             "settings": {
@@ -2264,18 +2275,6 @@
               "description": "",
               "button_title": "",
               "url": "shopify://collections/exclusive-release"
-            }
-          },
-          "left_slideshow_YkCMDE": {
-            "type": "left_slideshow",
-            "disabled": true,
-            "settings": {
-              "image_desktop": "shopify://shop_images/LASTSHIP_ANC_WEB.png",
-              "image_mobile": "shopify://shop_images/LASTSHIP_ANC.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": ""
             }
           },
           "left_slideshow_Uynt3r": {
@@ -2440,10 +2439,10 @@
           "d667a2e0-8403-4b9b-9b8b-8dbc46e58d15",
           "40306223-14f6-48fd-ad87-cd64126dc86f",
           "c7edf080-46fe-4793-9346-ae72de30e98a",
+          "left_slideshow_YkCMDE",
           "left_slideshow_kUQEpY",
           "left_slideshow_TrGFfi",
           "left_slideshow_8hWdRN",
-          "left_slideshow_YkCMDE",
           "left_slideshow_Uynt3r",
           "6eab1dcc-4d02-4c4e-95e6-52081b8281a0",
           "4fcffd14-8665-41e6-bd9c-2594e98f8336",
