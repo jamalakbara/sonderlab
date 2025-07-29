@@ -2170,12 +2170,12 @@
           "96a73edc-887f-44ba-9784-295dd10452fb": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/Artboard_1_4af01176-e4b1-457a-b32a-e8a0ed744f91.png",
-              "image_mobile": "shopify://shop_images/Artboard_1_4af01176-e4b1-457a-b32a-e8a0ed744f91.png",
+              "image_desktop": "shopify://shop_images/BRAND_PICKS-04.jpg",
+              "image_mobile": "shopify://shop_images/BRAND_PICKS-04.jpg",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/published-by"
+              "url": "shopify://collections/aesthetic-pleasure"
             }
           },
           "f13608dc-cce4-404d-927d-223b90a15dbc": {
@@ -2203,12 +2203,12 @@
           "d667a2e0-8403-4b9b-9b8b-8dbc46e58d15": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/Artboard_2_a8d463cf-38d5-4ffd-97db-acf54cc807ba.png",
-              "image_mobile": "shopify://shop_images/Artboard_2_a8d463cf-38d5-4ffd-97db-acf54cc807ba.png",
+              "image_desktop": "shopify://shop_images/BRAND_PICKS-06.jpg",
+              "image_mobile": "shopify://shop_images/BRAND_PICKS-06.jpg",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/song-for-the-mute"
+              "url": "shopify://collections/akila"
             }
           },
           "40306223-14f6-48fd-ad87-cd64126dc86f": {
@@ -2225,16 +2225,61 @@
           "c7edf080-46fe-4793-9346-ae72de30e98a": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/Artboard_19_f0f81ad6-1ba0-45df-b6f3-a58247a04e58.png",
-              "image_mobile": "shopify://shop_images/Artboard_19_f0f81ad6-1ba0-45df-b6f3-a58247a04e58.png",
+              "image_desktop": "shopify://shop_images/BRAND_PICKS-05.jpg",
+              "image_mobile": "shopify://shop_images/BRAND_PICKS-05.jpg",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/rassvet"
+              "url": "shopify://collections/sporty-and-rich"
+            }
+          },
+          "left_slideshow_7HEBwD": {
+            "type": "left_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/MARGESHERWOOD_WEB.png",
+              "image_mobile": "shopify://shop_images/MARGESHERWOOD_62a1d4dc-599f-4930-8a25-fcc604d865b0.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/margesherwood"
+            }
+          },
+          "left_slideshow_Uynt3r": {
+            "type": "left_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/BISCUIT_WEB.png",
+              "image_mobile": "shopify://shop_images/BISCUIT_22b06275-ebbf-4ff1-b0ac-7bef43367ba3.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/biscuitshop"
+            }
+          },
+          "649ab954-ca6f-4863-a02e-be3777967b74": {
+            "type": "left_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/ADBASE_WEB.png",
+              "image_mobile": "shopify://shop_images/ADBASE.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/arts-de-base"
+            }
+          },
+          "9588db3d-9f72-455c-8c69-06a09b6bc9f4": {
+            "type": "left_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/PB_WEB.png",
+              "image_mobile": "shopify://shop_images/PB_6e188363-d67d-4b3e-95f3-4b71aaa5fb66.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/published-by"
             }
           },
           "left_slideshow_YkCMDE": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/WEB_77_9d484248-d701-4503-80c7-405978f85bd7.png",
               "image_mobile": "shopify://shop_images/MOBILE_77_9ed6995e-32fa-44f0-8645-1a3372fcbde3.png",
@@ -2278,17 +2323,6 @@
               "url": "shopify://collections/exclusive-release"
             }
           },
-          "left_slideshow_Uynt3r": {
-            "type": "left_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/SPORTY_WEB_784753c0-9f91-494f-b59d-022d43219a0f.png",
-              "image_mobile": "shopify://shop_images/SPORTY_MOBILE_c1b642c1-058a-4dea-9a1a-16b59ce3b50d.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/sporty-and-rich"
-            }
-          },
           "6eab1dcc-4d02-4c4e-95e6-52081b8281a0": {
             "type": "left_slideshow",
             "settings": {
@@ -2320,17 +2354,6 @@
               "description": "",
               "button_title": "",
               "url": "shopify://collections/hanaka"
-            }
-          },
-          "left_slideshow_7HEBwD": {
-            "type": "left_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/NACHE_WEB.png",
-              "image_mobile": "shopify://shop_images/NACHE_MOBILE.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/exclusive-release"
             }
           },
           "15c2ab47-27e6-418d-861d-cce7cccbbe3a": {
@@ -2377,17 +2400,6 @@
               "url": ""
             }
           },
-          "649ab954-ca6f-4863-a02e-be3777967b74": {
-            "type": "left_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/RV_WEB.png",
-              "image_mobile": "shopify://shop_images/RV_MOBILE.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/exclusive-collection"
-            }
-          },
           "left_slideshow_tkKGPR": {
             "type": "left_slideshow",
             "settings": {
@@ -2410,17 +2422,6 @@
               "url": "shopify://collections/song-for-the-mute"
             }
           },
-          "9588db3d-9f72-455c-8c69-06a09b6bc9f4": {
-            "type": "left_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/SA_WEB.png",
-              "image_mobile": "shopify://shop_images/SA_MOBILE.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/space-available"
-            }
-          },
           "f895d03b-1516-40ad-8d75-2793f73ea255": {
             "type": "left_slideshow",
             "settings": {
@@ -2440,23 +2441,23 @@
           "d667a2e0-8403-4b9b-9b8b-8dbc46e58d15",
           "40306223-14f6-48fd-ad87-cd64126dc86f",
           "c7edf080-46fe-4793-9346-ae72de30e98a",
+          "left_slideshow_7HEBwD",
+          "left_slideshow_Uynt3r",
+          "649ab954-ca6f-4863-a02e-be3777967b74",
+          "9588db3d-9f72-455c-8c69-06a09b6bc9f4",
           "left_slideshow_YkCMDE",
           "left_slideshow_kUQEpY",
           "left_slideshow_TrGFfi",
           "left_slideshow_8hWdRN",
-          "left_slideshow_Uynt3r",
           "6eab1dcc-4d02-4c4e-95e6-52081b8281a0",
           "4fcffd14-8665-41e6-bd9c-2594e98f8336",
           "left_slideshow_z9U9yp",
-          "left_slideshow_7HEBwD",
           "15c2ab47-27e6-418d-861d-cce7cccbbe3a",
           "da877537-5f7f-43a0-9a79-b15cd937c5c0",
           "63d76e5e-72b1-4288-8df2-2c634aeb13a1",
           "left_slideshow_A8hTkV",
-          "649ab954-ca6f-4863-a02e-be3777967b74",
           "left_slideshow_tkKGPR",
           "left_slideshow_kHKJEA",
-          "9588db3d-9f72-455c-8c69-06a09b6bc9f4",
           "f895d03b-1516-40ad-8d75-2793f73ea255"
         ],
         "settings": {
