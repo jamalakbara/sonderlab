@@ -874,6 +874,26 @@
       "16265096165ebc6ead": {
         "type": "image--slideshow",
         "blocks": {
+          "2ad51b93-72ce-44eb-99c1-e25ad5606c9b": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify://shop_images/FLEUR_WEB.png",
+              "mobile_image": "shopify://shop_images/FLEUR.png",
+              "subheading": "",
+              "title": "",
+              "text": "",
+              "button_text": "SHOP NOW",
+              "link": "shopify://collections/vegan-tiger",
+              "caption-background": "rgba(0,0,0,0)",
+              "caption-text": "#ffffff",
+              "button-text": "#ffffff",
+              "button-background": "rgba(0,0,0,0)",
+              "border-button": "#ffffff",
+              "horizontal-alignment": "center",
+              "vertical-alignment": "middle"
+            }
+          },
           "2c8ad38b-617b-42d8-a82f-d398fe524b77": {
             "type": "image",
             "settings": {
@@ -1082,28 +1102,10 @@
               "horizontal-alignment": "center",
               "vertical-alignment": "middle"
             }
-          },
-          "2ad51b93-72ce-44eb-99c1-e25ad5606c9b": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/VEGAN_TIGER_2x-100.jpg",
-              "mobile_image": "shopify://shop_images/VEGAN_TIGER_1_2x-100.jpg",
-              "subheading": "",
-              "title": "",
-              "text": "",
-              "button_text": "SHOP NOW",
-              "link": "shopify://collections/vegan-tiger",
-              "caption-background": "rgba(0,0,0,0)",
-              "caption-text": "#ffffff",
-              "button-text": "#ffffff",
-              "button-background": "rgba(0,0,0,0)",
-              "border-button": "#ffffff",
-              "horizontal-alignment": "center",
-              "vertical-alignment": "middle"
-            }
           }
         },
         "block_order": [
+          "2ad51b93-72ce-44eb-99c1-e25ad5606c9b",
           "2c8ad38b-617b-42d8-a82f-d398fe524b77",
           "dac532f1-d775-4f96-af16-07bc8b743409",
           "1ced39a5-3275-4bc9-a33a-e2f105e588d0",
@@ -1114,8 +1116,7 @@
           "c71dd108-9412-48ff-89e1-745ee52b9e9f",
           "414996ec-bec9-478d-a920-0fa764b0bc21",
           "56e5c021-a9ba-45e6-854b-6428c972a7f3",
-          "b2b2a1a7-0a3f-4ce9-99ce-5e854f980418",
-          "2ad51b93-72ce-44eb-99c1-e25ad5606c9b"
+          "b2b2a1a7-0a3f-4ce9-99ce-5e854f980418"
         ],
         "disabled": true,
         "settings": {
@@ -2233,6 +2234,17 @@
               "url": "shopify://collections/sporty-and-rich"
             }
           },
+          "left_slideshow_nabNB7": {
+            "type": "left_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/FLEUR_WEB.png",
+              "image_mobile": "shopify://shop_images/FLEUR.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": ""
+            }
+          },
           "left_slideshow_7HEBwD": {
             "type": "left_slideshow",
             "settings": {
@@ -2441,6 +2453,7 @@
           "d667a2e0-8403-4b9b-9b8b-8dbc46e58d15",
           "40306223-14f6-48fd-ad87-cd64126dc86f",
           "c7edf080-46fe-4793-9346-ae72de30e98a",
+          "left_slideshow_nabNB7",
           "left_slideshow_7HEBwD",
           "left_slideshow_Uynt3r",
           "649ab954-ca6f-4863-a02e-be3777967b74",
