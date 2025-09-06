@@ -2028,6 +2028,20 @@
       "621442e7-76bf-4e28-8a8e-f4192267aa8b": {
         "type": "new-category",
         "blocks": {
+          "95cad93d-6d14-48c2-aeef-f736adf2fccb": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/SATCHEL_222b411e-3c9e-4ab9-96ab-406756fb4645.png",
+              "category_target": "satchel"
+            }
+          },
+          "f9d60ffb-370f-41b8-9fc7-a0867123b26d": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/RUMME_4948477b-e7ad-482b-8479-9a3da64d7bd1.png",
+              "category_target": "rumme"
+            }
+          },
           "6ae10d52-e0b2-479f-88db-5f6137e04f9d": {
             "type": "category",
             "settings": {
@@ -2063,37 +2077,23 @@
               "category_target": "izipizi"
             }
           },
-          "f9d60ffb-370f-41b8-9fc7-a0867123b26d": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/SEGI_e591384a-9323-4a75-b20d-3b8042a92b47.png",
-              "category_target": "segi-jewelry"
-            }
-          },
           "9c94ea9f-ad02-4a9a-9206-1ca37323641e": {
             "type": "category",
             "settings": {
               "category_img": "shopify://shop_images/PB_c9c5596f-0200-4306-8ff3-afadfd751a6a.png",
               "category_target": "published-by"
             }
-          },
-          "95cad93d-6d14-48c2-aeef-f736adf2fccb": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/MARGESHERWOOD.png",
-              "category_target": "margesherwood"
-            }
           }
         },
         "block_order": [
+          "95cad93d-6d14-48c2-aeef-f736adf2fccb",
+          "f9d60ffb-370f-41b8-9fc7-a0867123b26d",
           "6ae10d52-e0b2-479f-88db-5f6137e04f9d",
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7",
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0",
           "9a0077c3-e56b-4360-809f-d7946e427804",
           "cd09ea28-a154-4665-b47b-bdf31b89f0a4",
-          "f9d60ffb-370f-41b8-9fc7-a0867123b26d",
-          "9c94ea9f-ad02-4a9a-9206-1ca37323641e",
-          "95cad93d-6d14-48c2-aeef-f736adf2fccb"
+          "9c94ea9f-ad02-4a9a-9206-1ca37323641e"
         ],
         "settings": {
           "title": "",
