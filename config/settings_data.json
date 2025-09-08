@@ -2234,6 +2234,17 @@
               "url": "shopify://collections/sporty-and-rich"
             }
           },
+          "left_slideshow_kUQEpY": {
+            "type": "left_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/WEB_99.png",
+              "image_mobile": "shopify://shop_images/MOBILE_99.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/sale"
+            }
+          },
           "left_slideshow_nabNB7": {
             "type": "left_slideshow",
             "settings": {
@@ -2299,18 +2310,6 @@
               "description": "",
               "button_title": "",
               "url": "https://forms.gle/xRPectr2oWSw141F6"
-            }
-          },
-          "left_slideshow_kUQEpY": {
-            "type": "left_slideshow",
-            "disabled": true,
-            "settings": {
-              "image_desktop": "shopify://shop_images/WEB_77.png",
-              "image_mobile": "shopify://shop_images/MOBILE_77.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/sale"
             }
           },
           "left_slideshow_TrGFfi": {
@@ -2453,13 +2452,13 @@
           "d667a2e0-8403-4b9b-9b8b-8dbc46e58d15",
           "40306223-14f6-48fd-ad87-cd64126dc86f",
           "c7edf080-46fe-4793-9346-ae72de30e98a",
+          "left_slideshow_kUQEpY",
           "left_slideshow_nabNB7",
           "left_slideshow_7HEBwD",
           "left_slideshow_Uynt3r",
           "649ab954-ca6f-4863-a02e-be3777967b74",
           "9588db3d-9f72-455c-8c69-06a09b6bc9f4",
           "left_slideshow_YkCMDE",
-          "left_slideshow_kUQEpY",
           "left_slideshow_TrGFfi",
           "left_slideshow_8hWdRN",
           "6eab1dcc-4d02-4c4e-95e6-52081b8281a0",
