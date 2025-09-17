@@ -2236,6 +2236,7 @@
           },
           "left_slideshow_kUQEpY": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/WEB_99.png",
               "image_mobile": "shopify://shop_images/MOBILE_99.png",
@@ -2247,6 +2248,7 @@
           },
           "left_slideshow_nabNB7": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/FLEUR_WEB.png",
               "image_mobile": "shopify://shop_images/FLEUR.png",
