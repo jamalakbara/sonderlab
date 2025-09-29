@@ -2028,6 +2028,20 @@
       "621442e7-76bf-4e28-8a8e-f4192267aa8b": {
         "type": "new-category",
         "blocks": {
+          "9a0077c3-e56b-4360-809f-d7946e427804": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/SYMA_5c0f8193-2ee0-4cf7-ac04-d0805ee63a0c.png",
+              "category_target": "syma"
+            }
+          },
+          "9c94ea9f-ad02-4a9a-9206-1ca37323641e": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/SENSES.png",
+              "category_target": "senses-dua"
+            }
+          },
           "95cad93d-6d14-48c2-aeef-f736adf2fccb": {
             "type": "category",
             "settings": {
@@ -2063,37 +2077,23 @@
               "category_target": "dovetail"
             }
           },
-          "9a0077c3-e56b-4360-809f-d7946e427804": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/LARI_5495c31b-a579-4415-b8ba-466b01f1ec6b.png",
-              "category_target": "lari-active"
-            }
-          },
           "cd09ea28-a154-4665-b47b-bdf31b89f0a4": {
             "type": "category",
             "settings": {
               "category_img": "shopify://shop_images/IZIPIZI.png",
               "category_target": "izipizi"
             }
-          },
-          "9c94ea9f-ad02-4a9a-9206-1ca37323641e": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/SENSES.png",
-              "category_target": "senses-dua"
-            }
           }
         },
         "block_order": [
+          "9a0077c3-e56b-4360-809f-d7946e427804",
+          "9c94ea9f-ad02-4a9a-9206-1ca37323641e",
           "95cad93d-6d14-48c2-aeef-f736adf2fccb",
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d",
           "6ae10d52-e0b2-479f-88db-5f6137e04f9d",
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7",
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0",
-          "9a0077c3-e56b-4360-809f-d7946e427804",
-          "cd09ea28-a154-4665-b47b-bdf31b89f0a4",
-          "9c94ea9f-ad02-4a9a-9206-1ca37323641e"
+          "cd09ea28-a154-4665-b47b-bdf31b89f0a4"
         ],
         "settings": {
           "title": "",
