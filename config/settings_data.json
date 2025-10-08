@@ -2028,6 +2028,13 @@
       "621442e7-76bf-4e28-8a8e-f4192267aa8b": {
         "type": "new-category",
         "blocks": {
+          "cd09ea28-a154-4665-b47b-bdf31b89f0a4": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/PRAYING.png",
+              "category_target": "praying"
+            }
+          },
           "9a0077c3-e56b-4360-809f-d7946e427804": {
             "type": "category",
             "settings": {
@@ -2076,24 +2083,17 @@
               "category_img": "shopify://shop_images/DOVETAL.png",
               "category_target": "dovetail"
             }
-          },
-          "cd09ea28-a154-4665-b47b-bdf31b89f0a4": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/IZIPIZI.png",
-              "category_target": "izipizi"
-            }
           }
         },
         "block_order": [
+          "cd09ea28-a154-4665-b47b-bdf31b89f0a4",
           "9a0077c3-e56b-4360-809f-d7946e427804",
           "9c94ea9f-ad02-4a9a-9206-1ca37323641e",
           "95cad93d-6d14-48c2-aeef-f736adf2fccb",
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d",
           "6ae10d52-e0b2-479f-88db-5f6137e04f9d",
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7",
-          "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0",
-          "cd09ea28-a154-4665-b47b-bdf31b89f0a4"
+          "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0"
         ],
         "settings": {
           "title": "",
@@ -2236,10 +2236,9 @@
           },
           "left_slideshow_kUQEpY": {
             "type": "left_slideshow",
-            "disabled": true,
             "settings": {
-              "image_desktop": "shopify://shop_images/WEB_99.png",
-              "image_mobile": "shopify://shop_images/MOBILE_99.png",
+              "image_desktop": "shopify://shop_images/WEB_99_7a75ab2c-942a-4008-bfaa-e4f173f5875f.png",
+              "image_mobile": "shopify://shop_images/MOBILE_99_b851c280-868f-44bc-8115-7350ff9274c4.png",
               "title": "",
               "description": "",
               "button_title": "",
@@ -2995,11 +2994,6 @@
       "10727672529976264282": {
         "type": "shopify://apps/discount-ninja/blocks/la-dn-app-embed-core-v5-assetless-1124/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
         "disabled": true,
-        "settings": {}
-      },
-      "10471075532548766236": {
-        "type": "shopify://apps/tipo-product-auction/blocks/app-embed-block/77eabb13-2cfa-4b28-b113-57ce3d979f51",
-        "disabled": false,
         "settings": {}
       }
     }
