@@ -2028,6 +2028,13 @@
       "621442e7-76bf-4e28-8a8e-f4192267aa8b": {
         "type": "new-category",
         "blocks": {
+          "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/iyonono_4ab131f5-26f4-4145-ad22-1f27f81500a0.png",
+              "category_target": "iyonono"
+            }
+          },
           "cd09ea28-a154-4665-b47b-bdf31b89f0a4": {
             "type": "category",
             "settings": {
@@ -2076,24 +2083,17 @@
               "category_img": "shopify://shop_images/EGON_214cec5f-3eba-46eb-af85-d7ab8fc94df5.png",
               "category_target": "egon"
             }
-          },
-          "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/DOVETAL.png",
-              "category_target": "dovetail"
-            }
           }
         },
         "block_order": [
+          "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0",
           "cd09ea28-a154-4665-b47b-bdf31b89f0a4",
           "9a0077c3-e56b-4360-809f-d7946e427804",
           "9c94ea9f-ad02-4a9a-9206-1ca37323641e",
           "95cad93d-6d14-48c2-aeef-f736adf2fccb",
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d",
           "6ae10d52-e0b2-479f-88db-5f6137e04f9d",
-          "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7",
-          "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0"
+          "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7"
         ],
         "settings": {
           "title": "",
