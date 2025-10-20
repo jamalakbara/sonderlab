@@ -1151,7 +1151,7 @@
           "a03532e1-b4f8-4a64-bcc5-c98efafef961": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/MENS_TSHIRT.png",
+              "image": "shopify://shop_images/BANNER_APPAREL_copy_3.png",
               "link": "shopify://collections/mens-t-shirt",
               "title": "",
               "description": ""
@@ -1160,7 +1160,7 @@
           "452f4f9f-35cf-4471-bf41-a956a4664157": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/MENS_SHIRT.png",
+              "image": "shopify://shop_images/BANNER_ACCESORIES_copy_3.png",
               "link": "shopify://collections/mens-shirt",
               "title": "",
               "description": ""
@@ -1169,7 +1169,7 @@
           "bb398940-9ac5-40f0-8a95-2ec742d06605": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/MENS_OUTER.png",
+              "image": "shopify://shop_images/BANNER_BAGS_WALLET_copy_3.png",
               "link": "shopify://collections/mens-outer",
               "title": "",
               "description": ""
@@ -1187,7 +1187,7 @@
           "3f8d5e60-8891-454d-84b1-be78c1bf115e": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/MENS_PANTS.png",
+              "image": "shopify://shop_images/BANNER_FOOTWEAR_copy_3.png",
               "link": "shopify://collections/mens-pants",
               "title": "",
               "description": ""
