@@ -2606,7 +2606,7 @@
           "34c1b92f-36fb-4b69-a5b0-5aaf0482b17a": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/BANNER_WEB_BARU.jpg",
+              "image_desktop": "shopify://shop_images/WEB_HLAI.png",
               "image_mobile": "shopify://shop_images/RUNNING_BANNER_MOBILE_BARU.jpg",
               "title": "",
               "description": "",
@@ -2616,6 +2616,7 @@
           },
           "49e46af2-705c-433b-91b9-fc1fe919a812": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/AKILA_ER.jpg",
               "image_mobile": "shopify://shop_images/AKILA_ER_MOBILE.jpg",
@@ -2649,6 +2650,7 @@
           },
           "3aba305e-82f1-4f40-b544-b8cfec1981ab": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/SEGI_WEB_BARU.png",
               "image_mobile": "shopify://shop_images/SEGI_MOBILE_BARU.png",
@@ -2660,6 +2662,7 @@
           },
           "732d9853-b4e7-41b1-81be-6f86a8f4244b": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/BANNER_WEB_TOKODIDIYO_BARU.png",
               "image_mobile": "shopify://shop_images/RUNNING_BANNER_TOKO_DIDIYO_MOBILE_BARU_da327ede-77db-4abd-8370-6945f56e5197.png",
@@ -2671,6 +2674,7 @@
           },
           "162a316f-94a5-40b3-bfc4-e74b1c38455e": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/BANNER_WEB_BARU.png",
               "image_mobile": "shopify://shop_images/RUNNING_BANNER_MOBILE_BARU.png",
@@ -2682,6 +2686,7 @@
           },
           "fec17aa0-5ab5-40b6-8c93-cd3343768044": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/BANNER_WEB_MASOU_BARU.png",
               "image_mobile": "shopify://shop_images/RUNNING_BANNER_MASOUMOBILE_BARU.png",
@@ -2693,6 +2698,7 @@
           },
           "32ea0def-a2bf-4207-a09a-49a900284b44": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/BANNER_WEB_PERCA.png",
               "image_mobile": "shopify://shop_images/RUNNING_BANNER_MOBILE_PERCA.png",
@@ -2704,6 +2710,7 @@
           },
           "e3fe5210-2840-4a1f-b404-16c549cb2c67": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/OLINE_WEB.png",
               "image_mobile": "shopify://shop_images/OLINE_MOBILE.png",
@@ -2715,6 +2722,7 @@
           },
           "866fb40a-cd82-4ff1-9a2f-40da1a3671c0": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/CAPSUL_WEB.png",
               "image_mobile": "shopify://shop_images/CAPSUL_MOBILE.png",
@@ -2726,6 +2734,7 @@
           },
           "03a607a1-f187-483d-96d2-eaa9cc571729": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/RAW_EMO_MOBILE.png",
               "image_mobile": "shopify://shop_images/RAW_EMO_WEB.png",
@@ -2984,16 +2993,6 @@
       "16843599010748508989": {
         "type": "shopify://apps/simply-shipping-protection/blocks/simply-insurance/e9bd463f-26d8-4126-9497-0375dca0f009",
         "disabled": false,
-        "settings": {}
-      },
-      "13027630495364635475": {
-        "type": "shopify://apps/discount-ninja/blocks/la-dn-app-embed-core-v5-assetless/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
-        "disabled": false,
-        "settings": {}
-      },
-      "10727672529976264282": {
-        "type": "shopify://apps/discount-ninja/blocks/la-dn-app-embed-core-v5-assetless-1124/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
-        "disabled": true,
         "settings": {}
       }
     }
