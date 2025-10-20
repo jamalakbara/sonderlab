@@ -2315,6 +2315,7 @@
           },
           "left_slideshow_TrGFfi": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/S_R_WEB.png",
               "image_mobile": "shopify://shop_images/S_R.png",
@@ -2326,6 +2327,7 @@
           },
           "left_slideshow_8hWdRN": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/AP_WEB_6a9ee7ae-b5cf-43b1-ab9a-f2478047d0c3.png",
               "image_mobile": "shopify://shop_images/AP_32dc0a3b-fe44-4181-ad08-475368375176.png",
@@ -2337,6 +2339,7 @@
           },
           "6eab1dcc-4d02-4c4e-95e6-52081b8281a0": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/AKILA_WEB.png",
               "image_mobile": "shopify://shop_images/AKILA_MOBILE.png",
@@ -2348,6 +2351,7 @@
           },
           "4fcffd14-8665-41e6-bd9c-2594e98f8336": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/DIBBA_5b8697e3-ef7e-44d3-abef-e895760b6396.png",
               "image_mobile": "shopify://shop_images/DIBBA_MOBILE.png",
@@ -2359,6 +2363,7 @@
           },
           "left_slideshow_z9U9yp": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/HANAKA_WEB_f169a73e-d0f6-4d96-9349-97391124b686.png",
               "image_mobile": "shopify://shop_images/HANAKA_MOBILE_565eccb3-08ca-448f-9290-09b3ab7335cc.png",
@@ -2370,6 +2375,7 @@
           },
           "15c2ab47-27e6-418d-861d-cce7cccbbe3a": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/RASSVET_WEB.png",
               "image_mobile": "shopify://shop_images/RASSVET_MOBILE.png",
@@ -2392,6 +2398,7 @@
           },
           "63d76e5e-72b1-4288-8df2-2c634aeb13a1": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/YUME_WEB_7ffe5bf3-bba4-4f40-83e9-48643e3f7a5f.png",
               "image_mobile": "shopify://shop_images/YUME_MOBILE_32327c10-98ba-482a-b912-b90aea49d439.png",
@@ -2436,6 +2443,7 @@
           },
           "f895d03b-1516-40ad-8d75-2793f73ea255": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/OPEN_YY_WEB.png",
               "image_mobile": "shopify://shop_images/OPEN_YY_MOBILE.png",
