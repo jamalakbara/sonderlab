@@ -2080,8 +2080,8 @@
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/EGON_214cec5f-3eba-46eb-af85-d7ab8fc94df5.png",
-              "category_target": "egon"
+              "category_img": "shopify://shop_images/SENSES_e8487fe4-bf8b-4b99-b3e8-088c9e1fb328.png",
+              "category_target": "exclusive-collection"
             }
           }
         },
@@ -2939,7 +2939,7 @@
           "video_GyRjeP": {
             "type": "video",
             "settings": {
-              "video_link": "https://cdn.shopify.com/videos/c/o/v/0cc56fac1e5c4027a52933669b9b4848.mp4",
+              "video_link": "https://cdn.shopify.com/videos/c/o/v/66cd3782ee164d2085606e4b797bd7ea.mp4",
               "video_image": "shopify://shop_images/Screenshot_2025-10-11_at_10.06.20.png",
               "video_link_mobile": "https://cdn.shopify.com/videos/c/o/v/000694d61e0c4ef5891dcd22235c084f.mov",
               "video_image_mobile": "shopify://shop_images/Screenshot_2025-10-11_at_10.10.03.png",
@@ -2948,7 +2948,7 @@
               "text": "",
               "color_text": "#ffffff",
               "button_label": "",
-              "button_link": "shopify://collections/margesherwood",
+              "button_link": "shopify://collections/exclusive-collection",
               "color_btn_bg": "#ffffff",
               "color_btn_text": "#ffffff"
             }
