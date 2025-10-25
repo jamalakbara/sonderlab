@@ -2028,6 +2028,13 @@
       "621442e7-76bf-4e28-8a8e-f4192267aa8b": {
         "type": "new-category",
         "blocks": {
+          "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/SENSES_e8487fe4-bf8b-4b99-b3e8-088c9e1fb328.png",
+              "category_target": "exclusive-collection"
+            }
+          },
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0": {
             "type": "category",
             "settings": {
@@ -2076,24 +2083,17 @@
               "category_img": "shopify://shop_images/KIRA_797a7bf8-d7c8-498a-aa87-c1b14542e139.png",
               "category_target": "kira-botoru"
             }
-          },
-          "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/SENSES_e8487fe4-bf8b-4b99-b3e8-088c9e1fb328.png",
-              "category_target": "exclusive-collection"
-            }
           }
         },
         "block_order": [
+          "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7",
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0",
           "cd09ea28-a154-4665-b47b-bdf31b89f0a4",
           "9a0077c3-e56b-4360-809f-d7946e427804",
           "9c94ea9f-ad02-4a9a-9206-1ca37323641e",
           "95cad93d-6d14-48c2-aeef-f736adf2fccb",
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d",
-          "6ae10d52-e0b2-479f-88db-5f6137e04f9d",
-          "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7"
+          "6ae10d52-e0b2-479f-88db-5f6137e04f9d"
         ],
         "settings": {
           "title": "",
@@ -2111,10 +2111,10 @@
           "subheading": "",
           "subheading_size": 14,
           "subheading_size_mobile": 12,
-          "title": "10.10",
+          "title": "Etherial Phantasm (Halloween)",
           "heading_size": 22,
           "heading_size_mobile": 20,
-          "collection": "sale",
+          "collection": "halloween",
           "grid": 5,
           "rows": 1,
           "show_view_all": true
