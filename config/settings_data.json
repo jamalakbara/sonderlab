@@ -2615,12 +2615,12 @@
           "left_slideshow_aY8fAV": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/WEB_SENSES_5b4cbda1-9ae3-4df8-a8ec-b334f3a6eff5.png",
-              "image_mobile": "shopify://shop_images/MOBILE_SENSES_e6d0e820-90fa-48d3-99f5-80043f3c2905.png",
+              "image_desktop": "shopify://shop_images/WEB.png",
+              "image_mobile": "shopify://shop_images/MOBILE_85bc1cd9-19c3-4bed-88d3-324773495669.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": ""
+              "url": "shopify://collections/exclusive-collection"
             }
           },
           "34c1b92f-36fb-4b69-a5b0-5aaf0482b17a": {
