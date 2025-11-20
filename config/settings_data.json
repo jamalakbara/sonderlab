@@ -2242,7 +2242,7 @@
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/kacalab"
+              "url": "https://sonderlab.co/blogs/news/sonderschool-at-kacalab-presented-by-sonderlab-amp-kaca-kreatif"
             }
           },
           "left_slideshow_kUQEpY": {
@@ -2408,17 +2408,6 @@
               "url": "shopify://collections/yume-yume"
             }
           },
-          "left_slideshow_A8hTkV": {
-            "type": "left_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/BRI_WEB.png",
-              "image_mobile": "shopify://shop_images/BRI_MOBILE.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": ""
-            }
-          },
           "left_slideshow_tkKGPR": {
             "type": "left_slideshow",
             "settings": {
@@ -2439,6 +2428,17 @@
               "description": "",
               "button_title": "",
               "url": "shopify://collections/song-for-the-mute"
+            }
+          },
+          "left_slideshow_A8hTkV": {
+            "type": "left_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/BRI_WEB.png",
+              "image_mobile": "shopify://shop_images/BRI_MOBILE.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": ""
             }
           },
           "f895d03b-1516-40ad-8d75-2793f73ea255": {
@@ -2476,9 +2476,9 @@
           "15c2ab47-27e6-418d-861d-cce7cccbbe3a",
           "da877537-5f7f-43a0-9a79-b15cd937c5c0",
           "63d76e5e-72b1-4288-8df2-2c634aeb13a1",
-          "left_slideshow_A8hTkV",
           "left_slideshow_tkKGPR",
           "left_slideshow_kHKJEA",
+          "left_slideshow_A8hTkV",
           "f895d03b-1516-40ad-8d75-2793f73ea255"
         ],
         "settings": {
