@@ -2237,12 +2237,12 @@
           "left_slideshow_nabNB7": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/WEB_99_a7b0b9e0-546d-426f-84d0-ccdf3cda2f62.png",
-              "image_mobile": "shopify://shop_images/MOBILE_99_8d23d66d-3331-4de9-af69-13c2f569f0b2.png",
+              "image_desktop": "shopify://shop_images/Asset_1_6fbbb4af-c9c2-4d4e-b337-a56ba3d9a348.png",
+              "image_mobile": "shopify://shop_images/Asset_2.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "https://sonderlab.co/blogs/news/sonderschool-at-kacalab-presented-by-sonderlab-amp-kaca-kreatif"
+              "url": "shopify://collections/dime"
             }
           },
           "left_slideshow_kUQEpY": {
