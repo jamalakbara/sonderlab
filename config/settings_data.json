@@ -2938,16 +2938,16 @@
           "video_GyRjeP": {
             "type": "video",
             "settings": {
-              "video_link": "https://cdn.shopify.com/videos/c/o/v/66cd3782ee164d2085606e4b797bd7ea.mp4",
+              "video_link": "https://cdn.shopify.com/videos/c/o/v/6ae169f0a32144879541986605ddc2a3.mov",
               "video_image": "shopify://shop_images/Screenshot_2025-11-25_at_11.45.56.png",
-              "video_link_mobile": "https://cdn.shopify.com/videos/c/o/v/000694d61e0c4ef5891dcd22235c084f.mov",
+              "video_link_mobile": "https://cdn.shopify.com/videos/c/o/v/8a08e32d4be2476d875ee476d4c89502.mov",
               "video_image_mobile": "shopify://shop_images/Screenshot_2025-11-25_at_11.45.40.png",
               "overlay_opacity": 0,
               "title": "",
               "text": "",
               "color_text": "#ffffff",
               "button_label": "",
-              "button_link": "shopify://collections/exclusive-collection",
+              "button_link": "shopify://collections/sonderlab",
               "color_btn_bg": "#ffffff",
               "color_btn_text": "#ffffff"
             }
