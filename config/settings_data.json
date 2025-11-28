@@ -2765,8 +2765,8 @@
           "1a62f8e9-77be-436c-aa5a-ec8e071fe473": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/HIGHLIGHTArtboard_2.jpg",
-              "image_mobile": "shopify://shop_images/HIGHLIGHTArtboard_2.jpg",
+              "image_desktop": "shopify://shop_images/BRAND_PICKS-07.png",
+              "image_mobile": "shopify://shop_images/BRAND_PICKS-07.png",
               "title": "",
               "description": "",
               "button_title": "",
@@ -2841,6 +2841,7 @@
           },
           "right_slideshow_n8G4Ew": {
             "type": "right_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/MASOU_5464e9da-6134-4954-8af0-b981a27e0256.png",
               "image_mobile": "shopify://shop_images/MASOU_5464e9da-6134-4954-8af0-b981a27e0256.png",
@@ -2852,6 +2853,7 @@
           },
           "a03ac46e-cb8b-48c8-b3fb-266c7b536aee": {
             "type": "right_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/HANAKA_e1aef77d-c609-4f53-891f-0bb63a94f0a3.png",
               "image_mobile": "shopify://shop_images/HANAKA_e1aef77d-c609-4f53-891f-0bb63a94f0a3.png",
@@ -2863,6 +2865,7 @@
           },
           "4a4d5a83-1602-4847-8465-ba9d9519b9bb": {
             "type": "right_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/RAW_EMO_f05999d8-7f55-457b-9c4c-a03554cc1cc4.png",
               "image_mobile": "shopify://shop_images/RAW_EMO_f05999d8-7f55-457b-9c4c-a03554cc1cc4.png",
