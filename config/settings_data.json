@@ -3015,6 +3015,16 @@
         "type": "shopify://apps/simply-shipping-protection/blocks/simply-insurance/e9bd463f-26d8-4126-9497-0375dca0f009",
         "disabled": false,
         "settings": {}
+      },
+      "13027630495364635475": {
+        "type": "shopify://apps/discount-ninja/blocks/la-dn-app-embed-core-v5-assetless/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+        "disabled": false,
+        "settings": {}
+      },
+      "10727672529976264282": {
+        "type": "shopify://apps/discount-ninja/blocks/la-dn-app-embed-core-v5-assetless-1124/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
