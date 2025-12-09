@@ -2168,6 +2168,17 @@
       "8ca0d835-172e-4092-876f-a61a6c3dce99": {
         "type": "alternate-slideshow",
         "blocks": {
+          "left_slideshow_kUQEpY": {
+            "type": "left_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/teaser.png",
+              "image_mobile": "shopify://shop_images/teaser_for_web.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/sale"
+            }
+          },
           "96a73edc-887f-44ba-9784-295dd10452fb": {
             "type": "right_slideshow",
             "settings": {
@@ -2243,17 +2254,6 @@
               "description": "",
               "button_title": "",
               "url": "shopify://collections/dime"
-            }
-          },
-          "left_slideshow_kUQEpY": {
-            "type": "left_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/teaser.png",
-              "image_mobile": "shopify://shop_images/teaser_for_web.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/sale"
             }
           },
           "left_slideshow_7HEBwD": {
@@ -2454,6 +2454,7 @@
           }
         },
         "block_order": [
+          "left_slideshow_kUQEpY",
           "96a73edc-887f-44ba-9784-295dd10452fb",
           "f13608dc-cce4-404d-927d-223b90a15dbc",
           "97e528c8-5480-497d-9897-8e270e1ad11a",
@@ -2461,7 +2462,6 @@
           "40306223-14f6-48fd-ad87-cd64126dc86f",
           "c7edf080-46fe-4793-9346-ae72de30e98a",
           "left_slideshow_nabNB7",
-          "left_slideshow_kUQEpY",
           "left_slideshow_7HEBwD",
           "left_slideshow_Uynt3r",
           "649ab954-ca6f-4863-a02e-be3777967b74",
