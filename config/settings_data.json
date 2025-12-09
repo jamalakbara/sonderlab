@@ -2249,7 +2249,7 @@
             "type": "left_slideshow",
             "settings": {
               "image_desktop": "shopify://shop_images/teaser.png",
-              "image_mobile": "shopify://shop_images/TEASER_STORY_2.png",
+              "image_mobile": "shopify://shop_images/teaser_for_web.png",
               "title": "",
               "description": "",
               "button_title": "",
