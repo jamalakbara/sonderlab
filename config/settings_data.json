@@ -2247,10 +2247,9 @@
           },
           "left_slideshow_kUQEpY": {
             "type": "left_slideshow",
-            "disabled": true,
             "settings": {
-              "image_desktop": "shopify://shop_images/WEB_99_7a75ab2c-942a-4008-bfaa-e4f173f5875f.png",
-              "image_mobile": "shopify://shop_images/MOBILE_99_b851c280-868f-44bc-8115-7350ff9274c4.png",
+              "image_desktop": "shopify://shop_images/TEASER_LANDSCAPE_2.png",
+              "image_mobile": "shopify://shop_images/TEASER_STORY_2.png",
               "title": "",
               "description": "",
               "button_title": "",
