@@ -2248,7 +2248,7 @@
           "left_slideshow_kUQEpY": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/TEASER_LANDSCAPE_2.png",
+              "image_desktop": "shopify://shop_images/teaser.png",
               "image_mobile": "shopify://shop_images/TEASER_STORY_2.png",
               "title": "",
               "description": "",
