@@ -639,10 +639,11 @@ a[href="/collections/sonderswindle2023"] {
   color: red !important;
 }
 
+a[href="/collections/sonderswindle"] {
+  color: red !important;
+
 .mega-menu-block {
   max-height: 100vh;
   overflow-y: scroll;
 }
-a[href="/collections/sonderswindle"] {
-  color: red !important;
-}
+
