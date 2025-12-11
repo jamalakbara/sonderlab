@@ -643,7 +643,6 @@ a[href="/collections/sonderswindle2023"] {
   max-height: 100vh;
   overflow-y: scroll;
 }
-a[href*="BUY-1-GET-1"] {
-  color: #ff0000 !important;
-  font-weight: 700 !important;
+a[href="/collections/sonderswindle"] {
+  color: red !important;
 }
