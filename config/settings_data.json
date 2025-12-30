@@ -2031,57 +2031,57 @@
           "9c94ea9f-ad02-4a9a-9206-1ca37323641e": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/4_DEC_SONDERLAB_d4192cda-3805-441e-900b-da0d74c55c08.png",
+              "category_img": "shopify://shop_images/BANNER_ATAS-01.png",
               "category_target": "sonderlab"
             }
           },
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/25_NOV-02.png",
+              "category_img": "shopify://shop_images/BANNER_ATAS-02.png",
               "category_target": "dime"
             }
           },
           "95cad93d-6d14-48c2-aeef-f736adf2fccb": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/25_NOV-03.png",
-              "category_target": "dibba"
+              "category_img": "shopify://shop_images/BANNER_ATAS-03.png",
+              "category_target": "praying"
             }
           },
           "6ae10d52-e0b2-479f-88db-5f6137e04f9d": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/2TIMESTOO.png",
-              "category_target": "2timestoo-studio"
+              "category_img": "shopify://shop_images/BANNER_ATAS-04.png",
+              "category_target": "dibba"
             }
           },
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/SENSES_e8487fe4-bf8b-4b99-b3e8-088c9e1fb328.png",
+              "category_img": "shopify://shop_images/BANNER_ATAS-05.png",
               "category_target": "exclusive-collection"
             }
           },
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/iyonono_4ab131f5-26f4-4145-ad22-1f27f81500a0.png",
+              "category_img": "shopify://shop_images/BANNER_ATAS-06.png",
               "category_target": "iyonono"
             }
           },
           "cd09ea28-a154-4665-b47b-bdf31b89f0a4": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/PRAYING.png",
-              "category_target": "praying"
+              "category_img": "shopify://shop_images/BANNER_ATAS-07.png",
+              "category_target": "izipizi"
             }
           },
           "9a0077c3-e56b-4360-809f-d7946e427804": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/SYMA_5c0f8193-2ee0-4cf7-ac04-d0805ee63a0c.png",
-              "category_target": "syma"
+              "category_img": "shopify://shop_images/BANNER_ATAS-08.png",
+              "category_target": "margesherwood"
             }
           }
         },
