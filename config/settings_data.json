@@ -2179,6 +2179,17 @@
               "url": "shopify://collections/sonderswindle"
             }
           },
+          "left_slideshow_YkCMDE": {
+            "type": "left_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/HEAD_BANNER_7_JAN_FLEUR_WEB.png",
+              "image_mobile": "shopify://shop_images/HEAD_BANNER_7_JAN_FLEUR.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/sporty-and-rich"
+            }
+          },
           "96a73edc-887f-44ba-9784-295dd10452fb": {
             "type": "right_slideshow",
             "settings": {
@@ -2298,18 +2309,6 @@
               "description": "",
               "button_title": "",
               "url": "shopify://collections/published-by"
-            }
-          },
-          "left_slideshow_YkCMDE": {
-            "type": "left_slideshow",
-            "disabled": true,
-            "settings": {
-              "image_desktop": "shopify://shop_images/WEB_77_9d484248-d701-4503-80c7-405978f85bd7.png",
-              "image_mobile": "shopify://shop_images/MOBILE_77_9ed6995e-32fa-44f0-8645-1a3372fcbde3.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "https://forms.gle/xRPectr2oWSw141F6"
             }
           },
           "left_slideshow_TrGFfi": {
@@ -2455,6 +2454,7 @@
         },
         "block_order": [
           "left_slideshow_kUQEpY",
+          "left_slideshow_YkCMDE",
           "96a73edc-887f-44ba-9784-295dd10452fb",
           "f13608dc-cce4-404d-927d-223b90a15dbc",
           "97e528c8-5480-497d-9897-8e270e1ad11a",
@@ -2466,7 +2466,6 @@
           "left_slideshow_Uynt3r",
           "649ab954-ca6f-4863-a02e-be3777967b74",
           "9588db3d-9f72-455c-8c69-06a09b6bc9f4",
-          "left_slideshow_YkCMDE",
           "left_slideshow_TrGFfi",
           "left_slideshow_8hWdRN",
           "6eab1dcc-4d02-4c4e-95e6-52081b8281a0",
