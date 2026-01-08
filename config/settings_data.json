@@ -2204,52 +2204,63 @@
           "f13608dc-cce4-404d-927d-223b90a15dbc": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/Artboard_18_13d670bf-a0f1-4ec9-b0b1-8977d974a1ce.png",
-              "image_mobile": "shopify://shop_images/Artboard_18_13d670bf-a0f1-4ec9-b0b1-8977d974a1ce.png",
+              "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-03.png",
+              "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-03.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/arts-de-base"
+              "url": "shopify://collections/dibba"
             }
           },
           "97e528c8-5480-497d-9897-8e270e1ad11a": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/Artboard_2_4b9d1d33-cdcf-45e9-9e55-2617f89799c6.png",
-              "image_mobile": "shopify://shop_images/Artboard_2_4b9d1d33-cdcf-45e9-9e55-2617f89799c6.png",
+              "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-04.png",
+              "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-04.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/iyonono"
+              "url": "shopify://collections/margesherwood"
             }
           },
           "d667a2e0-8403-4b9b-9b8b-8dbc46e58d15": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/BRAND_PICKS-04_60cd6218-6b12-4668-a041-adb26316eef0.jpg",
-              "image_mobile": "shopify://shop_images/BRAND_PICKS-04_60cd6218-6b12-4668-a041-adb26316eef0.jpg",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/biscuitshop"
-            }
-          },
-          "40306223-14f6-48fd-ad87-cd64126dc86f": {
-            "type": "right_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/Artboard_16_fbd7d5bc-5215-4791-97e8-ed8929cde156.png",
-              "image_mobile": "shopify://shop_images/Artboard_16_fbd7d5bc-5215-4791-97e8-ed8929cde156.png",
+              "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-02.png",
+              "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-02.png",
               "title": "",
               "description": "",
               "button_title": "",
               "url": "shopify://collections/rumme"
             }
           },
+          "40306223-14f6-48fd-ad87-cd64126dc86f": {
+            "type": "right_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-01.png",
+              "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-01.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/toga-x-porter-exclusive-preview"
+            }
+          },
           "c7edf080-46fe-4793-9346-ae72de30e98a": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/Artboard_19_d9b2b1cf-ffc8-4f5a-a981-59f44db2dda4.png",
-              "image_mobile": "shopify://shop_images/Artboard_19_d9b2b1cf-ffc8-4f5a-a981-59f44db2dda4.png",
+              "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-05.png",
+              "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-05.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/dibba"
+            }
+          },
+          "right_slideshow_9UgYfe": {
+            "type": "right_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-06.png",
+              "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-06.png",
               "title": "",
               "description": "",
               "button_title": "",
@@ -2461,6 +2472,7 @@
           "d667a2e0-8403-4b9b-9b8b-8dbc46e58d15",
           "40306223-14f6-48fd-ad87-cd64126dc86f",
           "c7edf080-46fe-4793-9346-ae72de30e98a",
+          "right_slideshow_9UgYfe",
           "left_slideshow_nabNB7",
           "left_slideshow_7HEBwD",
           "left_slideshow_Uynt3r",
