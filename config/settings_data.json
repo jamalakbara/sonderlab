@@ -2775,27 +2775,28 @@
           "1a62f8e9-77be-436c-aa5a-ec8e071fe473": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-01.png",
-              "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-01.png",
+              "image_desktop": "shopify://shop_images/Asset_1_2x_d3ec46a6-fb4e-4a60-acf4-df9c6bb8c902.png",
+              "image_mobile": "shopify://shop_images/Asset_1_2x_d3ec46a6-fb4e-4a60-acf4-df9c6bb8c902.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/toga-x-porter-exclusive-preview"
+              "url": "shopify://collections/senses-dua"
             }
           },
           "2d609ca1-dcc1-463b-b570-bb54d1df907a": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-07.png",
-              "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-07.png",
+              "image_desktop": "shopify://shop_images/Asset_2_2x_50d09bb0-2f8b-4a3f-b908-276bee682562.png",
+              "image_mobile": "shopify://shop_images/Asset_2_2x_50d09bb0-2f8b-4a3f-b908-276bee682562.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/iyonono"
+              "url": "shopify://collections/peau"
             }
           },
           "7b2b95ff-b7a0-4617-9b66-c2e2ae810c6b": {
             "type": "right_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-03.png",
               "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-03.png",
@@ -2807,6 +2808,7 @@
           },
           "d773ff1e-fae2-486f-ba90-9778f8dda7b1": {
             "type": "right_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-04.png",
               "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-04.png",
@@ -2818,6 +2820,7 @@
           },
           "right_slideshow_chjxhe": {
             "type": "right_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-02.png",
               "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-02.png",
@@ -2829,6 +2832,7 @@
           },
           "right_slideshow_RkXdTa": {
             "type": "right_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-05.png",
               "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-05.png",
@@ -2840,6 +2844,7 @@
           },
           "right_slideshow_7MBDAY": {
             "type": "right_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-06.png",
               "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-06.png",
