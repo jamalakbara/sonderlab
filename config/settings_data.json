@@ -2168,6 +2168,83 @@
       "8ca0d835-172e-4092-876f-a61a6c3dce99": {
         "type": "alternate-slideshow",
         "blocks": {
+          "96a73edc-887f-44ba-9784-295dd10452fb": {
+            "type": "right_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/BP_17_JAN_biscuitshop.png",
+              "image_mobile": "shopify://shop_images/BP_17_JAN_biscuitshop.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/biscuitshop"
+            }
+          },
+          "f13608dc-cce4-404d-927d-223b90a15dbc": {
+            "type": "right_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/BP_17_JAN_COOL_UNCLE.png",
+              "image_mobile": "shopify://shop_images/BP_17_JAN_COOL_UNCLE.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/cooluncle"
+            }
+          },
+          "97e528c8-5480-497d-9897-8e270e1ad11a": {
+            "type": "right_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/BP_17_JAN_BATOEpng.png",
+              "image_mobile": "shopify://shop_images/BP_17_JAN_BATOEpng.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/batoe"
+            }
+          },
+          "d667a2e0-8403-4b9b-9b8b-8dbc46e58d15": {
+            "type": "right_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/BP_17_JAN_LAYR.png",
+              "image_mobile": "shopify://shop_images/BP_17_JAN_LAYR.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/layr"
+            }
+          },
+          "40306223-14f6-48fd-ad87-cd64126dc86f": {
+            "type": "right_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/BP_17_JAN_ARTS_DE_BASE.png",
+              "image_mobile": "shopify://shop_images/BP_17_JAN_ARTS_DE_BASE.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/arts-de-base"
+            }
+          },
+          "c7edf080-46fe-4793-9346-ae72de30e98a": {
+            "type": "right_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/BP_17_JAN_DS_DURGA.png",
+              "image_mobile": "shopify://shop_images/BP_17_JAN_DS_DURGA.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/ds-and-durga"
+            }
+          },
+          "right_slideshow_9UgYfe": {
+            "type": "right_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/BP_17_JAN_PUBLISHED_BY.png",
+              "image_mobile": "shopify://shop_images/BP_17_JAN_PUBLISHED_BY.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/published-by"
+            }
+          },
           "left_slideshow_kUQEpY": {
             "type": "left_slideshow",
             "disabled": true,
@@ -2189,83 +2266,6 @@
               "description": "",
               "button_title": "",
               "url": "shopify://collections/sporty-and-rich"
-            }
-          },
-          "96a73edc-887f-44ba-9784-295dd10452fb": {
-            "type": "right_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-07.png",
-              "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-07.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/iyonono"
-            }
-          },
-          "f13608dc-cce4-404d-927d-223b90a15dbc": {
-            "type": "right_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-03.png",
-              "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-03.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/dibba"
-            }
-          },
-          "97e528c8-5480-497d-9897-8e270e1ad11a": {
-            "type": "right_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-04.png",
-              "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-04.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/margesherwood"
-            }
-          },
-          "d667a2e0-8403-4b9b-9b8b-8dbc46e58d15": {
-            "type": "right_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-02.png",
-              "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-02.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/rumme"
-            }
-          },
-          "40306223-14f6-48fd-ad87-cd64126dc86f": {
-            "type": "right_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-01.png",
-              "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-01.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/toga-x-porter-exclusive-preview"
-            }
-          },
-          "c7edf080-46fe-4793-9346-ae72de30e98a": {
-            "type": "right_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-05.png",
-              "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-05.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/dibba"
-            }
-          },
-          "right_slideshow_9UgYfe": {
-            "type": "right_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-06.png",
-              "image_mobile": "shopify://shop_images/BRAND_PICKS_7_JAN_2026-06.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/published-by"
             }
           },
           "left_slideshow_nabNB7": {
@@ -2465,8 +2465,6 @@
           }
         },
         "block_order": [
-          "left_slideshow_kUQEpY",
-          "left_slideshow_YkCMDE",
           "96a73edc-887f-44ba-9784-295dd10452fb",
           "f13608dc-cce4-404d-927d-223b90a15dbc",
           "97e528c8-5480-497d-9897-8e270e1ad11a",
@@ -2474,6 +2472,8 @@
           "40306223-14f6-48fd-ad87-cd64126dc86f",
           "c7edf080-46fe-4793-9346-ae72de30e98a",
           "right_slideshow_9UgYfe",
+          "left_slideshow_kUQEpY",
+          "left_slideshow_YkCMDE",
           "left_slideshow_nabNB7",
           "left_slideshow_7HEBwD",
           "left_slideshow_Uynt3r",
