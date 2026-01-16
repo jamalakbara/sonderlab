@@ -2031,57 +2031,57 @@
           "9c94ea9f-ad02-4a9a-9206-1ca37323641e": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/BANNER_ATAS-01.png",
+              "category_img": "shopify://shop_images/NA_17_JAN_SONDERLAB.png",
               "category_target": "sonderlab"
             }
           },
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/BANNER_ATAS_7_JAN_2026-02.png",
+              "category_img": "shopify://shop_images/NA_17_JAN_HOUSE_OF_KAENA.png",
               "category_target": "dime"
             }
           },
           "95cad93d-6d14-48c2-aeef-f736adf2fccb": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/BANNER_ATAS_7_JAN_2026-03.png",
-              "category_target": "praying"
+              "category_img": "shopify://shop_images/NA_17_JAN_DIME.png",
+              "category_target": "dime"
             }
           },
           "6ae10d52-e0b2-479f-88db-5f6137e04f9d": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/BANNER_ATAS_7_JAN_2026-04.png",
-              "category_target": "toga-x-porter-exclusive-preview"
+              "category_img": "shopify://shop_images/NA_17_JAN_PUBLISHED_BY.png",
+              "category_target": "published-by"
             }
           },
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/BANNER_ATAS_7_JAN_2026-05.png",
-              "category_target": "cooluncle"
+              "category_img": "shopify://shop_images/NA_17_JAN_BISCUITSHOP.png",
+              "category_target": "biscuitshop"
             }
           },
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/BANNER_ATAS_7_JAN_2026-06.png",
-              "category_target": "otish"
+              "category_img": "shopify://shop_images/NA_17_JAN_ERLINA_ERLINA.png",
+              "category_target": "erlina-erlina"
             }
           },
           "cd09ea28-a154-4665-b47b-bdf31b89f0a4": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/BANNER_ATAS_7_JAN_2026-07.png",
-              "category_target": "segi-jewelry"
+              "category_img": "shopify://shop_images/NA_17_JAN_THEY_CALL_ME.png",
+              "category_target": "theycallme"
             }
           },
           "9a0077c3-e56b-4360-809f-d7946e427804": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/BANNER_ATAS_7_JAN_2026-08.png",
-              "category_target": "margesherwood"
+              "category_img": "shopify://shop_images/NA_17_JAN_SPORTY.png",
+              "category_target": "sporty-and-rich"
             }
           }
         },
