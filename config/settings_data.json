@@ -2247,10 +2247,9 @@
           },
           "left_slideshow_kUQEpY": {
             "type": "left_slideshow",
-            "disabled": true,
             "settings": {
-              "image_desktop": "shopify://shop_images/headbanner_SSWINDLE-04.png",
-              "image_mobile": "shopify://shop_images/headbanner_SSWINDLE-03.png",
+              "image_desktop": "shopify://shop_images/Asset_20.png",
+              "image_mobile": "shopify://shop_images/Asset_19.png",
               "title": "",
               "description": "",
               "button_title": "",
