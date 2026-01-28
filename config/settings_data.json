@@ -2031,8 +2031,22 @@
           "9c94ea9f-ad02-4a9a-9206-1ca37323641e": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/NA_17_JAN_SONDERLAB.png",
+              "category_img": "shopify://shop_images/28_JAN_SONDERLAB.png",
               "category_target": "sonderlab"
+            }
+          },
+          "95cad93d-6d14-48c2-aeef-f736adf2fccb": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/28_JAN_EGON.png",
+              "category_target": "egon"
+            }
+          },
+          "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/28_JAN_UTARA_STUDIO.png",
+              "category_target": "utara-studio"
             }
           },
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d": {
@@ -2042,11 +2056,11 @@
               "category_target": "house-of-kaena"
             }
           },
-          "95cad93d-6d14-48c2-aeef-f736adf2fccb": {
+          "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/NA_17_JAN_DIME.png",
-              "category_target": "dime"
+              "category_img": "shopify://shop_images/28_JAN_AESTHETIC_PLEASURE.png",
+              "category_target": "aesthetic-pleasure"
             }
           },
           "6ae10d52-e0b2-479f-88db-5f6137e04f9d": {
@@ -2056,42 +2070,28 @@
               "category_target": "published-by"
             }
           },
-          "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/NA_17_JAN_BISCUITSHOP.png",
-              "category_target": "biscuitshop"
-            }
-          },
-          "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/NA_17_JAN_ERLINA_ERLINA.png",
-              "category_target": "erlina-erlina"
-            }
-          },
           "cd09ea28-a154-4665-b47b-bdf31b89f0a4": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/NA_17_JAN_THEY_CALL_ME.png",
-              "category_target": "theycallme"
+              "category_img": "shopify://shop_images/28_JAN_ARTS_DE_BASE.png",
+              "category_target": "arts-de-base"
             }
           },
           "9a0077c3-e56b-4360-809f-d7946e427804": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/NA_17_JAN_SPORTY.png",
-              "category_target": "sporty-and-rich"
+              "category_img": "shopify://shop_images/28_JAN_UTARA_STUDIO.png",
+              "category_target": "song-for-the-mute"
             }
           }
         },
         "block_order": [
           "9c94ea9f-ad02-4a9a-9206-1ca37323641e",
-          "f9d60ffb-370f-41b8-9fc7-a0867123b26d",
           "95cad93d-6d14-48c2-aeef-f736adf2fccb",
-          "6ae10d52-e0b2-479f-88db-5f6137e04f9d",
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7",
+          "f9d60ffb-370f-41b8-9fc7-a0867123b26d",
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0",
+          "6ae10d52-e0b2-479f-88db-5f6137e04f9d",
           "cd09ea28-a154-4665-b47b-bdf31b89f0a4",
           "9a0077c3-e56b-4360-809f-d7946e427804"
         ],
