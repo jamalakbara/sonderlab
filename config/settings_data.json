@@ -2171,78 +2171,78 @@
           "96a73edc-887f-44ba-9784-295dd10452fb": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/BP_17_JAN_biscuitshop.png",
-              "image_mobile": "shopify://shop_images/BP_17_JAN_biscuitshop.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/biscuitshop"
-            }
-          },
-          "f13608dc-cce4-404d-927d-223b90a15dbc": {
-            "type": "right_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/BP_17_JAN_COOL_UNCLE.png",
-              "image_mobile": "shopify://shop_images/BP_17_JAN_COOL_UNCLE.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/cooluncle"
-            }
-          },
-          "97e528c8-5480-497d-9897-8e270e1ad11a": {
-            "type": "right_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/BP_17_JAN_BATOEpng.png",
-              "image_mobile": "shopify://shop_images/BP_17_JAN_BATOEpng.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/batoe"
-            }
-          },
-          "d667a2e0-8403-4b9b-9b8b-8dbc46e58d15": {
-            "type": "right_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/BP_17_JAN_LAYR.png",
-              "image_mobile": "shopify://shop_images/BP_17_JAN_LAYR.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/layr"
-            }
-          },
-          "40306223-14f6-48fd-ad87-cd64126dc86f": {
-            "type": "right_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/BP_17_JAN_ARTS_DE_BASE.png",
-              "image_mobile": "shopify://shop_images/BP_17_JAN_ARTS_DE_BASE.png",
+              "image_desktop": "shopify://shop_images/28_JAN_BRAND_PICKS_ARTS_DE_BASE.png",
+              "image_mobile": "shopify://shop_images/28_JAN_BRAND_PICKS_ARTS_DE_BASE.png",
               "title": "",
               "description": "",
               "button_title": "",
               "url": "shopify://collections/arts-de-base"
             }
           },
-          "c7edf080-46fe-4793-9346-ae72de30e98a": {
+          "f13608dc-cce4-404d-927d-223b90a15dbc": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/BP_17_JAN_DS_DURGA.png",
-              "image_mobile": "shopify://shop_images/BP_17_JAN_DS_DURGA.png",
+              "image_desktop": "shopify://shop_images/28_JAN_BRAND_PICKS_RAW_EMOTION.png",
+              "image_mobile": "shopify://shop_images/28_JAN_BRAND_PICKS_RAW_EMOTION.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/ds-and-durga"
+              "url": "shopify://collections/raw-emotions"
+            }
+          },
+          "97e528c8-5480-497d-9897-8e270e1ad11a": {
+            "type": "right_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/28_JAN_BRAND_PICKS_ERLINA_ERLINA.png",
+              "image_mobile": "shopify://shop_images/28_JAN_BRAND_PICKS_ERLINA_ERLINA.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/erlina-erlina"
+            }
+          },
+          "d667a2e0-8403-4b9b-9b8b-8dbc46e58d15": {
+            "type": "right_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/28_JAN_BRAND_PICKS_IZIPIZI.png",
+              "image_mobile": "shopify://shop_images/28_JAN_BRAND_PICKS_IZIPIZI.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/izipizi"
+            }
+          },
+          "40306223-14f6-48fd-ad87-cd64126dc86f": {
+            "type": "right_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/28_JAN_BRAND_PICKS_TOGA.png",
+              "image_mobile": "shopify://shop_images/28_JAN_BRAND_PICKS_TOGA.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/toga-virilis"
+            }
+          },
+          "c7edf080-46fe-4793-9346-ae72de30e98a": {
+            "type": "right_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/28_JAN_BRAND_PICKS_KIJUN.png",
+              "image_mobile": "shopify://shop_images/28_JAN_BRAND_PICKS_KIJUN.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/kijun"
             }
           },
           "right_slideshow_9UgYfe": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/BP_17_JAN_PUBLISHED_BY.png",
-              "image_mobile": "shopify://shop_images/BP_17_JAN_PUBLISHED_BY.png",
+              "image_desktop": "shopify://shop_images/28_JAN_BRAND_PICKS_THEY_CALL_ME.png",
+              "image_mobile": "shopify://shop_images/28_JAN_BRAND_PICKS_THEY_CALL_ME.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/published-by"
+              "url": "shopify://collections/theycallme"
             }
           },
           "left_slideshow_kUQEpY": {
