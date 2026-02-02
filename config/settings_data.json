@@ -2245,17 +2245,6 @@
               "url": "shopify://collections/theycallme"
             }
           },
-          "left_slideshow_kUQEpY": {
-            "type": "left_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/Asset_20.png",
-              "image_mobile": "shopify://shop_images/Asset_19.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/sonderswindle"
-            }
-          },
           "left_slideshow_YkCMDE": {
             "type": "left_slideshow",
             "settings": {
@@ -2471,7 +2460,6 @@
           "40306223-14f6-48fd-ad87-cd64126dc86f",
           "c7edf080-46fe-4793-9346-ae72de30e98a",
           "right_slideshow_9UgYfe",
-          "left_slideshow_kUQEpY",
           "left_slideshow_YkCMDE",
           "left_slideshow_nabNB7",
           "left_slideshow_7HEBwD",
