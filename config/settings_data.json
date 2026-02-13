@@ -2171,78 +2171,89 @@
           "96a73edc-887f-44ba-9784-295dd10452fb": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/28_JAN_BRAND_PICKS_ARTS_DE_BASE.png",
-              "image_mobile": "shopify://shop_images/28_JAN_BRAND_PICKS_ARTS_DE_BASE.png",
+              "image_desktop": "shopify://shop_images/AESTHETIC_PELASURE.png",
+              "image_mobile": "shopify://shop_images/AESTHETIC_PELASURE.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/arts-de-base"
+              "url": "shopify://collections/aesthetic-pleasure"
             }
           },
           "f13608dc-cce4-404d-927d-223b90a15dbc": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/28_JAN_BRAND_PICKS_RAW_EMOTION.png",
-              "image_mobile": "shopify://shop_images/28_JAN_BRAND_PICKS_RAW_EMOTION.png",
+              "image_desktop": "shopify://shop_images/SANJE_4147e719-6beb-4680-8ed1-bc887323ee33.png",
+              "image_mobile": "shopify://shop_images/SANJE_4147e719-6beb-4680-8ed1-bc887323ee33.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/raw-emotions"
+              "url": "shopify://collections/sanje"
             }
           },
           "97e528c8-5480-497d-9897-8e270e1ad11a": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/28_JAN_BRAND_PICKS_ERLINA_ERLINA.png",
-              "image_mobile": "shopify://shop_images/28_JAN_BRAND_PICKS_ERLINA_ERLINA.png",
+              "image_desktop": "shopify://shop_images/DS_DURGA_facf2ae6-5d16-4650-b3a0-1bdf41d3cb4d.png",
+              "image_mobile": "shopify://shop_images/DS_DURGA_facf2ae6-5d16-4650-b3a0-1bdf41d3cb4d.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/erlina-erlina"
+              "url": "shopify://collections/ds-and-durga"
             }
           },
           "d667a2e0-8403-4b9b-9b8b-8dbc46e58d15": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/28_JAN_BRAND_PICKS_IZIPIZI.png",
-              "image_mobile": "shopify://shop_images/28_JAN_BRAND_PICKS_IZIPIZI.png",
+              "image_desktop": "shopify://shop_images/OTISH_0370fa17-5ad0-4b88-a0d5-3a74e57b9e5c.png",
+              "image_mobile": "shopify://shop_images/OTISH_0370fa17-5ad0-4b88-a0d5-3a74e57b9e5c.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/izipizi"
+              "url": "shopify://collections/otish"
             }
           },
           "40306223-14f6-48fd-ad87-cd64126dc86f": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/28_JAN_BRAND_PICKS_TOGA.png",
-              "image_mobile": "shopify://shop_images/28_JAN_BRAND_PICKS_TOGA.png",
+              "image_desktop": "shopify://shop_images/PORTER_952f0ff0-2476-4bad-9a33-28f97c81ca49.png",
+              "image_mobile": "shopify://shop_images/PORTER_952f0ff0-2476-4bad-9a33-28f97c81ca49.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/toga-virilis"
+              "url": "shopify://collections/porter"
             }
           },
           "c7edf080-46fe-4793-9346-ae72de30e98a": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/28_JAN_BRAND_PICKS_KIJUN.png",
-              "image_mobile": "shopify://shop_images/28_JAN_BRAND_PICKS_KIJUN.png",
+              "image_desktop": "shopify://shop_images/PREL_STUDIO_eacf310e-8006-4fd1-a2d8-bbe7efbc130c.png",
+              "image_mobile": "shopify://shop_images/PREL_STUDIO_eacf310e-8006-4fd1-a2d8-bbe7efbc130c.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/kijun"
+              "url": "shopify://collections/prel-studio"
             }
           },
           "right_slideshow_9UgYfe": {
             "type": "right_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/28_JAN_BRAND_PICKS_THEY_CALL_ME.png",
-              "image_mobile": "shopify://shop_images/28_JAN_BRAND_PICKS_THEY_CALL_ME.png",
+              "image_desktop": "shopify://shop_images/SHOP_AT_SLOW_10b241b5-025c-4f66-97a7-6a3b245af16e.png",
+              "image_mobile": "shopify://shop_images/SHOP_AT_SLOW_10b241b5-025c-4f66-97a7-6a3b245af16e.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/theycallme"
+              "url": "shopify://collections/shop-at-slow"
+            }
+          },
+          "right_slideshow_gpCNRV": {
+            "type": "right_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/SPORTY_AND_RICH_c327c33c-55df-49e5-bc5d-52b4538002fb.png",
+              "image_mobile": "shopify://shop_images/SPORTY_AND_RICH_c327c33c-55df-49e5-bc5d-52b4538002fb.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/sporty-and-rich"
             }
           },
           "left_slideshow_YkCMDE": {
@@ -2460,6 +2471,7 @@
           "40306223-14f6-48fd-ad87-cd64126dc86f",
           "c7edf080-46fe-4793-9346-ae72de30e98a",
           "right_slideshow_9UgYfe",
+          "right_slideshow_gpCNRV",
           "left_slideshow_YkCMDE",
           "left_slideshow_nabNB7",
           "left_slideshow_7HEBwD",
