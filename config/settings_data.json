@@ -2262,19 +2262,19 @@
           "left_slideshow_TrGFfi": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/Asset_3.png",
-              "image_mobile": "shopify://shop_images/Asset_4.png",
+              "image_desktop": "shopify://shop_images/Asset_7.png",
+              "image_mobile": "shopify://shop_images/Asset_8.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "https://docs.google.com/forms/d/e/1FAIpQLSfprlMpdywJDve0elSdWnCQPuoTmXkRBP_rswcgpiRBcJNkKA/viewform"
+              "url": ""
             }
           },
           "left_slideshow_YkCMDE": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/HEAD_BANNER_7_JAN_FLEUR_WEB.png",
-              "image_mobile": "shopify://shop_images/HEAD_BANNER_7_JAN_FLEUR.png",
+              "image_desktop": "shopify://shop_images/Asset_6.png",
+              "image_mobile": "shopify://shop_images/Asset_5.png",
               "title": "",
               "description": "",
               "button_title": "",
