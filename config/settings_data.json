@@ -2059,29 +2059,29 @@
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/26_FEB_MARGESHERWOOD.png",
-              "category_target": "margesherwood"
+              "category_img": "shopify://shop_images/Asset_58.png",
+              "category_target": "iyonono"
             }
           },
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/26_FEB_ARTS_DE_BASE.png",
-              "category_target": "arts-de-base"
+              "category_img": "shopify://shop_images/Asset_60.png",
+              "category_target": "dime"
             }
           },
           "cd09ea28-a154-4665-b47b-bdf31b89f0a4": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/26_FEB_ONE_OF_ONES.png",
-              "category_target": "one-off-ones"
+              "category_img": "shopify://shop_images/Asset_57.png",
+              "category_target": "sporty-and-rich"
             }
           },
           "6ae10d52-e0b2-479f-88db-5f6137e04f9d": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/26_FEB_DOVETAIL.png",
-              "category_target": "dovetail"
+              "category_img": "shopify://shop_images/Asset_59.png",
+              "category_target": "praying"
             }
           }
         },
