@@ -2672,12 +2672,12 @@
           "be587ffc-eaac-410c-90ba-0ece971ef4a8": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/KALA_WEB_47c894c7-cdff-428f-b3ff-d7cee58fb1f1.png",
-              "image_mobile": "shopify://shop_images/KALA_b86b2499-5540-4b24-9e48-b8a69a60bc92.png",
+              "image_desktop": "shopify://shop_images/Asset_13.png",
+              "image_mobile": "shopify://shop_images/Asset_12.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/exclusive-release"
+              "url": "shopify://collections/exclusive-collection"
             }
           },
           "3aba305e-82f1-4f40-b544-b8cfec1981ab": {
