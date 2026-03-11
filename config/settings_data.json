@@ -2317,12 +2317,12 @@
           "649ab954-ca6f-4863-a02e-be3777967b74": {
             "type": "left_slideshow",
             "settings": {
-              "image_desktop": "shopify://shop_images/ADBASE_WEB.png",
-              "image_mobile": "shopify://shop_images/ADBASE.png",
+              "image_desktop": "shopify://shop_images/Asset_10.png",
+              "image_mobile": "shopify://shop_images/Asset_9.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/arts-de-base"
+              "url": "shopify://collections/praying"
             }
           },
           "9588db3d-9f72-455c-8c69-06a09b6bc9f4": {
