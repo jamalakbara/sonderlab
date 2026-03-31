@@ -2031,35 +2031,35 @@
           "9c94ea9f-ad02-4a9a-9206-1ca37323641e": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/MAISON_OBSCURA_BANNER_ATAS.png",
+              "category_img": "shopify://shop_images/Asset_64.png",
               "category_target": "maison-obscura"
             }
           },
           "9a0077c3-e56b-4360-809f-d7946e427804": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/MPTT_BANNER_ATAS.png",
+              "category_img": "shopify://shop_images/31_MAR-03.png",
               "category_target": "mompassthetorch"
             }
           },
           "95cad93d-6d14-48c2-aeef-f736adf2fccb": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/TASHE_BANNER_ATAS.png",
+              "category_img": "shopify://shop_images/31_MAR-04.png",
               "category_target": "tashe"
             }
           },
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/ANDREAN_NR_BANNER_ATAS.png",
+              "category_img": "shopify://shop_images/31_MAR-01.png",
               "category_target": "andrean-nr"
             }
           },
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/Asset_58.png",
+              "category_img": "shopify://shop_images/31_MAR-05.png",
               "category_target": "iyonono"
             }
           },
@@ -2261,6 +2261,7 @@
           },
           "left_slideshow_TrGFfi": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/Asset_7.png",
               "image_mobile": "shopify://shop_images/Asset_8.png",
