@@ -2031,36 +2031,43 @@
           "9c94ea9f-ad02-4a9a-9206-1ca37323641e": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/Asset_64.png",
-              "category_target": "maison-obscura"
+              "category_img": "shopify://shop_images/Asset_72_2x_fcb88e02-8944-47ca-b526-914e4aa51b78.png",
+              "category_target": "toga-virilis"
             }
           },
           "9a0077c3-e56b-4360-809f-d7946e427804": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/31_MAR-03.png",
-              "category_target": "mompassthetorch"
-            }
-          },
-          "95cad93d-6d14-48c2-aeef-f736adf2fccb": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/31_MAR-04.png",
-              "category_target": "tashe"
+              "category_img": "shopify://shop_images/Asset_71_2x_f4350e85-bb72-41ed-9e2a-b08e5c0fce37.png",
+              "category_target": "toga-pulla"
             }
           },
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/31_MAR-01.png",
-              "category_target": "andrean-nr"
+              "category_img": "shopify://shop_images/Asset_69_2x_103cdcdd-55c3-4e08-b519-6e62eda36e32.png",
+              "category_target": "fuguku"
+            }
+          },
+          "95cad93d-6d14-48c2-aeef-f736adf2fccb": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/Asset_68_2x_713b9811-ecbf-470f-9ce1-8896eb18a28b.png",
+              "category_target": "house-of-kaena"
             }
           },
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/31_MAR-05.png",
+              "category_img": "shopify://shop_images/Asset_70_2x_18fa02e2-96b5-4f49-864c-ae40a7c52c7b.png",
               "category_target": "iyonono"
+            }
+          },
+          "6ae10d52-e0b2-479f-88db-5f6137e04f9d": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/Asset_67_2x_503d0808-2c4d-4e13-9eda-109686c7e805.png",
+              "category_target": "praying"
             }
           },
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0": {
@@ -2076,24 +2083,17 @@
               "category_img": "shopify://shop_images/Asset_57.png",
               "category_target": "sporty-and-rich"
             }
-          },
-          "6ae10d52-e0b2-479f-88db-5f6137e04f9d": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/Asset_59.png",
-              "category_target": "praying"
-            }
           }
         },
         "block_order": [
           "9c94ea9f-ad02-4a9a-9206-1ca37323641e",
           "9a0077c3-e56b-4360-809f-d7946e427804",
-          "95cad93d-6d14-48c2-aeef-f736adf2fccb",
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7",
+          "95cad93d-6d14-48c2-aeef-f736adf2fccb",
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d",
+          "6ae10d52-e0b2-479f-88db-5f6137e04f9d",
           "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0",
-          "cd09ea28-a154-4665-b47b-bdf31b89f0a4",
-          "6ae10d52-e0b2-479f-88db-5f6137e04f9d"
+          "cd09ea28-a154-4665-b47b-bdf31b89f0a4"
         ],
         "settings": {
           "title": "",
