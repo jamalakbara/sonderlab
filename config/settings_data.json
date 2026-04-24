@@ -2271,6 +2271,17 @@
               "url": ""
             }
           },
+          "left_slideshow_8hWdRN": {
+            "type": "left_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/PAY_DAY_SALE_FLEUR_WEB.png",
+              "image_mobile": "shopify://shop_images/PAY_DAY_SALE_FLEUR.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/exclusive-release"
+            }
+          },
           "left_slideshow_YkCMDE": {
             "type": "left_slideshow",
             "settings": {
@@ -2335,18 +2346,6 @@
               "description": "",
               "button_title": "",
               "url": "shopify://collections/published-by"
-            }
-          },
-          "left_slideshow_8hWdRN": {
-            "type": "left_slideshow",
-            "disabled": true,
-            "settings": {
-              "image_desktop": "shopify://shop_images/AP_WEB_6a9ee7ae-b5cf-43b1-ab9a-f2478047d0c3.png",
-              "image_mobile": "shopify://shop_images/AP_32dc0a3b-fe44-4181-ad08-475368375176.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/exclusive-release"
             }
           },
           "6eab1dcc-4d02-4c4e-95e6-52081b8281a0": {
@@ -2478,13 +2477,13 @@
           "right_slideshow_9UgYfe",
           "right_slideshow_gpCNRV",
           "left_slideshow_TrGFfi",
+          "left_slideshow_8hWdRN",
           "left_slideshow_YkCMDE",
           "left_slideshow_nabNB7",
           "649ab954-ca6f-4863-a02e-be3777967b74",
           "left_slideshow_7HEBwD",
           "left_slideshow_Uynt3r",
           "9588db3d-9f72-455c-8c69-06a09b6bc9f4",
-          "left_slideshow_8hWdRN",
           "6eab1dcc-4d02-4c4e-95e6-52081b8281a0",
           "4fcffd14-8665-41e6-bd9c-2594e98f8336",
           "left_slideshow_z9U9yp",
