@@ -2273,6 +2273,7 @@
           },
           "left_slideshow_8hWdRN": {
             "type": "left_slideshow",
+            "disabled": true,
             "settings": {
               "image_desktop": "shopify://shop_images/PAY_DAY_SALE_FLEUR_WEB.png",
               "image_mobile": "shopify://shop_images/PAY_DAY_SALE_FLEUR.png",
@@ -3009,9 +3010,7 @@
       "5149645339031002760": {
         "type": "shopify://apps/order-limits-minmaxify/blocks/app-embed-block/3acfba32-89f3-4377-ae20-cbb9abc48475",
         "disabled": false,
-        "settings": {
-          "async": false
-        }
+        "settings": {}
       },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
