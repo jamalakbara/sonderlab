@@ -2042,56 +2042,56 @@
               "category_target": "sporty-and-rich"
             }
           },
+          "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0": {
+            "type": "category",
+            "settings": {
+              "category_img": "shopify://shop_images/Asset_87.png",
+              "category_target": "batoe"
+            }
+          },
           "9a0077c3-e56b-4360-809f-d7946e427804": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/Asset_76_2x_6306afc4-b4f0-4293-b82e-e272c7c7bcef.png",
-              "category_target": "acceptance-letter-studio"
+              "category_img": "shopify://shop_images/Asset_82.png",
+              "category_target": "segi-jewelry"
             }
           },
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/Asset_78_2x_b2c5adb8-cf82-49ca-a533-6d11b86d747b.png",
-              "category_target": "breda"
+              "category_img": "shopify://shop_images/Asset_84.png",
+              "category_target": "house-of-kaena"
             }
           },
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/Asset_79_2x_ea649747-89de-4bbb-9b93-d0be93c23002.png",
-              "category_target": "erlina-erlina"
-            }
-          },
-          "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0": {
-            "type": "category",
-            "settings": {
-              "category_img": "shopify://shop_images/Asset_77_2x_b2999be5-01b4-4a85-9628-9ef533ae1f48.png",
-              "category_target": "senses-dua"
+              "category_img": "shopify://shop_images/Asset_86.png",
+              "category_target": "fuguku"
             }
           },
           "95cad93d-6d14-48c2-aeef-f736adf2fccb": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/Asset_75_2x_0e676c7f-3c6f-4628-9b71-ffaf0172a000.png",
+              "category_img": "shopify://shop_images/Asset_83.png",
               "category_target": "cooluncle"
             }
           },
           "6ae10d52-e0b2-479f-88db-5f6137e04f9d": {
             "type": "category",
             "settings": {
-              "category_img": "shopify://shop_images/Asset_74_2x_e161ec5f-096a-4dd7-91ba-0ec69287b0aa.png",
-              "category_target": "syma"
+              "category_img": "shopify://shop_images/Asset_85.png",
+              "category_target": "lari-active"
             }
           }
         },
         "block_order": [
           "9c94ea9f-ad02-4a9a-9206-1ca37323641e",
           "cd09ea28-a154-4665-b47b-bdf31b89f0a4",
+          "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0",
           "9a0077c3-e56b-4360-809f-d7946e427804",
           "bdf62dc0-e995-44fc-80d3-ea7b3d242bc7",
           "f9d60ffb-370f-41b8-9fc7-a0867123b26d",
-          "4cd8f5f8-c5f9-4ce9-985b-093b038e48d0",
           "95cad93d-6d14-48c2-aeef-f736adf2fccb",
           "6ae10d52-e0b2-479f-88db-5f6137e04f9d"
         ],
@@ -3016,12 +3016,12 @@
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
         "settings": {
+          "greeting_message": "👋 Hello! How can we help you?",
           "button_color": "#202a36",
           "button_icon": "chat_bubble",
           "button_text": "no_text",
           "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "lowest",
-          "greeting_message": "👋 Hello! How can we help you?"
+          "button_vertical_position": "lowest"
         }
       },
       "pagefly-page-builder": {
