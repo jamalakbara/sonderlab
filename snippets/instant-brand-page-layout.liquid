@@ -664,7 +664,7 @@ a.instant-brand-text-link {
 
 <div id="instant-brand-page">
   {%  if display_index %}
-    {% render 'instant-brand-page-az' with my_vendor_array_sorted:my_vendor_array_sorted, excludedbrands_array:excludedbrands_array, desktop_alignment:desktop_alignment, mobile_alignment:mobile_alignment, consolidate_numbers:consolidate_numbers, consolidate_numbers_char:consolidate_numbers_char, numbers_array:numbers_array, index_long_link:index_long_link, accent_consolidate: accent_consolidate, consolidate_other_char: consolidate_other_char %}
+    {% render 'instant-brand-page-az' with my_vendor_array_sorted.my_vendor_array_sorted, my_vendor_array_sorted: my_vendor_array_sorted, excludedbrands_array: excludedbrands_array, desktop_alignment: desktop_alignment, mobile_alignment: mobile_alignment, consolidate_numbers: consolidate_numbers, consolidate_numbers_char: consolidate_numbers_char, numbers_array: numbers_array, index_long_link: index_long_link, accent_consolidate: accent_consolidate, consolidate_other_char: consolidate_other_char %}
   {%  endif %}
   
   <div class="instant-brand-grid {{ brandformat }}">
@@ -859,7 +859,7 @@ a.instant-brand-text-link {
           {% assign row_count = row_count | plus: 1 %}    
         {% endif %}
         
-       {% render 'instant-brand-row-item' with brandformat:brandformat, brand_name:brand, desktop_alignment:desktop_alignment, mobile_alignment:mobile_alignment,vendorurl:vendorurl, vendorimageurl:vendorimageurl, startingbookmark:startingbookmark, bBookmark:bBookmark, salebanner:salebanner, sale_icon_display:sale_icon_display %}
+       {% render 'instant-brand-row-item' with brandformat.brandformat, brandformat: brandformat, brand_name: brand, desktop_alignment: desktop_alignment, mobile_alignment: mobile_alignment, vendorurl: vendorurl, vendorimageurl: vendorimageurl, startingbookmark: startingbookmark, bBookmark: bBookmark, salebanner: salebanner, sale_icon_display: sale_icon_display %}
 
         {% assign brand_count = brand_count | plus: 1 %}
         {% assign headerletter = startingletter %}
@@ -873,4 +873,32 @@ a.instant-brand-text-link {
   {%  endunless %} 
    </div> 
   </div>
-</div>
+</div>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'instant-brand-page-az' with my_vendor_array_sorted:my_vendor_array_sorted,
+    excludedbrands_array:excludedbrands_array, desktop_alignment:desktop_alignment,
+    mobile_alignment:mobile_alignment, consolidate_numbers:consolidate_numbers, consolidate_numbers_char:consolidate_numbers_char,
+    numbers_array:numbers_array, index_long_link:index_long_link, accent_consolidate:
+    accent_consolidate, consolidate_other_char: consolidate_other_char %}"
+  to: "{% render 'instant-brand-page-az' with my_vendor_array_sorted.my_vendor_array_sorted,
+    my_vendor_array_sorted: my_vendor_array_sorted, excludedbrands_array: excludedbrands_array,
+    desktop_alignment: desktop_alignment, mobile_alignment: mobile_alignment, consolidate_numbers:
+    consolidate_numbers, consolidate_numbers_char: consolidate_numbers_char, numbers_array:
+    numbers_array, index_long_link: index_long_link, accent_consolidate: accent_consolidate,
+    consolidate_other_char: consolidate_other_char %}"
+  position: 14841..15340
+- from: "{% render 'instant-brand-row-item' with brandformat:brandformat, brand_name:brand,
+    desktop_alignment:desktop_alignment, mobile_alignment:mobile_alignment,vendorurl:vendorurl,
+    vendorimageurl:vendorimageurl, startingbookmark:startingbookmark, bBookmark:bBookmark,
+    salebanner:salebanner, sale_icon_display:sale_icon_display %}"
+  to: "{% render 'instant-brand-row-item' with brandformat.brandformat, brandformat:
+    brandformat, brand_name: brand, desktop_alignment: desktop_alignment, mobile_alignment:
+    mobile_alignment, vendorurl: vendorurl, vendorimageurl: vendorimageurl, startingbookmark:
+    startingbookmark, bBookmark: bBookmark, salebanner: salebanner, sale_icon_display:
+    sale_icon_display %}"
+  position: 23634..23993
+{%- endcomment -%}
