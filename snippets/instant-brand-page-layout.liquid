@@ -1,11 +1,11 @@
 {% assign headerletter= "" %}
 {% assign rowcount = 0 %}
 
-{% if brandformat=="list" %}
+{% if brandformat.list %}
   {% assign columnwidth ="100%" %}
 {% endif %}
 
-{% if brandformat== "horizontal" %}
+{% if brandformat %}
   {% assign columnwidth = columnwidth | round  | minus: 1 %}
 {% endif %}
 
@@ -300,4 +300,16 @@ text-decoration: underline;
 	{% endfor %}
   </div>
   
-</div>  
+</div>  {%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: '{% if brandformat=="list" %}'
+  to: "{% if brandformat.list %}"
+  position: 57..82
+- from: '{% if brandformat== "horizontal" %}'
+  to: "{% if brandformat %}"
+  position: 131..151
+{%- endcomment -%}
