@@ -2283,6 +2283,17 @@
               "url": "shopify://collections/payday-sale"
             }
           },
+          "left_slideshow_kHKJEA": {
+            "type": "left_slideshow",
+            "settings": {
+              "image_desktop": "shopify://shop_images/Asset_14.png",
+              "image_mobile": "shopify://shop_images/Asset_15.png",
+              "title": "",
+              "description": "",
+              "button_title": "",
+              "url": "shopify://collections/studio-archives-sale"
+            }
+          },
           "left_slideshow_YkCMDE": {
             "type": "left_slideshow",
             "settings": {
@@ -2432,17 +2443,6 @@
               "url": "shopify://collections/toga-x-porter-exclusive-preview"
             }
           },
-          "left_slideshow_kHKJEA": {
-            "type": "left_slideshow",
-            "settings": {
-              "image_desktop": "shopify://shop_images/Asset_14.png",
-              "image_mobile": "shopify://shop_images/Asset_15.png",
-              "title": "",
-              "description": "",
-              "button_title": "",
-              "url": "shopify://collections/studio-archives-sale"
-            }
-          },
           "left_slideshow_A8hTkV": {
             "type": "left_slideshow",
             "settings": {
@@ -2478,6 +2478,7 @@
           "right_slideshow_gpCNRV",
           "left_slideshow_TrGFfi",
           "left_slideshow_8hWdRN",
+          "left_slideshow_kHKJEA",
           "left_slideshow_YkCMDE",
           "left_slideshow_nabNB7",
           "649ab954-ca6f-4863-a02e-be3777967b74",
@@ -2491,7 +2492,6 @@
           "da877537-5f7f-43a0-9a79-b15cd937c5c0",
           "63d76e5e-72b1-4288-8df2-2c634aeb13a1",
           "left_slideshow_tkKGPR",
-          "left_slideshow_kHKJEA",
           "left_slideshow_A8hTkV",
           "f895d03b-1516-40ad-8d75-2793f73ea255"
         ],
