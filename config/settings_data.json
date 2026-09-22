@@ -2434,14 +2434,13 @@
           },
           "left_slideshow_kHKJEA": {
             "type": "left_slideshow",
-            "disabled": true,
             "settings": {
-              "image_desktop": "shopify://shop_images/SONG_WEB.png",
-              "image_mobile": "shopify://shop_images/SONG_MOBILE.png",
+              "image_desktop": "shopify://shop_images/Asset_14.png",
+              "image_mobile": "shopify://shop_images/Asset_15.png",
               "title": "",
               "description": "",
               "button_title": "",
-              "url": "shopify://collections/song-for-the-mute"
+              "url": "shopify://collections/studio-archives-sale"
             }
           },
           "left_slideshow_A8hTkV": {
